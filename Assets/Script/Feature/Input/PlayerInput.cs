@@ -44,6 +44,15 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Move"",
+                    ""type"": ""Value"",
+                    ""id"": ""8700dbca-ef0a-4417-a05d-ffa9fb708769"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
                 }
             ],
             ""bindings"": [
@@ -68,6 +77,61 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
                     ""action"": ""Esc"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""2D Vector"",
+                    ""id"": ""ee24e7e3-673c-47f2-bc4d-6052cf0a3a78"",
+                    ""path"": ""2DVector"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""up"",
+                    ""id"": ""14a27f6e-b9a8-4dbf-ae18-0ab6a8d59ded"",
+                    ""path"": ""<Keyboard>/w"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""ea76a654-93be-4da9-9409-01e168af5608"",
+                    ""path"": ""<Keyboard>/s"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""962f58cf-8387-4741-aa07-002c3c3fa233"",
+                    ""path"": ""<Keyboard>/a"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""c17812d1-e790-4dbe-8022-3ead26e554dc"",
+                    ""path"": ""<Keyboard>/d"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
                 }
             ]
         }
@@ -78,6 +142,7 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
         m_Default = asset.FindActionMap("Default", throwIfNotFound: true);
         m_Default_Shoot = m_Default.FindAction("Shoot", throwIfNotFound: true);
         m_Default_Esc = m_Default.FindAction("Esc", throwIfNotFound: true);
+        m_Default_Move = m_Default.FindAction("Move", throwIfNotFound: true);
     }
 
     ~@PlayerInput()
@@ -146,12 +211,14 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
     private List<IDefaultActions> m_DefaultActionsCallbackInterfaces = new List<IDefaultActions>();
     private readonly InputAction m_Default_Shoot;
     private readonly InputAction m_Default_Esc;
+    private readonly InputAction m_Default_Move;
     public struct DefaultActions
     {
         private @PlayerInput m_Wrapper;
         public DefaultActions(@PlayerInput wrapper) { m_Wrapper = wrapper; }
         public InputAction @Shoot => m_Wrapper.m_Default_Shoot;
         public InputAction @Esc => m_Wrapper.m_Default_Esc;
+        public InputAction @Move => m_Wrapper.m_Default_Move;
         public InputActionMap Get() { return m_Wrapper.m_Default; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -167,6 +234,9 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
             @Esc.started += instance.OnEsc;
             @Esc.performed += instance.OnEsc;
             @Esc.canceled += instance.OnEsc;
+            @Move.started += instance.OnMove;
+            @Move.performed += instance.OnMove;
+            @Move.canceled += instance.OnMove;
         }
 
         private void UnregisterCallbacks(IDefaultActions instance)
@@ -177,6 +247,9 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
             @Esc.started -= instance.OnEsc;
             @Esc.performed -= instance.OnEsc;
             @Esc.canceled -= instance.OnEsc;
+            @Move.started -= instance.OnMove;
+            @Move.performed -= instance.OnMove;
+            @Move.canceled -= instance.OnMove;
         }
 
         public void RemoveCallbacks(IDefaultActions instance)
@@ -198,5 +271,6 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
     {
         void OnShoot(InputAction.CallbackContext context);
         void OnEsc(InputAction.CallbackContext context);
+        void OnMove(InputAction.CallbackContext context);
     }
 }

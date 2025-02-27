@@ -9,6 +9,7 @@ public class InputReader : ScriptableObject, PlayerInput.IDefaultActions {
 
     public Action ShootingEvent;
     public Action EscEvent;
+    public Action<Vector2> MoveEvent; // note: this is normalized vector 
     
     public void OnShoot(InputAction.CallbackContext context) {
         if (context.phase == InputActionPhase.Performed) {
@@ -19,6 +20,10 @@ public class InputReader : ScriptableObject, PlayerInput.IDefaultActions {
         if (context.phase == InputActionPhase.Performed) {
             EscEvent?.Invoke();
         }
+    }
+
+    public void OnMove(InputAction.CallbackContext context) {
+        MoveEvent?.Invoke(context.ReadValue<Vector2>());
     }
 
     private void OnEnable() {
