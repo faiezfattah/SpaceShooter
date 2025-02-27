@@ -1,0 +1,54 @@
+{
+    "name": "PlayerInput",
+    "maps": [
+        {
+            "name": "Default",
+            "id": "c0630567-72d4-4b37-996b-bfb40cd0a178",
+            "actions": [
+                {
+                    "name": "Shoot",
+                    "type": "Button",
+                    "id": "a6cce330-2dc0-470e-bdec-a0fb0f4fb59c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Esc",
+                    "type": "Button",
+                    "id": "1b2f57ec-a9f8-42a6-a328-0785371062bf",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "765a1290-cea1-451d-bffd-f3ebdcd62a22",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "621843a8-3d57-4559-a176-ddb463145d93",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Esc",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
