@@ -1,7 +1,5 @@
 ﻿using System;
 using JetBrains.Annotations;
-using Script.Core.Bullet;
-using Script.Feature.Bullet.Behaviour;
 using UnityEngine;
 
 namespace Script.Feature.Bullet {
