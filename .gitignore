@@ -29,6 +29,7 @@
 
 # Fafa's rider
 .rider/
+.idea/
 
 # Gradle cache directory
 .gradle/

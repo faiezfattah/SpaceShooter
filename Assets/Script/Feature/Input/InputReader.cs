@@ -13,6 +13,7 @@ public class InputReader : ScriptableObject, PlayerInput.IDefaultActions {
     
     public void OnShoot(InputAction.CallbackContext context) {
         if (context.phase == InputActionPhase.Performed) {
+            Debug.Log("shoot");
             ShootingEvent?.Invoke();
         }
     }
@@ -27,6 +28,7 @@ public class InputReader : ScriptableObject, PlayerInput.IDefaultActions {
     }
 
     private void OnEnable() {
+        Debug.Log("input init");
         _input ??= new PlayerInput();
         _input.Enable();
         _input.Default.Enable();
