@@ -24,5 +24,17 @@ public class playerMovement : MonoBehaviour {
         if (moveInput != Vector2.zero) {
             rb.linearVelocity = moveInput * (moveSpeed * Time.fixedDeltaTime);
         }
+
+        Rotate();
     }
+
+    void Rotate()
+    {
+        float inputX, inputY;
+        inputX = Input.GetAxis("Mouse X");
+        inputY = Input.GetAxis("Mouse Y");
+
+        transform.Rotate(0, 0, -inputX * 10f);
+    }
+
 }
