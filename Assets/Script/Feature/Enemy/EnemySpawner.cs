@@ -1,8 +1,4 @@
-using Unity.Mathematics;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using Random = UnityEngine.Random;
 
 public class EnemySpawner1 : MonoBehaviour
 {
@@ -13,13 +9,11 @@ public class EnemySpawner1 : MonoBehaviour
      [SerializeField]
     private float _maximumSpawnTime;
     private float _timeUntilSpawn;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
         SetTimeUntilSpawn();
     }
 
-    // Update is called once per frame
     void Update()
     {
         _timeUntilSpawn -= Time.deltaTime;    
