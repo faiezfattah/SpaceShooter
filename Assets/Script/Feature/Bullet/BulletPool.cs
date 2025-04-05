@@ -46,15 +46,8 @@ public class BulletPool : MonoBehaviour, IBulletPool {
         bullet.Speed = bulletConfig.Speed;
         bullet.gameObject.layer = bulletConfig.Layer;
         bullet.Damage = bulletConfig.Damage;
-
-        if (bulletConfig.Direction != default) {
-            bullet.Direction = bulletConfig.Direction;
-        } else if (bulletConfig.Target != null) {
-            bullet.Target = bulletConfig.Target;
-        }
-        else {
-            throw new Exception("Trying to spawn bullet with no behaviour");
-        }
+        bullet.Direction = bulletConfig.Direction;
+        
     }
 }
 }

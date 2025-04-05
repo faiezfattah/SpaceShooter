@@ -25,7 +25,6 @@ public class Bullet : MonoBehaviour {
         lifetime -= Time.deltaTime;
         if (lifetime <= 0f) _onRelease?.Invoke();
         
-        // Behaviour.Execute(this);
     }
     public void Setup(Action onRelease) => _onRelease = onRelease;
     public void Teardown() {
@@ -39,7 +38,7 @@ public class Bullet : MonoBehaviour {
     }
 
     private void OnCollisionEnter2D(Collision2D other) {
-        // apply damage here
+        // todo: apply damage here
         _onRelease?.Invoke();
         Debug.Log("hit1");
     }
