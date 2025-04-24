@@ -1,5 +1,7 @@
-﻿namespace Script.Core.Bullet {
+﻿using UnityEngine;
+
+namespace Script.Core.Bullet {
 public interface IBulletPool {
-    public void BulletRequest(BulletConfig bulletConfig);
+    public IBulletConfig BulletRequest(Vector3 position, Vector2 direction);
 }
 }

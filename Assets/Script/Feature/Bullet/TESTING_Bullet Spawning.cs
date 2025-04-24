@@ -10,17 +10,14 @@ public class TESTING_Bullet_Spawning : MonoBehaviour {
     [SerializeField] private Transform target;
     
 
-    private BulletConfig _bulletConfig;
-
     private void Start() {
-        _bulletConfig = new BulletConfig(transform.position, Vector2.left);
     }
 
     private void Test() {
-        bulletPool.BulletRequest(_bulletConfig);
+        bulletPool.BulletRequest(transform.position, Vector2.left);
+        Debug.Log("bullet spawning!");
     }
     private void OnEnable() {
-        Debug.Log("init");
         inputReader.ShootingEvent += Test;
     }
     private void OnDisable() {

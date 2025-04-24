@@ -13,7 +13,6 @@ public class InputReader : ScriptableObject, PlayerInput.IDefaultActions {
     
     public void OnShoot(InputAction.CallbackContext context) {
         if (context.phase == InputActionPhase.Performed) {
-            Debug.Log("shoot");
             ShootingEvent?.Invoke();
         }
     }

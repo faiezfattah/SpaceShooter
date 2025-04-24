@@ -35,19 +35,16 @@ public class BulletPool : MonoBehaviour, IBulletPool {
     private void OnDestroyBullet(Bullet bullet) {
         Destroy(bullet);
     }
-    
-    public void BulletRequest(BulletConfig bulletConfig) {
+
+    public IBulletConfig BulletRequest(Vector3 position, Vector2 direction) {
         var bullet = bulletPool.Get();
         
         bullet.Setup(() => bulletPool.Release(bullet));
 
-        bullet.lifetime = 3f;
-        bullet.transform.position = bulletConfig.Position;
-        bullet.Speed = bulletConfig.Speed;
-        bullet.gameObject.layer = bulletConfig.Layer;
-        bullet.Damage = bulletConfig.Damage;
-        bullet.Direction = bulletConfig.Direction;
+        bullet.transform.position = position;
+        bullet.Direction = direction;
         
+        return bullet;
     }
 }
 }
