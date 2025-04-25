@@ -34,6 +34,7 @@ public class PlayerMovement : MonoBehaviour {
 
         rb.linearVelocity = _currentSpeed * _moveInput;
 
+        // todo: debug, remove later
         currentVelocity = _currentSpeed;
     }
 
@@ -42,9 +43,9 @@ public class PlayerMovement : MonoBehaviour {
 
         Vector3 mouseWorldPosition = _mainCam.ScreenToWorldPoint(new Vector3(mouseScreenPosition.x, mouseScreenPosition.y, 0f));
         Vector2 direction = (mouseWorldPosition - transform.position).normalized;
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg; // todo: dont use atan2
+        Quaternion rotation = Quaternion.LookRotation(Vector3.forward, direction);
 
-        transform.rotation = Quaternion.Euler(0f, 0f, angle - 90f);
+        transform.rotation = rotation;
     }
 
     void OnMove(Vector2 value) {
