@@ -1,0 +1,23 @@
+VisualElement {}
+
+.health-bar {
+    width: 400px;
+    height: 50px;
+    background-color: blue;
+}
+
+.xp-bar {
+    width: 400px;
+    height: 50px;
+    background-color: green;
+}
+
+#BulletTypeLabel {
+    font-size: 20px;
+    color: white;
+}
+
+#LevelLabel {
+    font-size: 20px;
+    color: yellow;
+}

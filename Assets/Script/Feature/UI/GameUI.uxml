@@ -1,0 +1,14 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Script/Feature/UI/GameUI.uss?fileID=7433441132597879392&amp;guid=f28d6e5430f052a469d3253614984153&amp;type=3#GameUI" />
+    <engine:Label text="Bullet Type: Single Shot" name="BulletTypeLabel" />
+    <engine:Label text="Level 1" name="LevelLabel" />
+    <engine:VisualElement name="HealthBarContainer" class="bar-container">
+    <engine:VisualElement name="HealthBar" class="health-bar" />
+</engine:VisualElement>
+
+<engine:VisualElement name="XPBarContainer" class="bar-container">
+    <engine:VisualElement name="XPBar" class="xp-bar" />
+</engine:VisualElement>
+
+
+</engine:UXML>
