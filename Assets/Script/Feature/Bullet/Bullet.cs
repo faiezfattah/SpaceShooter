@@ -64,9 +64,6 @@ public class Bullet : MonoBehaviour, IBulletConfig {
         this.lifetime = lifetime;
         return this;
     }
-    public void Execute() {
-
-    }
     #endregion
 }
 }
