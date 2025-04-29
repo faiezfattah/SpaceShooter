@@ -223,6 +223,7 @@ GameObject:
   m_Component:
   - component: {fileID: 849228043}
   - component: {fileID: 849228042}
+  - component: {fileID: 849228044}
   m_Layer: 0
   m_Name: playerdummy
   m_TagString: Untagged
@@ -301,6 +302,24 @@ Transform:
   - {fileID: 1262529315}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &849228044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849228041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dafb1aeb0fc26b34faae7563b47ccacb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  terminalVelocity: 20
+  acceleration: 2
+  rb: {fileID: 0}
+  inputReader: {fileID: 0}
+  _mainCam: {fileID: 0}
+  currentVelocity: 0
 --- !u!1 &1023933221
 GameObject:
   m_ObjectHideFlags: 0
@@ -440,7 +459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea319faef77769e4ebfca41ab7466879, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 6017993225052709094, guid: 07252599e2a2a144d8db0049b0b9bdff, type: 3}
+  bullet: {fileID: 9127163551802754558, guid: e1418066e5865a3459403ff2e4fd604d, type: 3}
   bulletTransform: {fileID: 1735429717}
   canFire: 0
   timeBetweenFiring: 0

@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3255546248972854552
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3733484202537924034, guid: 07252599e2a2a144d8db0049b0b9bdff, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 3733484202537924034, guid: 07252599e2a2a144d8db0049b0b9bdff, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 3733484202537924034, guid: 07252599e2a2a144d8db0049b0b9bdff, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3733484202537924034, guid: 07252599e2a2a144d8db0049b0b9bdff, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3733484202537924034, guid: 07252599e2a2a144d8db0049b0b9bdff, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3733484202537924034, guid: 07252599e2a2a144d8db0049b0b9bdff, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3733484202537924034, guid: 07252599e2a2a144d8db0049b0b9bdff, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3733484202537924034, guid: 07252599e2a2a144d8db0049b0b9bdff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3733484202537924034, guid: 07252599e2a2a144d8db0049b0b9bdff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3733484202537924034, guid: 07252599e2a2a144d8db0049b0b9bdff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6017993225052709094, guid: 07252599e2a2a144d8db0049b0b9bdff, type: 3}
+      propertyPath: m_Name
+      value: Bullet (1) Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4980222387371412562, guid: 07252599e2a2a144d8db0049b0b9bdff, type: 3}
+    - {fileID: 1419087532050954395, guid: 07252599e2a2a144d8db0049b0b9bdff, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6017993225052709094, guid: 07252599e2a2a144d8db0049b0b9bdff, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -498562189464567649}
+    - targetCorrespondingSourceObject: {fileID: 6017993225052709094, guid: 07252599e2a2a144d8db0049b0b9bdff, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -5019481922871682959}
+  m_SourcePrefab: {fileID: 100100000, guid: 07252599e2a2a144d8db0049b0b9bdff, type: 3}
+--- !u!1 &9127163551802754558 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6017993225052709094, guid: 07252599e2a2a144d8db0049b0b9bdff, type: 3}
+  m_PrefabInstance: {fileID: 3255546248972854552}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-498562189464567649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9127163551802754558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31c5fad4209feb64d8bea7adf520976c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  force: 5
+--- !u!50 &-5019481922871682959
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9127163551802754558}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 1
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 0

@@ -9,6 +9,7 @@ public class Shooting : MonoBehaviour
     public bool canFire;
     private float timer;
     public float timeBetweenFiring;
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -40,3 +41,4 @@ public class Shooting : MonoBehaviour
         }
     }
 }
+
