@@ -1,14 +1,11 @@
 <engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/Script/Feature/UI/GameUI.uss?fileID=7433441132597879392&amp;guid=f28d6e5430f052a469d3253614984153&amp;type=3#GameUI" />
-    <engine:Label text="Bullet Type: Single Shot" name="BulletTypeLabel" />
-    <engine:Label text="Level 1" name="LevelLabel" />
+    <engine:Label text="Bullet Type: Single Shot" name="BulletTypeLabel" style="color: rgb(175, 128, 255); -unity-font-style: bold; -unity-text-align: upper-left;" />
+    <engine:Label text="Level 1" name="LevelLabel" style="opacity: 1; color: rgb(46, 237, 255); -unity-font-definition: url(&quot;project://database/Library/unity%20default%20resources?fileID=10102&amp;guid=0000000000000000e000000000000000&amp;type=0#LegacyRuntime&quot;); -unity-font-style: bold;" />
+    <engine:VisualElement name="XPBarContainer" class="bar-container">
+        <engine:VisualElement name="XPBar" class="xp-bar" style="background-color: rgb(48, 238, 255); border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); border-top-width: 5px; border-right-width: 5px; border-bottom-width: 5px; border-left-width: 5px; margin-bottom: 15px; height: 41px; -unity-text-outline-color: rgba(255, 255, 255, 0); -unity-text-outline-width: 0;" />
+    </engine:VisualElement>
     <engine:VisualElement name="HealthBarContainer" class="bar-container">
-    <engine:VisualElement name="HealthBar" class="health-bar" />
-</engine:VisualElement>
-
-<engine:VisualElement name="XPBarContainer" class="bar-container">
-    <engine:VisualElement name="XPBar" class="xp-bar" />
-</engine:VisualElement>
-
-
+        <engine:VisualElement name="HealthBar" class="health-bar" style="background-color: rgb(255, 138, 213); border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;" />
+    </engine:VisualElement>
 </engine:UXML>
