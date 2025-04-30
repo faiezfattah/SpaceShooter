@@ -2,23 +2,22 @@ using System.Threading.Tasks;
 using Script.Feature.Bullet;
 using Unity.Behavior;
 using UnityEngine;
-using TriInspector;
-using System;
 using System.Linq;
+using Script.Core.Events;
+using System;
 public class EnemySpawner : MonoBehaviour {
     [SerializeField] BulletPool bulletPool;
     [SerializeField] BehaviorGraphAgent enemyPrefab;
     [SerializeField] MinMaxFloat spawningInterval;
     [SerializeField] MinMax enemiesToSpawn;
-
+    IDisposable subs;
 
     Transform[] spawnpoints;
     void Start() {
         spawnpoints = gameObject.GetComponentsInChildren<Transform>();
         enemyPrefab.BlackboardReference.SetVariableValue("BulletPool", bulletPool);
 
-
-        // Instantiate(enemyPrefab, transform.position, Quaternion.identity);
+        subs = EventBus.Subscribe<TEST_BulletSpawn>(() => Debug.Log("Detected bullet event"));
 
         _ = SpawningTask();
     }
@@ -36,22 +35,7 @@ public class EnemySpawner : MonoBehaviour {
         int index = UnityEngine.Random.Range(1, spawnpoints.Count());
         return spawnpoints[index];
     }
-
-
-    [Serializable]
-    class MinMax {
-        public int Min;
-        public int Max;
-        public int GetRandom() {
-            return UnityEngine.Random.Range(Min, Max);
-        }
-    }
-    [Serializable]
-    class MinMaxFloat {
-        public float Min;
-        public float Max;
-        public float GetRandom() {
-            return UnityEngine.Random.Range(Min, Max);
-        }
+    void OnDestroy() {
+        subs.Dispose();
     }
 }
