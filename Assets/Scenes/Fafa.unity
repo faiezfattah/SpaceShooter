@@ -397,7 +397,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a85813d3f34cfc8675148a9207abe7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 4980222387371412562, guid: 07252599e2a2a144d8db0049b0b9bdff, type: 3}
+  prefab: {fileID: 4980222387371412562, guid: 07252599e2a2a144d8db0049b0b9bdff, type: 3}
 --- !u!4 &314039002
 Transform:
   m_ObjectHideFlags: 0
@@ -1183,6 +1183,8 @@ MonoBehaviour:
   bulletPool: {fileID: 314039001}
   inputReader: {fileID: 11400000, guid: 32761ea1ab8bad04ea16caf36d0a92b2, type: 2}
   target: {fileID: 0}
+  testReactiveProperty:
+    _value: 0
 --- !u!50 &1767201643
 Rigidbody2D:
   serializedVersion: 5
@@ -1228,6 +1230,7 @@ MonoBehaviour:
   inputReader: {fileID: 11400000, guid: 32761ea1ab8bad04ea16caf36d0a92b2, type: 2}
   _mainCam: {fileID: 519420031}
   currentVelocity: 0
+  dir: {x: 0, y: 0}
 --- !u!58 &1767201645
 CircleCollider2D:
   m_ObjectHideFlags: 0
