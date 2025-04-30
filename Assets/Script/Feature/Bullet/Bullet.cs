@@ -1,11 +1,12 @@
 ﻿using System;
 using JetBrains.Annotations;
 using Script.Core.Bullet;
+using Script.Core.Pool;
 using UnityEngine;
 
 namespace Script.Feature.Bullet {
 [RequireComponent(typeof(Collider2D))]
-public class Bullet : MonoBehaviour, IBulletConfig {
+public class Bullet : MonoBehaviour, IBulletConfig, IPoolable {
     Action _onRelease;
 
     [SerializeField] float lifetime = 5f;

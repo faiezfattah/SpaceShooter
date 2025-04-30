@@ -1,44 +1,42 @@
+using Script.Feature.Bullet;
+using Script.Feature.Input;
+using TriInspector;
 using UnityEngine;
 
-public class Shooting : MonoBehaviour
-{
-    private Camera mainCam;
-    private Vector3 mousePos;
-    public GameObject bullet;
-    public Transform bulletTransform;
-    public bool canFire;
-    private float timer;
-    public float timeBetweenFiring;
-    
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        mainCam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
-    }
+[RequireComponent(typeof(PlayerMovement))]
+public class PlayerShooting : MonoBehaviour {
+    [SerializeField] InputReader inputReader;
+    [SerializeField] BulletPool bulletPool;
+    [ReadOnly] bool canFire;
+    [ReadOnly] float timer;
+    [ReadOnly] float shootInterval;
+    PlayerMovement _playerMovement;
 
     // Update is called once per frame
-    void Update()
-    {
-        mousePos = mainCam.ScreenToWorldPoint(Input.mousePosition);
-        Vector3 rotation = mousePos - transform.position;
-        float rotZ = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0, 0, rotZ);
-        
-        if(!canFire)
-        {
+    void Start() {
+        inputReader.ShootingEvent += ShootEvent;
+    }
+    void Update() {
+        if(!canFire) {
             timer += Time.deltaTime;
-            if(timer > timeBetweenFiring)
-            {
+            if(timer > shootInterval) {
                 canFire = true;
                 timer = 0;
             }
         }
+    }
 
-        if(Input.GetMouseButton(0) && canFire)
-        {
-            canFire = false;
-            Instantiate(bullet, bulletTransform.position, Quaternion.identity);
+    void ShootEvent() {
+        if (canFire) {
+            bulletPool.BulletRequest(transform.position, _playerMovement.dir);
         }
+    }
+
+    void OnValidate() {
+        _playerMovement = GetComponent<PlayerMovement>();
+    }
+    void OnDisable() {
+        inputReader.ShootingEvent += ShootEvent;
     }
 }
 

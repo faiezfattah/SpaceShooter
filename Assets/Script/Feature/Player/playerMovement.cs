@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour {
     [SerializeField] Camera _mainCam;
     [Header("Debug")]
     [SerializeField] float currentVelocity;
-    Vector2 _moveInput;
+    public Vector2 dir;
     Mouse _mouse;
     float _currentSpeed;
     // float currentSpeed; // linearVelocity's magnitute
@@ -25,14 +25,14 @@ public class PlayerMovement : MonoBehaviour {
         Rotate();
     }
     void Move() {
-        if (_moveInput == default) {
+        if (dir == default) {
             _currentSpeed = 0;
             return;
         }
 
         _currentSpeed = Mathf.Clamp(_currentSpeed + acceleration, 0, terminalVelocity);
 
-        rb.linearVelocity = _currentSpeed * _moveInput;
+        rb.linearVelocity = _currentSpeed * dir;
 
         // todo: debug, remove later
         currentVelocity = _currentSpeed;
@@ -49,7 +49,7 @@ public class PlayerMovement : MonoBehaviour {
     }
 
     void OnMove(Vector2 value) {
-        _moveInput = value;
+        dir = value;
     }
     void OnEnable() {
         inputReader.MoveEvent += OnMove;

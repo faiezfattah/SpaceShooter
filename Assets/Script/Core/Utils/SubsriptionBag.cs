@@ -7,7 +7,7 @@ using UnityEngine;
 /// Fafa recommends to use Subject and Reactive Property instead of Action to work with this.
 /// </summary>
 public class SubscriptionBag : IDisposable {
-    HashSet<IDisposable> _subcription;
+    HashSet<IDisposable> _subcription = new();
     bool _isDisposed = false;
     public static SubscriptionBag Create() {
         return new SubscriptionBag{_subcription = new()};
