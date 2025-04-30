@@ -1,6 +1,5 @@
 ﻿using Script.Core.Events;
 using Script.Feature.Input;
-using Unity.Android.Gradle;
 using UnityEngine;
 namespace Script.Feature.Bullet {
 public class TESTING_Bullet_Spawning : MonoBehaviour {
