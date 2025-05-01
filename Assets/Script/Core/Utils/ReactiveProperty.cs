@@ -3,12 +3,12 @@ using UnityEngine;
 using TriInspector;
 using System.Collections.Generic;
 /// <summary>
-/// This class is a wrapper for values that emit events when changed. Internally this uses <see cref="ReactiveSubject"/>
+/// This class is a wrapper for values that emit events value changed. Internally this uses <see cref="ReactiveSubject"/>
 /// Use it if you need to track changes within a class. Can be used with <see cref="SubscriptionBag"/>
 /// </summary>
 /// <typeparam name="T">The type of data. Can be int, float, vector, anything really</typeparam>
 [Serializable]
-public class ReactiveProperty<T> : IDisposable {
+public class ReactiveProperty<T> : IDisposable, IReactive<T> {
     bool _isDisposed = false;
 
     [SerializeField, ReadOnly]
@@ -26,16 +26,16 @@ public class ReactiveProperty<T> : IDisposable {
             } 
         }
     }
-    ReactiveSubject _subscriber = new();
+    ReactiveSubject<T> _subscriber = new();
     public ReactiveProperty(T initialValue) {
         _value = initialValue;
     }
-    public IDisposable Subscribe(Action action) {
+    public IDisposable Subscribe(Action<T> action) {
         if (_isDisposed) throw new ObjectDisposedException("Trying to access disposed ReactiveProperty. Cannot resume because value is discarded.");
         return _subscriber.Subscribe(action);
     }
     void TriggerChange() {
-        _subscriber?.Raise();
+        _subscriber?.Raise(_value);
     }
     public void Dispose() {
         if (_isDisposed) return;

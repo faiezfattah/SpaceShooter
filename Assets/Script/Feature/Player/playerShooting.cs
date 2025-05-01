@@ -1,3 +1,4 @@
+using System;
 using Script.Feature.Bullet;
 using Script.Feature.Input;
 using TriInspector;
@@ -11,10 +12,11 @@ public class PlayerShooting : MonoBehaviour {
     [ReadOnly] float timer;
     [ReadOnly] float shootInterval;
     PlayerMovement _playerMovement;
+    IDisposable _subscription;
 
     // Update is called once per frame
     void Start() {
-        inputReader.ShootingEvent += ShootEvent;
+        _subscription = inputReader.ShootingEvent.Subscribe(ShootEvent);
     }
     void Update() {
         if(!canFire) {
@@ -36,7 +38,7 @@ public class PlayerShooting : MonoBehaviour {
         _playerMovement = GetComponent<PlayerMovement>();
     }
     void OnDisable() {
-        inputReader.ShootingEvent += ShootEvent;
+        _subscription?.Dispose();
     }
 }
 

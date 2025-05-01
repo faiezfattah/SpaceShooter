@@ -1,19 +1,46 @@
 using System;
 
 /// <summary>
-/// This class is a wrapper for Action to better manage local events.
+/// Replacement for using Action for event emitters
 /// Use this instead of Action to work with <see cref="SubscriptionBag"/>
 /// Use it if you need to track changes within a class.
 /// </summary>
-public class ReactiveSubject : IDisposable {
+public class ReactiveSubject : IDisposable, IReactive {
     Action _subscriber;
     bool _isDisposed = false;
     public void Raise() {
-            if (_isDisposed) throw new ObjectDisposedException("Trying to access disposed ReactiveSubject. Cannot resume because listener is discarded. Do no reuse this class, it may cause race conditions.");
+        if (_isDisposed) throw new ObjectDisposedException("Trying to access disposed ReactiveSubject. Cannot resume because listener is discarded. Do no reuse this class, it may cause race conditions.");
+        
         _subscriber?.Invoke();
     }
     public IDisposable Subscribe(Action action) {
-            if (_isDisposed) throw new ObjectDisposedException("Trying to access disposed ReactiveSubject. Cannot resume because listener is discarded. Do no reuse this class, it may cause race conditions.");
+        if (_isDisposed) throw new ObjectDisposedException("Trying to access disposed ReactiveSubject. Cannot resume because listener is discarded. Do no reuse this class, it may cause race conditions.");
+        
+        _subscriber += action;
+        return this;
+    }
+    public void Dispose() {
+        if (_isDisposed) return;
+        _subscriber = null;
+        _isDisposed = true;
+    }
+}
+/// <summary>
+/// <inheritdoc cref="ReactiveSubject"/>
+/// This generic version can be used if the event needs some argument
+/// </summary>
+/// <typeparam name="T"></typeparam>
+public class ReactiveSubject<T> : IDisposable, IReactive<T> {
+    Action<T> _subscriber;
+    bool _isDisposed = false;
+    public void Raise(T value) {
+        if (_isDisposed) throw new ObjectDisposedException("Trying to access disposed ReactiveSubject. Cannot resume because listener is discarded. Do no reuse this class, it may cause race conditions.");
+        
+        _subscriber?.Invoke(value);
+    }
+    public IDisposable Subscribe(Action<T> action) {
+        if (_isDisposed) throw new ObjectDisposedException("Trying to access disposed ReactiveSubject. Cannot resume because listener is discarded. Do no reuse this class, it may cause race conditions.");
+        
         _subscriber += action;
         return this;
     }

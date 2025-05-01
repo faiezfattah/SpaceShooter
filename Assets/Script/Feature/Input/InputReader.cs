@@ -7,23 +7,27 @@ namespace Script.Feature.Input {
 public class InputReader : ScriptableObject, PlayerInput.IDefaultActions {
     private PlayerInput _input;
 
-    public Action ShootingEvent;
-    public Action EscEvent;
-    public Action<Vector2> MoveEvent; // note: this is normalized vector 
+    ReactiveSubject _shootingEvent = new();
+    ReactiveSubject _escEvent = new();
+    ReactiveSubject<Vector2> _moveEvent = new(); // note: this is normalized vector 
+    public IReactive ShootingEvent => _shootingEvent;
+    public IReactive EscEvent => _escEvent;
+    public IReactive<Vector2> MoveEvent => _moveEvent; 
+    
     
     public void OnShoot(InputAction.CallbackContext context) {
         if (context.phase == InputActionPhase.Performed) {
-            ShootingEvent?.Invoke();
+            _shootingEvent?.Raise();
         }
     }
     public void OnEsc(InputAction.CallbackContext context) {
         if (context.phase == InputActionPhase.Performed) {
-            EscEvent?.Invoke();
+            _escEvent?.Raise();
         }
     }
 
     public void OnMove(InputAction.CallbackContext context) {
-        MoveEvent?.Invoke(context.ReadValue<Vector2>());
+        _moveEvent?.Raise(context.ReadValue<Vector2>());
     }
 
     private void OnEnable() {

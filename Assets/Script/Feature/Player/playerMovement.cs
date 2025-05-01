@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour {
     [Header("Debug")]
     [SerializeField] float currentVelocity;
     public Vector2 dir;
+    IDisposable _subscription;
     Mouse _mouse;
     float _currentSpeed;
     // float currentSpeed; // linearVelocity's magnitute
@@ -52,10 +53,10 @@ public class PlayerMovement : MonoBehaviour {
         dir = value;
     }
     void OnEnable() {
-        inputReader.MoveEvent += OnMove;
+        _subscription = inputReader.MoveEvent.Subscribe(OnMove);
     }
 
     void OnDisable() {
-        inputReader.MoveEvent -= OnMove;
+        _subscription.Dispose();
     }
 }

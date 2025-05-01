@@ -1088,8 +1088,9 @@ GameObject:
   - component: {fileID: 1767201640}
   - component: {fileID: 1767201644}
   - component: {fileID: 1767201643}
-  - component: {fileID: 1767201642}
   - component: {fileID: 1767201645}
+  - component: {fileID: 1767201646}
+  - component: {fileID: 1767201647}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -1168,23 +1169,6 @@ Transform:
   - {fileID: 1656150406}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1767201642
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1767201639}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9acaca4e892942c09880e819eaccae90, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletPool: {fileID: 314039001}
-  inputReader: {fileID: 11400000, guid: 32761ea1ab8bad04ea16caf36d0a92b2, type: 2}
-  target: {fileID: 0}
-  testReactiveProperty:
-    _value: 0
 --- !u!50 &1767201643
 Rigidbody2D:
   serializedVersion: 5
@@ -1267,6 +1251,37 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 1
+--- !u!114 &1767201646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767201639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea319faef77769e4ebfca41ab7466879, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputReader: {fileID: 11400000, guid: 32761ea1ab8bad04ea16caf36d0a92b2, type: 2}
+  bulletPool: {fileID: 314039001}
+--- !u!114 &1767201647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767201639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9acaca4e892942c09880e819eaccae90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPool: {fileID: 314039001}
+  inputReader: {fileID: 11400000, guid: 32761ea1ab8bad04ea16caf36d0a92b2, type: 2}
+  target: {fileID: 1767201641}
+  testReactiveProperty:
+    _value: 0
 --- !u!1 &1843947103
 GameObject:
   m_ObjectHideFlags: 0
