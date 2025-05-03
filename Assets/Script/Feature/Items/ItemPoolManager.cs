@@ -13,20 +13,7 @@ public class ItemPoolManager : MonoBehaviour
 
     void Awake()
     {
-
-        if (Instance != null && Instance != this)
-        {
-            Debug.LogWarning("Another ItemPoolManager instance found! Destroying this one.", gameObject);
-            Destroy(this.gameObject);
-        }
-        else
-        {
-            Instance = this;
-        }
-
-        if (xpPool == null || shieldPool == null || healthPool == null ) {
-            Debug.LogError("One or more item pools are not assigned in the ItemPoolManager Inspector!", this);
-        }
+        Instance = this;
     }
 
 
