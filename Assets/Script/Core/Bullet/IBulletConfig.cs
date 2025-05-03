@@ -7,6 +7,6 @@ public interface IBulletConfig {
     public IBulletConfig WithSpeed(float speed);
     public IBulletConfig WithDamage(int damage);
     public IBulletConfig WithLifetime(float lifetime);
-    public IBulletConfig WithBehaviour(IBulletBehaviour bulletBehaviour);
+    public IBulletConfig WithBehaviour(IBulletBehavior bulletBehaviour);
 }
 }

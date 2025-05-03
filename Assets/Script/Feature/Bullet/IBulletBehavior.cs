@@ -9,7 +9,7 @@ namespace Script.Feature.Bullet {
     // each behaviour need different things.
     // honing may need Transform
 
-public interface IBulletBehaviour {
+public interface IBulletBehavior {
     public void OnInit(Bullet bullet) {}
     public void OnMove(Bullet bullet) {}
     public void OnImpact(Bullet bullet, Collision2D collision) {}

@@ -36,7 +36,7 @@ public class PlayerShooting : MonoBehaviour {
             bulletPool.BulletRequest(transform.position, _playerRotation.Dir)
                       .WithSpeed(bulletSpeed)
                       .WithTargetType(EntityType.Enemy)
-                      .WithBehaviour(new HoningBehavior(0.2f, 100f))
+                      .WithBehaviour(new RecursiveBehavior(bulletPool))
                       .WithLifetime(lifetime);
         }
     }

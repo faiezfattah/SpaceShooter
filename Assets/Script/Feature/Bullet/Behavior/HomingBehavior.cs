@@ -1,12 +1,13 @@
 using UnityEngine;
 
 namespace Script.Feature.Bullet {
-public class HoningBehavior : IBulletBehaviour {
-    float _timerToHone;
+public class HomingBehavior : IBulletBehavior {
+    float _timerToChase;
     float _detectionRadius;
     Transform _target;
-    public HoningBehavior(float timeToHone, float detectionRadius) {
-        _timerToHone = timeToHone;
+    bool _casted;
+    public HomingBehavior(float timeToChase, float detectionRadius = 20) {
+        _timerToChase = timeToChase;
         _detectionRadius = detectionRadius;
     }
     public void OnInit(Bullet bullet) {
@@ -14,13 +15,14 @@ public class HoningBehavior : IBulletBehaviour {
     }
 
     public void OnMove(Bullet bullet) {
-        if (_timerToHone > 0 ) _timerToHone -= Time.deltaTime;
+        if (_timerToChase > 0 ) _timerToChase -= Time.deltaTime;
 
-        if (_timerToHone <= 0) {
-            if (!_target) {
+        if (_timerToChase <= 0) {
+            if (!_target && !_casted) {
                 _target = GetTransform(bullet);
+                _casted = true; // stop it from getting transform each frame.
             } else {
-                var dir = (_target.position - bullet.transform.position).normalized;
+                var dir = (_target.position - bullet.transform.position).normalized; // optimization note
                 bullet.Direction = dir;
             }
         } 
@@ -28,10 +30,8 @@ public class HoningBehavior : IBulletBehaviour {
     Transform GetTransform(Bullet bullet) {
         Collider2D[] hits = Physics2D.OverlapCircleAll(bullet.transform.position, _detectionRadius, bullet.gameObject.layer);
         if (hits.Length > 0) {
-            Debug.Log("target was found");
             return hits[0].transform;
         }
-            Debug.LogWarning("target NOT was found");
         return null;
     }
 }

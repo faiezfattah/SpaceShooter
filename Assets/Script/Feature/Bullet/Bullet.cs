@@ -13,21 +13,22 @@ public class Bullet : MonoBehaviour, IBulletConfig, IPoolable {
     public float Lifetime {private set; get;} = 5f; 
     public float Speed {private set; get;}  = 5f;
     public int Damage {private set; get;}  = 1;
+    public EntityType Type  {private set; get;}
     public Transform Target;
 
     // accesible variable that changes the bullet it self.
     public Vector2 Direction = default;
 
-    IBulletBehaviour _behaviour;
+    IBulletBehavior _behaviour;
 
     void FixedUpdate() {
         _behaviour?.OnMove(this);
 
         if (Direction != default) {
-            transform.position += (Vector3) Direction * (Speed * Time.deltaTime);
+            transform.position += (Vector3) Direction * (Speed * Time.deltaTime); // optimization note just in case
         }
 
-        Lifetime -= Time.deltaTime;
+        Lifetime -= Time.deltaTime; // optimization note again, just in case
         if (Lifetime <= 0f) _onRelease?.Invoke();
         
     }
@@ -57,7 +58,8 @@ public class Bullet : MonoBehaviour, IBulletConfig, IPoolable {
     #region builder methods
     public IBulletConfig WithTargetType(EntityType type = EntityType.All) {
         gameObject.layer = type.GetDamagingMask();
-
+        Type = type;
+        
         return this;
     }
     
@@ -74,7 +76,7 @@ public class Bullet : MonoBehaviour, IBulletConfig, IPoolable {
         Lifetime = lifetime;
         return this;
     }
-    public IBulletConfig WithBehaviour(IBulletBehaviour bulletBehaviour)    {
+    public IBulletConfig WithBehaviour(IBulletBehavior bulletBehaviour)    {
         _behaviour = bulletBehaviour;
         _behaviour.OnInit(this);
         return this;
