@@ -13,11 +13,12 @@ public class Bullet : MonoBehaviour, IBulletConfig, IPoolable {
     public float Lifetime {private set; get;} = 5f; 
     public float Speed {private set; get;}  = 5f;
     public int Damage {private set; get;}  = 1;
+    public Transform Target;
 
     // accesible variable that changes the bullet it self.
     public Vector2 Direction = default;
 
-    public IBulletBehaviour _behaviour;
+    IBulletBehaviour _behaviour;
 
     void FixedUpdate() {
         _behaviour?.OnMove(this);
@@ -55,14 +56,7 @@ public class Bullet : MonoBehaviour, IBulletConfig, IPoolable {
 
     #region builder methods
     public IBulletConfig WithTargetType(EntityType type = EntityType.All) {
-
-        // life love laugh pattern matching
-        gameObject.layer = type switch {
-            EntityType.Enemy => LayerMask.NameToLayer("DamagingEnemy"),
-            EntityType.Player => LayerMask.NameToLayer("DamagingPlayer"),
-            EntityType.All => LayerMask.NameToLayer("Default"),
-            _ => throw new ArgumentOutOfRangeException("Enity type not supported"),
-        };
+        gameObject.layer = type.GetDamagingMask();
 
         return this;
     }

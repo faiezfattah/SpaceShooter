@@ -10,6 +10,8 @@ public class PlayerShooting : MonoBehaviour {
     [SerializeField] BulletPool bulletPool;
     [SerializeField] float shootInterval;
     [SerializeField] float bulletSpeed;
+    [SerializeField] float lifetime;
+    [Title("Debug---")]
     [ReadOnly] bool canFire;
     [ReadOnly] float timer;
     PlayerRotation _playerRotation;
@@ -34,7 +36,8 @@ public class PlayerShooting : MonoBehaviour {
             bulletPool.BulletRequest(transform.position, _playerRotation.Dir)
                       .WithSpeed(bulletSpeed)
                       .WithTargetType(EntityType.Enemy)
-                      .WithLifetime(1);
+                      .WithBehaviour(new HoningBehavior(0.2f, 100f))
+                      .WithLifetime(lifetime);
         }
     }
 

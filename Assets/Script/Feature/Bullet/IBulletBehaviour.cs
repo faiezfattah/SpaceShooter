@@ -14,17 +14,4 @@ public interface IBulletBehaviour {
     public void OnMove(Bullet bullet) {}
     public void OnImpact(Bullet bullet, Collision2D collision) {}
 }
-
-public record HoningBehaviour : IBulletBehaviour {
-    Transform _target;
-    public HoningBehaviour(Transform target) {
-        _target = target;        
-    }
-
-    public void OnMove(Bullet bullet) {
-        var dir = (_target.position - bullet.transform.position).normalized;
-        
-        bullet.Direction = dir;
-    }
-}
 }
