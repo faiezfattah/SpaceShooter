@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8056452231302504407}
   - component: {fileID: 6225995729614977615}
   m_Layer: 0
-  m_Name: Item_XPPickup
+  m_Name: Item_XP_Standard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -137,11 +137,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cba729a65d538f641a4fde7fb4081753, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  itemData: {fileID: 11400000, guid: 434cae352f48c3b4fbde1c2e1a4d66bd, type: 2}
   itemSpriteRenderer: {fileID: 5233541852415362893}
-  xpAmount: 10
-  shieldDuration: 5
-  healthAmount: 25
-  xpSprite: {fileID: 827762743077962610, guid: 55764b26d8d66e0458e4a2232233f847, type: 3}
-  shieldSprite: {fileID: 0}
-  healthSprite: {fileID: 0}

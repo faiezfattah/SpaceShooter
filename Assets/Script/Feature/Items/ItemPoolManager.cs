@@ -2,6 +2,16 @@
 using UnityEngine;
 using System.Collections.Generic; 
 
+public enum ItemType
+{
+    XPPickup,
+    ShieldPickup,
+    HealthPickup,
+    PatternUpgradeSingle,
+    PatternUpgradeCone
+}
+
+
 public class ItemPoolManager : MonoBehaviour
 {
     [Header("Item Pools")]
@@ -11,43 +21,43 @@ public class ItemPoolManager : MonoBehaviour
 
     public static ItemPoolManager Instance { get; private set; }
 
-    void Awake()
+    void Start()
     {
         Instance = this;
     }
 
 
-    // Call this from other scripts (like enemy death) to spawn an item
-    // Example: ItemPoolManager.Instance.SpawnItem(Item.ItemType.XP, enemyPosition);
-    public void SpawnItem(Item.ItemType type, Vector3 position)
+public void SpawnItem(ItemType type, Vector3 position)
+{
+    ItemPool poolToUse = null;
+
+    switch (type)
     {
-        ItemPool poolToUse = null;
+        case ItemType.XPPickup:        
+            poolToUse = xpPool;
+            break;
+        case ItemType.ShieldPickup:    
+            poolToUse = shieldPool;
+            break;
+        case ItemType.HealthPickup:    
+            poolToUse = healthPool;
+            break;
 
-        switch (type)
-        {
-            case Item.ItemType.XPPickup:
-                poolToUse = xpPool;
-                break;
-            case Item.ItemType.ShieldPickup:
-                poolToUse = shieldPool;
-                break;
-            case Item.ItemType.HealthPickup:
-                poolToUse = healthPool;
-                break;
-            default:
-                Debug.LogError($"No pool configured or found for item type: {type}", this);
-                break;
-        }
 
-        if (poolToUse != null)
-        {
-            poolToUse.Spawn(position);
-        }
-        else
-        {
-            Debug.LogError($"Could not spawn item of type {type} at {position} - Pool is missing or not assigned.", this);
-        }
+        default:
+            Debug.LogError($"No pool configured or found for item type: {type}", this);
+            break;
     }
+
+    if (poolToUse != null)
+    {
+        poolToUse.Spawn(position);
+    }
+    else
+    {
+        Debug.LogError($"Could not spawn item of type {type} at {position} - Pool is missing or not assigned.", this);
+    }
+}
 
 
 
