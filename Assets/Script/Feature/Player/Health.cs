@@ -22,4 +22,11 @@ public class Health : MonoBehaviour
         }
     }
 
+    public void HealthPickup(int amount){
+        
+        if(currentHealth <= maxHealth){
+            currentHealth += amount; 
+        }
+    }
+
 }
