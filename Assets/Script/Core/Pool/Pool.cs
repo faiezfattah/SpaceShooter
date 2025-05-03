@@ -32,7 +32,7 @@ public abstract class Pool<T> : MonoBehaviour where T : Component, IPoolable {
     }
 
     protected virtual void OnReleaseToPool(T item) {
-        item.Teardown();
+        item.Reset();
         item.gameObject.SetActive(false);
     }
 

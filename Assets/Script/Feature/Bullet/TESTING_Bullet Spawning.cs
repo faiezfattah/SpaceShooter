@@ -64,7 +64,7 @@ public class TESTING_Bullet_Spawning : MonoBehaviour {
                   .WithDamage(1)                                    // add some damaga, lifetime, and speed
                   .WithLifetime(5)
                   .WithSpeed(20)
-                  .WithLayerMask(LayerMask.GetMask("Player"));      // this layer mask define who shall be hit with the bullet
+                  .WithTargetType(EntityType.All);      // this layer mask define who shall be hit with the bullet
                                                                     // in this case its the player
     }
     void Test2() {

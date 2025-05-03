@@ -842,8 +842,8 @@ MonoBehaviour:
     Min: 0.5
     Max: 5
   enemiesToSpawn:
-    Min: 4
-    Max: 20
+    Min: 1
+    Max: 2
 --- !u!4 &880751506
 Transform:
   m_ObjectHideFlags: 0
@@ -999,7 +999,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1656150406}
   - component: {fileID: 1656150407}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1090,8 +1090,9 @@ GameObject:
   - component: {fileID: 1767201643}
   - component: {fileID: 1767201645}
   - component: {fileID: 1767201646}
-  - component: {fileID: 1767201647}
-  m_Layer: 0
+  - component: {fileID: 1767201648}
+  - component: {fileID: 1767201649}
+  m_Layer: 6
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1212,9 +1213,7 @@ MonoBehaviour:
   acceleration: 0.5
   rb: {fileID: 1767201643}
   inputReader: {fileID: 11400000, guid: 32761ea1ab8bad04ea16caf36d0a92b2, type: 2}
-  _mainCam: {fileID: 519420031}
-  currentVelocity: 0
-  dir: {x: 0, y: 0}
+  Dir: {x: 0, y: 0}
 --- !u!58 &1767201645
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1265,7 +1264,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputReader: {fileID: 11400000, guid: 32761ea1ab8bad04ea16caf36d0a92b2, type: 2}
   bulletPool: {fileID: 314039001}
---- !u!114 &1767201647
+  shootInterval: 0.5
+  bulletSpeed: 30
+--- !u!114 &1767201648
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1274,14 +1275,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 1767201639}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9acaca4e892942c09880e819eaccae90, type: 3}
+  m_Script: {fileID: 11500000, guid: ff85d6f5a2a56594b8613310805f080f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPool: {fileID: 314039001}
-  inputReader: {fileID: 11400000, guid: 32761ea1ab8bad04ea16caf36d0a92b2, type: 2}
-  target: {fileID: 1767201641}
-  testReactiveProperty:
-    _value: 0
+  Dir: {x: 0, y: 0}
+--- !u!114 &1767201649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767201639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 342d7f62fb512a94ca0059f4071912c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1843947103
 GameObject:
   m_ObjectHideFlags: 0

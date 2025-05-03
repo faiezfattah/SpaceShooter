@@ -23,6 +23,7 @@ public partial class ShootTargetAction : Action {
 
         BulletPool.Value.BulletRequest(Self.Value.transform.position, direction)
                         .WithSpeed(bulletSpeed)
+                        .WithTargetType(EntityType.Player)
                         .WithLifetime(2f);
         return Status.Success;
     }

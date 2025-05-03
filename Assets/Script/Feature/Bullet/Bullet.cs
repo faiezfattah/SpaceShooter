@@ -9,60 +9,80 @@ namespace Script.Feature.Bullet {
 public class Bullet : MonoBehaviour, IBulletConfig, IPoolable {
     Action _onRelease;
 
-    [SerializeField] float lifetime = 5f;
-    [SerializeField] float speed = 5f;
-    [SerializeField] float damage = 1f;
-    public Vector2 Direction;
-    [CanBeNull] public Transform Target;
+    // accesible variables for behaviour
+    public float Lifetime {private set; get;} = 5f; 
+    public float Speed {private set; get;}  = 5f;
+    public int Damage {private set; get;}  = 1;
 
-    // public BulletBehaviour Behaviour;
+    // accesible variable that changes the bullet it self.
+    public Vector2 Direction = default;
+
+    public IBulletBehaviour _behaviour;
 
     void FixedUpdate() {
-        if (Direction != Vector2.zero) {
-            transform.position += (Vector3) Direction * (speed * Time.deltaTime);
+        _behaviour?.OnMove(this);
+
+        if (Direction != default) {
+            transform.position += (Vector3) Direction * (Speed * Time.deltaTime);
         }
-        else {
-            transform.position += Target.position * (speed * Time.deltaTime);
-        }
-        lifetime -= Time.deltaTime;
-        if (lifetime <= 0f) _onRelease?.Invoke();
+
+        Lifetime -= Time.deltaTime;
+        if (Lifetime <= 0f) _onRelease?.Invoke();
         
     }
     public void Setup(Action onRelease) => _onRelease = onRelease;
-    public void Teardown() {
+    public void Reset() {
         _onRelease = null;
         
-        speed = 5f;
-        damage = 1f;
-        lifetime = 5f;
+        Speed = 5f;
+        Damage = 1;
+        Lifetime = 5f;
         
-        Direction = Vector2.zero;
-        Target = null;
+        Direction = default;
+        _behaviour = null;
     }
 
     void OnCollisionEnter2D(Collision2D other) {
         // todo: apply damage here
+
+        if (other.gameObject.TryGetComponent<Health>(out var h)) {
+            h.TakeDamage(Damage);
+        }
+
+        _behaviour?.OnImpact(this, other);
         _onRelease?.Invoke();
-        Debug.Log("hit1");
     }
 
     #region builder methods
-    public IBulletConfig WithLayerMask(LayerMask layerMask) {
-        gameObject.layer = layerMask;
+    public IBulletConfig WithTargetType(EntityType type = EntityType.All) {
+
+        // life love laugh pattern matching
+        gameObject.layer = type switch {
+            EntityType.Enemy => LayerMask.NameToLayer("DamagingEnemy"),
+            EntityType.Player => LayerMask.NameToLayer("DamagingPlayer"),
+            EntityType.All => LayerMask.NameToLayer("Default"),
+            _ => throw new ArgumentOutOfRangeException("Enity type not supported"),
+        };
+
         return this;
     }
     
     public IBulletConfig WithSpeed(float speed) {
-        this.speed = speed;
+        Speed = speed;
         return this;
     }
     
-    public IBulletConfig WithDamage(float damage) {
-        this.damage = damage;
+    public IBulletConfig WithDamage(int damage) {
+        Damage = damage;
         return this;
     }
     public IBulletConfig WithLifetime(float lifetime = 5f) {
-        this.lifetime = lifetime;
+        Lifetime = lifetime;
+        return this;
+    }
+    public IBulletConfig WithBehaviour(IBulletBehaviour bulletBehaviour)    {
+        _behaviour = bulletBehaviour;
+        _behaviour.OnInit(this);
         return this;
     }
     #endregion

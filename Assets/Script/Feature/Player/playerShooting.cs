@@ -4,14 +4,15 @@ using Script.Feature.Input;
 using TriInspector;
 using UnityEngine;
 
-[RequireComponent(typeof(PlayerMovement))]
+[RequireComponent(typeof(PlayerRotation))]
 public class PlayerShooting : MonoBehaviour {
     [SerializeField] InputReader inputReader;
     [SerializeField] BulletPool bulletPool;
+    [SerializeField] float shootInterval;
+    [SerializeField] float bulletSpeed;
     [ReadOnly] bool canFire;
     [ReadOnly] float timer;
-    [ReadOnly] float shootInterval;
-    PlayerMovement _playerMovement;
+    PlayerRotation _playerRotation;
     IDisposable _subscription;
 
     // Update is called once per frame
@@ -30,12 +31,15 @@ public class PlayerShooting : MonoBehaviour {
 
     void ShootEvent() {
         if (canFire) {
-            bulletPool.BulletRequest(transform.position, _playerMovement.dir);
+            bulletPool.BulletRequest(transform.position, _playerRotation.Dir)
+                      .WithSpeed(bulletSpeed)
+                      .WithTargetType(EntityType.Enemy)
+                      .WithLifetime(1);
         }
     }
 
     void OnValidate() {
-        _playerMovement = GetComponent<PlayerMovement>();
+        _playerRotation = GetComponent<PlayerRotation>();
     }
     void OnDisable() {
         _subscription?.Dispose();
