@@ -225,7 +225,7 @@ GameObject:
   - component: {fileID: 849228042}
   - component: {fileID: 849228044}
   - component: {fileID: 849228046}
-  - component: {fileID: 849228045}
+  - component: {fileID: 849228047}
   m_Layer: 0
   m_Name: playerdummy
   m_TagString: Untagged
@@ -320,22 +320,7 @@ MonoBehaviour:
   acceleration: 2
   rb: {fileID: 0}
   inputReader: {fileID: 0}
-  _mainCam: {fileID: 0}
-  currentVelocity: 0
-  dir: {x: 0, y: 0}
---- !u!114 &849228045
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 849228041}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21172bdb2ae0b50439ad30a25f34d69a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 5
+  Dir: {x: 0, y: 0}
 --- !u!61 &849228046
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -382,6 +367,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &849228047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849228041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a207f42f007aea40a937de54733f187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 5
 --- !u!1 &1023933221
 GameObject:
   m_ObjectHideFlags: 0
@@ -487,6 +485,7 @@ GameObject:
   - component: {fileID: 1262529315}
   - component: {fileID: 1262529316}
   - component: {fileID: 1262529317}
+  - component: {fileID: 1262529318}
   m_Layer: 0
   m_Name: RotatePoint
   m_TagString: Untagged
@@ -524,6 +523,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputReader: {fileID: 0}
   bulletPool: {fileID: 0}
+  shootInterval: 0
+  bulletSpeed: 0
+  lifetime: 0
 --- !u!114 &1262529317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -540,9 +542,20 @@ MonoBehaviour:
   acceleration: 2
   rb: {fileID: 0}
   inputReader: {fileID: 0}
-  _mainCam: {fileID: 0}
-  currentVelocity: 0
-  dir: {x: 0, y: 0}
+  Dir: {x: 0, y: 0}
+--- !u!114 &1262529318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262529314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff85d6f5a2a56594b8613310805f080f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dir: {x: 0, y: 0}
 --- !u!1 &1598374912
 GameObject:
   m_ObjectHideFlags: 0
@@ -573,7 +586,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00a83f15618963344ac980218d77d5f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHealth: {fileID: 849228045}
+  playerHealth: {fileID: 849228047}
   damage: 100000
 --- !u!212 &1598374914
 SpriteRenderer:

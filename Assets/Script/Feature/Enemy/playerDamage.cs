@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemydamage : MonoBehaviour
 {
-    public Health playerHealth;
+    public PlayerHealth playerHealth;
     public int damage;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
