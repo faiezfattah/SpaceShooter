@@ -1,10 +1,11 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerHealth : MonoBehaviour
+public class EnemyHealth : MonoBehaviour
 {
-    private static ReactiveProperty<int> currentHealth;
-    [SerializeField] int maxHealth = 5;
-    public static IReactive<int> CurrentPlayerHealth => currentHealth;
+    public ReactiveProperty<int> currentHealth;
+    [SerializeField] int maxHealth;
     void Start()
     {
         currentHealth.Value = maxHealth;
@@ -13,7 +14,7 @@ public class PlayerHealth : MonoBehaviour
     public void TakeDamage(int amount)
     {
         currentHealth.Value -= amount;
-        if(currentHealth.Value <= 0)
+        if (currentHealth.Value <= 0)
         {
             Destroy(gameObject);
         }
@@ -21,7 +22,7 @@ public class PlayerHealth : MonoBehaviour
 
     public void HealthPickup(int amount){
         
-        if(currentHealth.Value <= maxHealth){
+        if (currentHealth.Value <= maxHealth){
             currentHealth.Value += amount; 
         }
     }

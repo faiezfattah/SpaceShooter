@@ -47,7 +47,7 @@ public class Bullet : MonoBehaviour, IBulletConfig, IPoolable {
     void OnCollisionEnter2D(Collision2D other) {
         // todo: apply damage here
 
-        if (other.gameObject.TryGetComponent<Health>(out var h)) {
+        if (other.gameObject.TryGetComponent<EnemyHealth>(out var h)) {
             h.TakeDamage(Damage);
         }
 

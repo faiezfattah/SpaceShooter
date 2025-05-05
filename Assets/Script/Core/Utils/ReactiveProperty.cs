@@ -32,6 +32,9 @@ public class ReactiveProperty<T> : IDisposable, IReactive<T> {
     }
     public IDisposable Subscribe(Action<T> action) {
         if (_isDisposed) throw new ObjectDisposedException("Trying to access disposed ReactiveProperty. Cannot resume because value is discarded.");
+
+        action?.Invoke(Value); // give the first value
+
         return _subscriber.Subscribe(action);
     }
     void TriggerChange() {
