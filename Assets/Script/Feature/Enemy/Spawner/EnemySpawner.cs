@@ -5,16 +5,22 @@ using UnityEngine;
 using System.Linq;
 public class EnemySpawner : MonoBehaviour {
     [SerializeField] BulletPool bulletPool;
+    [SerializeField] GameObject player;
+    [SerializeField] BlackboardReference sharedBlackboard;
     [SerializeField] BehaviorGraphAgent enemyPrefab;
     [SerializeField] MinMaxFloat spawningInterval;
     [SerializeField] MinMax enemiesToSpawn;
-    Transform[] spawnpoints;
-    private static ReactiveSubject _enemySpawned = new();
+    Transform[] _spawnpoints;
     public static IReactive EnemySpawned => _enemySpawned;
+    private static ReactiveSubject _enemySpawned = new();
     void Start() {
-        spawnpoints = gameObject.GetComponentsInChildren<Transform>();
-        enemyPrefab.BlackboardReference.SetVariableValue("BulletPool", bulletPool);
+        _spawnpoints = gameObject.GetComponentsInChildren<Transform>();
 
+        sharedBlackboard.SetVariableValue("BulletPool", bulletPool);
+        sharedBlackboard.SetVariableValue("Player", player);
+
+        sharedBlackboard.GetVariableValue("Player", out GameObject p);
+        Debug.Log("player: " + p);
         _ = SpawningTask();
     }
 
@@ -29,7 +35,7 @@ public class EnemySpawner : MonoBehaviour {
         return;
     }
     Transform GetRanomSpawnPoints() {
-        int index = UnityEngine.Random.Range(1, spawnpoints.Count());
-        return spawnpoints[index];
+        int index = UnityEngine.Random.Range(1, _spawnpoints.Count());
+        return _spawnpoints[index];
     }
 }

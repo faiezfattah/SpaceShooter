@@ -7,7 +7,7 @@ public class PlayerHealth : MonoBehaviour
     public static IReactive<int> CurrentPlayerHealth => currentHealth;
     void Start()
     {
-        currentHealth.Value = maxHealth;
+        currentHealth = new(maxHealth);
     }
 
     public void TakeDamage(int amount)

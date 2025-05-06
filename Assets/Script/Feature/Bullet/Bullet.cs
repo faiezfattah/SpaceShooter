@@ -45,10 +45,14 @@ public class Bullet : MonoBehaviour, IBulletConfig, IPoolable {
     }
 
     void OnCollisionEnter2D(Collision2D other) {
-        // todo: apply damage here
+        if ((Type == EntityType.Player || Type == EntityType.All) 
+            && other.gameObject.TryGetComponent<PlayerHealth>(out var playerHealth)) {
+            playerHealth.TakeDamage(Damage);
+        }
 
-        if (other.gameObject.TryGetComponent<EnemyHealth>(out var h)) {
-            h.TakeDamage(Damage);
+        if ((Type == EntityType.Enemy || Type == EntityType.All) 
+            && other.gameObject.TryGetComponent<EnemyHealth>(out var enemyHealth)) {
+            enemyHealth.TakeDamage(Damage);
         }
 
         _behaviour?.OnImpact(this, other);

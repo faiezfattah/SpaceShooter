@@ -8,7 +8,7 @@ public class EnemyHealth : MonoBehaviour
     [SerializeField] int maxHealth;
     void Start()
     {
-        currentHealth.Value = maxHealth;
+        currentHealth = new(maxHealth);
     }
 
     public void TakeDamage(int amount)
