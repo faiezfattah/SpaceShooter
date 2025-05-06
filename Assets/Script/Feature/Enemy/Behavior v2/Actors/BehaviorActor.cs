@@ -12,22 +12,21 @@ public class BehaviorActor : MonoBehaviour {
     public float MoveSpeed;
     public float AttackCooldown;
     public float AttackRange;
-
-    // behaviour specific variables
-    public float BulletSpeed;
-    public float BulletDamage;
+    public Vector3 Direction;
     
-    //---
+    // actor specific, created on builder
     EnemyBehavior _idleBehavior = new NullBehavior();
-    EnemyBehavior _hostileBehavior = new ChaseBehavior();
+    EnemyBehavior _hostileBehavior = new NullBehavior();
     EnemyBehavior _awareBehavior = new NullBehavior();
+
     EnemyBehavior _current;
     [SerializeField]
     ReactiveProperty<EnemyState> _enemyState;
+    [SerializeField]
     float _awareDuration = 5;
     IDisposable _subscription;
     Coroutine _awareCoroutine;
-    public void Start() {
+    public virtual void Start() {
         _enemyState = new(EnemyState.Idle);
         _current = _idleBehavior;
         _subscription = _enemyState.Subscribe(newstate => HandleChangeState(newstate));
@@ -92,5 +91,19 @@ public class BehaviorActor : MonoBehaviour {
         Aware,
 
     }
+    #region builder methods
+    public BehaviorActor WithIdleBehavior(EnemyBehavior behavior) {
+        _idleBehavior = behavior;
+        return this;
+    }
+    public BehaviorActor WithHostileBehavior(EnemyBehavior behavior) {
+        _hostileBehavior = behavior;
+        return this;
+    }
+    public BehaviorActor WithAwareBehavior(EnemyBehavior behavior) {
+        _awareBehavior = behavior;
+        return this;
+    }
+    #endregion
 }
 

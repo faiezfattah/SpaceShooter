@@ -3,6 +3,10 @@ using UnityEngine;
 public class ChaseBehavior : EnemyBehavior {
     Vector3 _dir;
     float _shootCooldown;
+    float _bulletSpeed;
+    public ChaseBehavior(float bulletSpeed) {
+        _bulletSpeed = bulletSpeed;
+    }
     public override void OnUpdate(BehaviorActor actor) {
         _dir = (actor.Player.position - actor.transform.position).normalized;
         Rotate(actor);
@@ -38,6 +42,6 @@ public class ChaseBehavior : EnemyBehavior {
         actor.BulletPool.BulletRequest(actor.transform.position, _dir)
                         .WithTargetType(EntityType.Player)
                         .WithDamage(1)
-                        .WithSpeed(actor.BulletSpeed);
+                        .WithSpeed(_bulletSpeed);
     }
 }
