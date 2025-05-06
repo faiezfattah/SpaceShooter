@@ -32,10 +32,10 @@ public class BehaviorActor : MonoBehaviour {
         _subscription = _enemyState.Subscribe(newstate => HandleChangeState(newstate));
     }
 
-    void Update() {
+    virtual public void Update() {
         _current.OnUpdate(this);
     }
-    void FixedUpdate() {
+    virtual public void FixedUpdate() {
         _current.OnFixedUpdate(this);
     }
     void OnTriggerEnter2D(Collider2D collision) {

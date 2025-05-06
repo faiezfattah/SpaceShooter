@@ -5,11 +5,12 @@ public class ShootPlayerAct : EnemyBehavior {
     public ShootPlayerAct(float bulletSpeed) {
         _bulletSpeed = bulletSpeed;
     }
-    public override void OnUpdate(BehaviorActor actor) {
+    public override void OnFixedUpdate(BehaviorActor actor) {
         Shoot(actor);
     }
     
     void Shoot(BehaviorActor actor) {
+        Debug.Log("shooting!");
         actor.BulletPool.BulletRequest(actor.transform.position, actor.Direction)
                         .WithTargetType(EntityType.Player)
                         .WithDamage(1)
