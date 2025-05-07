@@ -6,11 +6,10 @@ public class ShieldItemData : ItemData
     [Header("Shield Specific")]
     public float shieldDuration = 5f;
 
-    public override bool ApplyEffect(GameObject target)
+    public override void ApplyEffect(GameObject target)
     {
         PlayerShield playerShield = target.GetComponent<PlayerShield>();
         playerShield.ActivateShield(shieldDuration);
         Debug.Log($"Activated Shield: {shieldDuration}s from {itemName}");
-         return true;
     }
 }

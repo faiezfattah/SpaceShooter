@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fa645731a0439b428f8365fe20e6592, type: 3}
   m_Name: XPData
   m_EditorClassIdentifier: 
-  itemName: New Item
+  itemName: XP_Standard
   description: Item Description
-  icon: {fileID: 0}
+  icon: {fileID: 827762743077962610, guid: 55764b26d8d66e0458e4a2232233f847, type: 3}
   xpAmount: 10

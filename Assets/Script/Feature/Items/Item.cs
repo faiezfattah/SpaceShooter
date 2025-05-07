@@ -62,11 +62,15 @@ public class Item : MonoBehaviour, IPoolable
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (itemData == null) return; 
+        Debug.Log("skibidi");
+        if (itemData == null) {
+            Debug.LogWarning("item data is null");
+        }
 
         if (other.CompareTag("Player")) 
         {
-            bool effectApplied = itemData.ApplyEffect(other.gameObject);
+        Debug.Log("skibidi2");
+            itemData.ApplyEffect(other.gameObject);
             ReleaseToPool();
         }
     }

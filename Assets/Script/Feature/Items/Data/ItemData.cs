@@ -9,5 +9,5 @@ public abstract class ItemData : ScriptableObject
     public string description = "Item Description";
     public Sprite icon; 
 
-    public abstract bool ApplyEffect(GameObject target);
+    public abstract void ApplyEffect(GameObject target);
 }

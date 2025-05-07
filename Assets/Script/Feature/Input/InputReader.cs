@@ -10,9 +10,12 @@ public class InputReader : ScriptableObject, PlayerInput.IDefaultActions {
     ReactiveSubject _shootingEvent = new();
     ReactiveSubject _escEvent = new();
     ReactiveSubject<Vector2> _moveEvent = new(); // note: this is normalized vector 
+    ReactiveSubject _debugSubject = new();
+
     public IReactive ShootingEvent => _shootingEvent;
     public IReactive EscEvent => _escEvent;
     public IReactive<Vector2> MoveEvent => _moveEvent; 
+    public IReactive DebugEvent => _debugSubject;
     
     
     public void OnShoot(InputAction.CallbackContext context) {
@@ -29,7 +32,9 @@ public class InputReader : ScriptableObject, PlayerInput.IDefaultActions {
     public void OnMove(InputAction.CallbackContext context) {
         _moveEvent?.Raise(context.ReadValue<Vector2>());
     }
-
+    public void OnDebug(InputAction.CallbackContext context) {
+        if (context.performed) _debugSubject.Raise();
+    }
     private void OnEnable() {
         Debug.Log("input init");
         _input ??= new PlayerInput();

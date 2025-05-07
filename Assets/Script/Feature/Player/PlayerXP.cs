@@ -4,13 +4,13 @@ using UnityEngine.Events;
 public class PlayerXP : MonoBehaviour
 {
     [Header("Experience & Level")]
-    [SerializeField] public static ReactiveProperty<int> currentXP = new(0);
+    [SerializeField] public ReactiveProperty<int> currentXP = new(0);
     [SerializeField] int xpToNextLevel = 100;
-    [SerializeField] public static ReactiveProperty<int> currentLevel = new(1);
+    [SerializeField] public ReactiveProperty<int> currentLevel = new(1);
     [SerializeField] float levelXpFactor = 1.5f;
 
-    public static IReactive<int> CurrentLevel => currentLevel;
-    public static IReactive<int> CurrentXP => currentXP;
+    public IReactive<int> CurrentLevel => currentLevel;
+    public IReactive<int> CurrentXP => currentXP;
     public int XPToNextLevel => xpToNextLevel;
 
     public void AddXP(int amount)

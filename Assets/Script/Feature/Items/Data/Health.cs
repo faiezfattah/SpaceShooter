@@ -7,9 +7,8 @@ public class HealthItemData : ItemData
     [Header("Health Specific")]
     public int healthAmount = 1;
 
-    public override bool ApplyEffect(GameObject target)
+    public override void ApplyEffect(GameObject target)
     {
         Debug.Log($"Health Pickup ({itemName}, {healthAmount} HP) - PlayerHealth script needed on {target.name}.");
-        return false;
     }
 }
