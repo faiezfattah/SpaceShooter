@@ -10,11 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 6963128046723552237}
   - component: {fileID: 5804533629174332473}
-  - component: {fileID: 1003318786488770677}
   - component: {fileID: 2055328274033078783}
   - component: {fileID: 7445728632313724186}
   - component: {fileID: -5206836930036940211}
   - component: {fileID: 3351270895450432799}
+  - component: {fileID: 1102702419123767995}
   m_Layer: 7
   m_Name: Shooting Enemy
   m_TagString: Untagged
@@ -92,34 +92,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1003318786488770677
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8915898640780529740}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0038c16c34866b4f9e25c9c0dc0f7e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Graph: {fileID: -3607801311437309695, guid: 15872ecec848d2e43903507daf4a6c13, type: 2}
-  m_BlackboardVariableOverridesList:
-  - rid: 3392906559661015638
-  m_IsInitialised: 0
-  m_IsStarted: 0
-  references:
-    version: 2
-    RefIds:
-    - rid: 3392906559661015638
-      type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
-      data:
-        GUID:
-          m_Value0: 1
-          m_Value1: 0
-        Name: Self
-        m_Value: {fileID: 8915898640780529740}
 --- !u!58 &2055328274033078783
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -234,3 +206,27 @@ MonoBehaviour:
   currentHealth:
     _value: 0
   maxHealth: 2
+--- !u!114 &1102702419123767995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8915898640780529740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e70a4f306bd9cb4091809b842646e7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 0}
+  BulletPool: {fileID: 0}
+  MoveSpeed: 5
+  AttackCooldown: 3
+  AttackRange: 100
+  Direction: {x: 0, y: 0, z: 0}
+  _enemyState:
+    _value: 0
+  _awareDuration: 5
+  BulletSpeed: 10
+  OrbitRange: 10
+  ShootInterval: 3

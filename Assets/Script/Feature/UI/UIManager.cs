@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -7,7 +8,6 @@ public class UIManager : MonoBehaviour
     private Label bulletTypeLabel;
     private VisualElement xpBar;
     private Label levelLabel;
-
     void Start()
     {
         var root = GetComponent<UIDocument>().rootVisualElement;
@@ -17,7 +17,6 @@ public class UIManager : MonoBehaviour
         xpBar = root.Q<VisualElement>("XPBar");
         levelLabel = root.Q<Label>("LevelLabel");
     }
-
     public void UpdateHealth(float percent)
     {
         healthBar.style.width = new Length(200 * percent, LengthUnit.Pixel);

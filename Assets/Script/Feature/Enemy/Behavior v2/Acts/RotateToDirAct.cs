@@ -1,4 +1,4 @@
-public class RotateToPlayerAct : EnemyBehavior {
+public class RotateToDirAct : EnemyBehavior {
 
     public override void OnFixedUpdate(BehaviorActor actor) {
         Rotate(actor);
