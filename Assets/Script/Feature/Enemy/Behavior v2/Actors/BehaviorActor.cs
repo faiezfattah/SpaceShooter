@@ -8,11 +8,13 @@ public class BehaviorActor : MonoBehaviour {
     public Transform Player;
     public BulletPool BulletPool;
 
-    // instance specific variables
+    // instance specific variables (can changed on each instance)
     public float MoveSpeed;
     public float AttackCooldown;
     public float AttackRange;
     public Vector3 Direction;
+    // reference for acts
+    [HideInInspector] public EnemyHealth health;
     
     // actor specific, created on builder
     EnemyBehavior _idleBehavior = new NullBehavior();
@@ -26,10 +28,12 @@ public class BehaviorActor : MonoBehaviour {
     float _awareDuration = 5;
     IDisposable _subscription;
     Coroutine _awareCoroutine;
-    public virtual void Start() {
+    internal void Start() {
         _enemyState = new(EnemyState.Idle);
         _current = _idleBehavior;
         _subscription = _enemyState.Subscribe(newstate => HandleChangeState(newstate));
+
+        health = GetComponent<EnemyHealth>();
     }
 
     virtual public void Update() {

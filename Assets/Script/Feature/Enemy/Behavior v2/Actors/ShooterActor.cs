@@ -6,10 +6,10 @@ public class ShooterActor : BehaviorActor {
     void Awake() {
         WithHostileBehavior(
             new ParallelBehavior(
-                new DirectionModifier(),
-                new ConditionalModifer(new MoveToPlayerAct(), () => Vector3.Distance(Player.transform.position, transform.position) > OrbitRange),
-                new RotateToPlayerAct(),
-                new ThrottleModifier(new ShootPlayerAct(BulletSpeed), 3f, 0.02f)
+                new DirectionToPlayerModifier(),
+                new ConditionalModifer(new MoveToDirAct(), () => Vector3.Distance(Player.transform.position, transform.position) > OrbitRange),
+                new RotateToDirAct(),
+                new ThrottleModifier(new ShootToDirAct(BulletSpeed), 3f, 0.02f)
             )
         );
     }
