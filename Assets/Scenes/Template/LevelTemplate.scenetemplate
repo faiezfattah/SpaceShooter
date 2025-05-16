@@ -12,11 +12,33 @@ MonoBehaviour:
   m_Script: {fileID: 13966, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: LevelTemplate
   m_EditorClassIdentifier: 
-  templateScene: {fileID: 0}
-  templateName: 
+  templateScene: {fileID: 102900000, guid: ddd9931606f8ab54cb8315d551db02fa, type: 3}
+  templateName: Level Template
   description: 
   preview: {fileID: 0}
-  dependencies: []
+  dependencies:
+  - dependency: {fileID: 2800000, guid: 55764b26d8d66e0458e4a2232233f847, type: 3}
+    instantiationMode: 1
+  - dependency: {fileID: 6017993225052709094, guid: 07252599e2a2a144d8db0049b0b9bdff, type: 3}
+    instantiationMode: 1
+  - dependency: {fileID: 11400000, guid: e613b23d7fe3d45448113348a935884a, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 2100000, guid: 8f365b9ec1c5c2041909f393211108ea, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 2800000, guid: 32b23d5d74f3aee4f9364e34e2f59379, type: 3}
+    instantiationMode: 1
+  - dependency: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 2800000, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+    instantiationMode: 1
+  - dependency: {fileID: 2389943958780685294, guid: 90e6446cddcda2c44b75e1e38f70ad54, type: 3}
+    instantiationMode: 1
+  - dependency: {fileID: 2800000, guid: 57da91ef0c2a5489891995dc81537253, type: 3}
+    instantiationMode: 1
+  - dependency: {fileID: 11400000, guid: 32761ea1ab8bad04ea16caf36d0a92b2, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 2800000, guid: 26663a5ec9987421996161615506b6c5, type: 3}
+    instantiationMode: 1
   templatePipeline: {fileID: 0}
   badge: {fileID: 0}
   addToDefaults: 0

@@ -16,5 +16,14 @@ public class BulletPool : Pool<Bullet> {
         
         return bullet;
     }
+    public IBulletConfig[] RequestMultiple(int count) {
+        var bullets = new IBulletConfig[count];
+
+        for (int i = 0; i < count; i++) {
+            bullets[i] = _pool.Get();
+        }
+
+        return bullets;    
+    }
 }
 }

@@ -11,6 +11,7 @@ public class PlayerShooting : MonoBehaviour {
     [SerializeField] float shootInterval;
     [SerializeField] float bulletSpeed;
     [SerializeField] float lifetime;
+    [SerializeField] BulletPattern pattern;
     [Title("Debug---")]
     [ReadOnly] bool canFire;
     [ReadOnly] float timer;
@@ -32,12 +33,21 @@ public class PlayerShooting : MonoBehaviour {
     }
 
     void ShootEvent() {
-        if (canFire) {
-            bulletPool.BulletRequest(transform.position, _playerRotation.Dir)
-                      .WithSpeed(bulletSpeed)
-                      .WithTargetType(EntityType.Enemy)
-                      .WithBehaviour(new RecursiveBehavior(bulletPool))
-                      .WithLifetime(lifetime);
+        if (canFire)
+        {
+            var (configHandle, execute) = pattern.Init(bulletPool);
+            configHandle.WithSpeed(bulletSpeed)
+                        .WithTargetType(EntityType.Enemy)
+                        .WithBehaviour(new RecursiveBehavior(bulletPool))
+                        .WithLifetime(lifetime);
+            StartCoroutine(execute(transform.position, _playerRotation.Dir));
+
+            var p = pattern.Init(bulletPool);
+            p.configHandle.WithSpeed(bulletSpeed)
+                          .WithTargetType(EntityType.Enemy)
+                          .WithBehaviour(new RecursiveBehavior(bulletPool))
+                          .WithLifetime(lifetime);
+            p.execute(transform.position, _playerRotation.Dir);
         }
     }
 
