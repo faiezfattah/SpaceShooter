@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using Script.Feature.Bullet;
 using Script.Feature.Input;
 using TriInspector;
@@ -15,12 +16,14 @@ public class PlayerShooting : MonoBehaviour {
     [Title("Debug---")]
     [ReadOnly] bool canFire;
     [ReadOnly] float timer;
+    Coroutine _shootingRoutine;
     PlayerRotation _playerRotation;
     IDisposable _subscription;
 
     // Update is called once per frame
     void Start() {
-        _subscription = inputReader.ShootingEvent.Subscribe(ShootEvent);
+        _playerRotation = GetComponent<PlayerRotation>();
+        _subscription = inputReader.ShootingEvent.Subscribe(HandleShootEvent);
     }
     void Update() {
         if(!canFire) {
@@ -32,25 +35,18 @@ public class PlayerShooting : MonoBehaviour {
         }
     }
 
-    void ShootEvent() {
-        if (canFire)
-        {
-            var (configHandle, execute) = pattern.Init(bulletPool);
-            configHandle.WithSpeed(bulletSpeed)
-                        .WithTargetType(EntityType.Enemy)
-                        .WithBehaviour(new RecursiveBehavior(bulletPool))
-                        .WithLifetime(lifetime);
-            StartCoroutine(execute(transform.position, _playerRotation.Dir));
-
-            var p = pattern.Init(bulletPool);
-            p.configHandle.WithSpeed(bulletSpeed)
-                          .WithTargetType(EntityType.Enemy)
-                          .WithBehaviour(new RecursiveBehavior(bulletPool))
-                          .WithLifetime(lifetime);
-            p.execute(transform.position, _playerRotation.Dir);
+    void HandleShootEvent() {
+        if (canFire && _shootingRoutine == null) {
+            _shootingRoutine = StartCoroutine(ShootInternal());
+            Debug.Log("shooting");
         }
     }
-
+    IEnumerator ShootInternal() {
+        yield return StartCoroutine(
+            pattern.Init(bulletPool, _playerRotation.Dir, transform, 1, EntityType.Enemy)
+        );
+        _shootingRoutine = null;
+    }
     void OnValidate() {
         _playerRotation = GetComponent<PlayerRotation>();
     }

@@ -1,22 +1,23 @@
-using System;
 using System.Collections;
-using Script.Core.Bullet;
 using Script.Feature.Bullet;
 using UnityEngine;
 
+[CreateAssetMenu(fileName = "BulletPattern", menuName = "Bullet Pattern/BulletPattern")]
 public class BulletSpreadPattern : BulletPattern {
     [SerializeField] int bulletCount = 3;
     [SerializeField] float spreadAngle = 15f;
-    public override (IBulletConfig configHandle, Func<Vector3, Vector2, IEnumerator>  execute) Init(BulletPool bulletPool) {
-        var bullet = new BulletArrayCallbackWrapper(bulletPool, bulletCount);
-
-        return (bullet, (pos, dir) => Execute(bullet, pos, dir));
-    }
-
-    public IEnumerator Execute(BulletArrayCallbackWrapper bulletArray, Vector3 pos, Vector2 dir) {
-        for (int i = 0; i < bulletArray.bullets.Length; i++) {
-            // some code
+    [SerializeField] float lifetime = 5f;
+    [SerializeField] float speed = 5f;
+    public override IEnumerator Init(BulletPool bulletPool, Vector2 direction, Transform shooter, int damage, EntityType targetType, IBulletBehavior behavior = null) {
+        for (int i = -Mathf.FloorToInt(bulletCount / 2); i <= Mathf.FloorToInt(bulletCount/2); i++) {
+            var dir = Quaternion.AngleAxis(i * spreadAngle, Vector3.forward) * direction;
+            bulletPool.BulletRequest(shooter.position, dir)
+                      .WithDamage(damage)
+                      .WithLifetime(lifetime)
+                      .WithSpeed(speed)
+                      .WithTargetType(targetType);
         }
+
         yield return null;
     }
 }
