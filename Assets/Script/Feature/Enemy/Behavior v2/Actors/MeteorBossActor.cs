@@ -4,12 +4,13 @@ using Script.Feature.Bullet;
 public class MeteorBossActor : BehaviorActor {
     [SerializeField] float rotationSpeed = 10;
     [SerializeField] float bulletSpeed = 5;
+    [SerializeField] float interval = 0.25f;
     void Awake() {
         WithHostileBehavior(
             new ParallelBehavior(
                 new RotateDirectionModifier(rotationSpeed),
                 new RotateToDirAct(),
-                new ThrottleModifier(new ShootToDirAct(bulletSpeed, BulletCall), 0.5f, 0.25f)
+                new ShootToDirAct(bulletSpeed, interval, BulletCall)
             )
         );
     }

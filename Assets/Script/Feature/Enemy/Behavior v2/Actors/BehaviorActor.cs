@@ -13,6 +13,7 @@ public class BehaviorActor : MonoBehaviour {
     public float AttackCooldown;
     public float AttackRange;
     public Vector3 Direction;
+    public int Damage;
     // reference for acts
     [HideInInspector] public EnemyHealth health;
     
