@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e3a2164ed2f1f6947b815e3c809a8500, type: 3}
-  m_Name: Spread 1
+  m_Name: Spread Pattern 1
   m_EditorClassIdentifier: 
   bulletSpeed: 20
   bulletLifetime: 1
