@@ -1,0 +1,13 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement style="flex-grow: 0; justify-content: center; align-self: center; align-content: center; align-items: center; width: 100%;">
+        <engine:VisualElement name="HEADER" style="flex-grow: 1;">
+            <engine:Label text="STAGE 1" name="StageLabel" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+    <engine:VisualElement name="MainUI" style="flex-grow: 1;">
+        <engine:Label text="Bullet Type: Single Shot" name="BulletLabel" />
+        <engine:Label text="Label" name="LevelLabel" />
+        <engine:VisualElement name="XPBar" style="flex-grow: 0; -unity-background-image-tint-color: rgba(255, 255, 255, 0); background-size: 100% 50%; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 4px; border-right-width: 4px; border-bottom-width: 4px; border-left-width: 4px; width: 24%; height: 50px; color: rgb(255, 255, 255); background-color: rgb(71, 255, 255); border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;" />
+        <engine:VisualElement name="HealthBar" style="flex-grow: 0; -unity-background-image-tint-color: rgba(255, 255, 255, 0); background-size: 100% 50%; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 4px; border-right-width: 4px; border-bottom-width: 4px; border-left-width: 4px; width: 24%; height: 50px; color: rgb(255, 255, 255); background-color: rgb(255, 159, 236); border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;" />
+    </engine:VisualElement>
+</engine:UXML>
