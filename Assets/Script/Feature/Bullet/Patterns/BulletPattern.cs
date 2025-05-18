@@ -9,6 +9,7 @@ public abstract class BulletPattern : ScriptableObject {
     // return the array and the coroutine
     public float bulletSpeed = 10;
     public float bulletLifetime = 1;
+    public float cooldown = 2f;
     public abstract IEnumerator Init(
         BulletPool bulletPool,
         Vector2 direction,

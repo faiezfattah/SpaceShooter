@@ -22,5 +22,7 @@ public class BurstPattern : BulletPattern {
 
             yield return new WaitForSeconds(inbetweenCooldown);
         }
+        
+        yield return new WaitForSeconds(cooldown);
     }
 }
