@@ -6,8 +6,6 @@ using UnityEngine;
 public class BulletSpreadPattern : BulletPattern {
     [SerializeField] int bulletCount = 3;
     [SerializeField] float spreadAngle = 15f;
-    [SerializeField] float lifetime = 5f;
-    [SerializeField] float speed = 5f;
     public override IEnumerator Init(
         BulletPool bulletPool,
         Vector2 direction,
@@ -20,9 +18,9 @@ public class BulletSpreadPattern : BulletPattern {
             var dir = Quaternion.AngleAxis(i * spreadAngle, Vector3.forward) * direction;
             bulletPool.BulletRequest(shooter.position, dir)
                       .WithDamage(damage)
-                      .WithLifetime(lifetime)
-                      .WithSpeed(speed)
-                      .WithTargetType(targetType);
+                      .WithTargetType(targetType)
+                      .WithLifetime(bulletLifetime)
+                      .WithSpeed(bulletSpeed);
         }
 
         yield return null;

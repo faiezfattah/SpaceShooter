@@ -4,9 +4,11 @@ using Script.Core.Bullet;
 using Script.Feature.Bullet;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "BulletPattern", menuName = "Scriptable Objects/BulletPattern")]
+// [CreateAssetMenu(fileName = "BulletPattern", menuName = "Scriptable Objects/BulletPattern")]
 public abstract class BulletPattern : ScriptableObject {
     // return the array and the coroutine
+    public float bulletSpeed = 10;
+    public float bulletLifetime = 1;
     public abstract IEnumerator Init(
         BulletPool bulletPool,
         Vector2 direction,
