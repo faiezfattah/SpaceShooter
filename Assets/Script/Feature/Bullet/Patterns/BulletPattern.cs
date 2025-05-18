@@ -7,7 +7,13 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "BulletPattern", menuName = "Scriptable Objects/BulletPattern")]
 public abstract class BulletPattern : ScriptableObject {
     // return the array and the coroutine
-    public abstract IEnumerator Init(BulletPool bulletPool, Vector2 dir, Transform pos, int damage, EntityType type, IBulletBehavior behavior = null);
+    public abstract IEnumerator Init(
+        BulletPool bulletPool,
+        Vector2 direction,
+        Transform shooter,
+        int damage,
+        EntityType targetType,
+        IBulletBehavior behavior = null);
     /*
     public abstract Execute(BulletPool, Vector2, Vector3, Lifetime, Type, behavior?)
     

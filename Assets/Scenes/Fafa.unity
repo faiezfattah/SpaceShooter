@@ -318,13 +318,17 @@ PrefabInstance:
       propertyPath: BulletPool
       value: 
       objectReference: {fileID: 314039001}
+    - target: {fileID: 1102702419123767995, guid: 554a1e8163f54c54cb1f55d8770a4318, type: 3}
+      propertyPath: AttackRange
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 6963128046723552237, guid: 554a1e8163f54c54cb1f55d8770a4318, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.086425
+      value: 6.02
       objectReference: {fileID: 0}
     - target: {fileID: 6963128046723552237, guid: 554a1e8163f54c54cb1f55d8770a4318, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -14.244833
+      value: -9.39
       objectReference: {fileID: 0}
     - target: {fileID: 6963128046723552237, guid: 554a1e8163f54c54cb1f55d8770a4318, type: 3}
       propertyPath: m_LocalPosition.z
@@ -878,7 +882,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 27.1, y: -17.22, z: -10}
+  m_LocalPosition: {x: 26.38, y: -16.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1370,7 +1374,7 @@ Transform:
   m_GameObject: {fileID: 1158005391}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 27.1, y: -17.22, z: -10}
+  m_LocalPosition: {x: 26.38, y: -16.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1924,11 +1928,11 @@ PrefabInstance:
       objectReference: {fileID: 314039001}
     - target: {fileID: 7644679444220910691, guid: 90e6446cddcda2c44b75e1e38f70ad54, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 27.1
+      value: 26.38
       objectReference: {fileID: 0}
     - target: {fileID: 7644679444220910691, guid: 90e6446cddcda2c44b75e1e38f70ad54, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -17.22
+      value: -16.5
       objectReference: {fileID: 0}
     - target: {fileID: 7644679444220910691, guid: 90e6446cddcda2c44b75e1e38f70ad54, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2286,7 +2290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 151ca4a2e2101a04aafed5c6930e6129, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Player: {fileID: 2097222343}
   BulletPool: {fileID: 314039001}
   MoveSpeed: 3
   AttackCooldown: 5
@@ -2299,6 +2303,8 @@ MonoBehaviour:
   _awareDuration: 0
   rotationSpeed: 1
   bulletSpeed: 5
+  interval: 0.25
+  pattern: {fileID: 11400000, guid: 64dff6ab22d57f04ba3a0adce9d1a5e6, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

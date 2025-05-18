@@ -5,18 +5,11 @@ using UnityEngine;
 
 public class ShootToDirAct : EnemyBehavior {
     float _bulletSpeed;
-    Func<IBulletConfig> _bullet = null;
     float _interval;
     Coroutine _shootRoutine;
     BulletPattern _pattern;
     public ShootToDirAct(float bulletSpeed, float interval) {
         _bulletSpeed = bulletSpeed;
-        _interval = interval;
-    }
-    
-    public ShootToDirAct(float bulletSpeed, float interval, Func<IBulletConfig> bullet) {
-        _bulletSpeed = bulletSpeed;
-        _bullet = bullet;
         _interval = interval;
     }
     public ShootToDirAct(float bulletSpeed, float interval, BulletPattern pattern) {
@@ -44,18 +37,6 @@ public class ShootToDirAct : EnemyBehavior {
             );
             Debug.Log("enemy shot");
             yield return new WaitForSeconds(_interval);
-        }
-    }
-    void Shoot(BehaviorActor actor) {
-        Debug.Log("shooting!");
-        if (_bullet != null) {
-            _bullet();
-        }
-        else {
-            actor.BulletPool.BulletRequest(actor.transform.position, actor.Direction)
-                            .WithTargetType(EntityType.Player)
-                            .WithDamage(1)
-                            .WithSpeed(_bulletSpeed);
         }
     }
 }
