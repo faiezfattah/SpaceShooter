@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3a2164ed2f1f6947b815e3c809a8500, type: 3}
   m_Name: Spread Pattern 1
   m_EditorClassIdentifier: 
-  bulletSpeed: 20
-  bulletLifetime: 1
+  bulletSpeed: 40
+  bulletLifetime: 0.5
+  cooldown: 0.25
   bulletCount: 5
-  spreadAngle: 10
+  spreadAngle: 20

@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3b993e56e798464095dc214c96ac7f2, type: 3}
   m_Name: Burst Pattern 1
   m_EditorClassIdentifier: 
+  bulletSpeed: 10
+  bulletLifetime: 1
+  cooldown: 1
   bulletPerBurstCount: 10
   inbetweenCooldown: 0.05
-  lifetime: 2
-  speed: 10

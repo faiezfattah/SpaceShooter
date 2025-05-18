@@ -1,5 +1,3 @@
-using System;
-using System.Collections;
 using UnityEngine;
 public class ShooterActor : BehaviorActor {
     public float OrbitRange;
