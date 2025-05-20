@@ -9,7 +9,7 @@ public class PlayerHealth : MonoBehaviour
     public static IReactive<int> CurrentPlayerHealth => currentHealth;
     void Start()
     {
-        currentHealth = new(maxHealth);
+         currentHealth = new ReactiveProperty<int>(maxHealth);
           MaxHealth = maxHealth;
     }
 

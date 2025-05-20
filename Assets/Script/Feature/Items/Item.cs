@@ -34,7 +34,10 @@ public class Item : MonoBehaviour, IPoolable
             if(itemSpriteRenderer == null)
                 Debug.LogError($"Item {gameObject.name} is missing a SpriteRenderer!", this);
         }
+         if (itemData != null)
+    {
         ApplyData();
+    }
     }
 
     private void ApplyData()
@@ -70,8 +73,19 @@ public class Item : MonoBehaviour, IPoolable
         if (other.CompareTag("Player")) 
         {
         Debug.Log("skibidi2");
-            itemData.ApplyEffect(other.gameObject);
-            ReleaseToPool();
+            var uiManager = FindAnyObjectByType<UIManager>();
+if (uiManager != null)
+{
+    uiManager.ShowPrompt(itemData, () => {
+        itemData.ApplyEffect(other.gameObject);
+        ReleaseToPool();
+    });
+}
+else
+{
+    Debug.LogWarning("UIManager not found!");
+}
+
         }
     }
 
@@ -88,11 +102,7 @@ public class Item : MonoBehaviour, IPoolable
         }
     }
 
-    void OnValidate()
-    {
-        if (itemSpriteRenderer == null) {
-             itemSpriteRenderer = GetComponentInChildren<SpriteRenderer>();
-        }
-        ApplyData();
-    }
+
+
+
 }
