@@ -19,7 +19,7 @@ public class BulletPatternItemData : ItemData
         PlayerShooting playerShooting = targetPlayer.GetComponent<PlayerShooting>();
         if (playerShooting != null)
         {
-            //playerShooting.SetPattern(patternToEquip);
+            playerShooting.SetPattern(patternToEquip);
             Debug.Log($"Player equipped new bullet pattern: '{patternToEquip.name}' from item '{itemName}'.");
         }
         else
