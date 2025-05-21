@@ -9,5 +9,8 @@ public abstract class ItemData : ScriptableObject
     public string description = "Item Description";
     public Sprite icon; 
 
+    [Header("Pickup Behavior")]
+    public bool requiresUIPrompt = false; // Default to false (instant pickup)
+
     public abstract void ApplyEffect(GameObject target);
 }

@@ -10,6 +10,7 @@ public class Item : MonoBehaviour, IPoolable
     [Header("Visuals")]
     [SerializeField] private SpriteRenderer itemSpriteRenderer;
 
+    private UIManager _uiManagerInstance;
     private Action _releaseAction; 
 
     public void Setup(Action releaseAction)
@@ -27,11 +28,16 @@ public class Item : MonoBehaviour, IPoolable
     // --- Item Logic ---
     void Start()
     {
+        _uiManagerInstance = FindObjectOfType<UIManager>();
+        if (_uiManagerInstance == null)
+        {
+            Debug.LogWarning("UIManager instance not found in Awake! UI prompts might not work.", this);
+        }
 
         if (itemSpriteRenderer == null)
         {
             itemSpriteRenderer = GetComponentInChildren<SpriteRenderer>();
-            if(itemSpriteRenderer == null)
+            if (itemSpriteRenderer == null)
                 Debug.LogError($"Item {gameObject.name} is missing a SpriteRenderer!", this);
         }
          if (itemData != null)
@@ -65,27 +71,36 @@ public class Item : MonoBehaviour, IPoolable
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("skibidi");
-        if (itemData == null) {
-            Debug.LogWarning("item data is null");
+     if (itemData == null)
+        {
+            Debug.LogWarning($"Item '{gameObject.name}' collided but has no ItemData. Aborting pickup.", this);
+            return;
         }
 
-        if (other.CompareTag("Player")) 
+        if (other.CompareTag("Player"))
         {
-        Debug.Log("skibidi2");
-            var uiManager = FindAnyObjectByType<UIManager>();
-if (uiManager != null)
-{
-    uiManager.ShowPrompt(itemData, () => {
-        itemData.ApplyEffect(other.gameObject);
-        ReleaseToPool();
-    });
-}
-else
-{
-    Debug.LogWarning("UIManager not found!");
-}
+            if (itemData.requiresUIPrompt)
+            {
+                if (_uiManagerInstance != null)
+                {
+                    Debug.Log($"Item '{itemData.itemName}' requires UI prompt. Showing prompt.");
+                    _uiManagerInstance.ShowPrompt(itemData, () => {
 
+                        itemData.ApplyEffect(other.gameObject);
+                        ReleaseToPool();
+                    });
+                }
+                else
+                {
+                    Debug.LogError($"UIManager not found! Cannot show UI prompt for '{itemData.itemName}'. Item not picked up.", this);
+                }
+            }
+            else
+            {
+                Debug.Log($"Item '{itemData.itemName}' is an instant pickup.");
+                itemData.ApplyEffect(other.gameObject);
+                ReleaseToPool();
+            }
         }
     }
 
