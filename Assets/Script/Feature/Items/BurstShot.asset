@@ -15,5 +15,5 @@ MonoBehaviour:
   itemName: Burst Shot
   description: Item Description
   icon: {fileID: -5132461858092024663, guid: 55764b26d8d66e0458e4a2232233f847, type: 3}
-  requiresUIPrompt: 0
+  requiresUIPrompt: 1
   patternToEquip: {fileID: 11400000, guid: 64dff6ab22d57f04ba3a0adce9d1a5e6, type: 2}
