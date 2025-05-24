@@ -1,0 +1,7761 @@
+fileFormatVersion: 2
+guid: cf6c3d90e9e7f6f49a39d6a9b72f9460
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2912182743292609322
+    second: spaceshooters_0
+  - first:
+      213: 4823065610990209403
+    second: spaceshooters_1
+  - first:
+      213: -1320556971318894173
+    second: spaceshooters_2
+  - first:
+      213: -7009031397433372116
+    second: spaceshooters_3
+  - first:
+      213: 6203933880265873718
+    second: spaceshooters_4
+  - first:
+      213: 2145815858798831125
+    second: spaceshooters_5
+  - first:
+      213: -5681983553705117052
+    second: spaceshooters_6
+  - first:
+      213: -311342622196840762
+    second: spaceshooters_7
+  - first:
+      213: 1728761051359640970
+    second: spaceshooters_8
+  - first:
+      213: 7367280670772680175
+    second: spaceshooters_9
+  - first:
+      213: 6315939877443512935
+    second: spaceshooters_10
+  - first:
+      213: 564700188630691830
+    second: spaceshooters_11
+  - first:
+      213: -5632563105838577903
+    second: spaceshooters_12
+  - first:
+      213: 3568228033267695802
+    second: spaceshooters_13
+  - first:
+      213: 5762158525381879196
+    second: spaceshooters_14
+  - first:
+      213: 1303660338819025832
+    second: spaceshooters_15
+  - first:
+      213: -4052401464164594574
+    second: spaceshooters_16
+  - first:
+      213: -2245001915045963666
+    second: spaceshooters_17
+  - first:
+      213: -3668199612920025891
+    second: spaceshooters_18
+  - first:
+      213: -6802428497308050978
+    second: spaceshooters_19
+  - first:
+      213: 4322917456743862829
+    second: spaceshooters_20
+  - first:
+      213: -6227088106518533221
+    second: spaceshooters_21
+  - first:
+      213: 1744308603798412593
+    second: spaceshooters_22
+  - first:
+      213: -3689944370961328358
+    second: spaceshooters_23
+  - first:
+      213: -8221722122443646502
+    second: spaceshooters_24
+  - first:
+      213: 4292389991702154981
+    second: spaceshooters_25
+  - first:
+      213: 3935175617968408745
+    second: spaceshooters_26
+  - first:
+      213: 8331666003293708556
+    second: spaceshooters_27
+  - first:
+      213: -4229938681542112950
+    second: spaceshooters_28
+  - first:
+      213: -8923042475872217485
+    second: spaceshooters_29
+  - first:
+      213: -4369959276893417040
+    second: spaceshooters_30
+  - first:
+      213: 763025414250601373
+    second: spaceshooters_31
+  - first:
+      213: 7488200775708455180
+    second: spaceshooters_32
+  - first:
+      213: -1611270827837433771
+    second: spaceshooters_33
+  - first:
+      213: -5279053740701714371
+    second: spaceshooters_34
+  - first:
+      213: -3181419896514256525
+    second: spaceshooters_35
+  - first:
+      213: -48705149287458978
+    second: spaceshooters_36
+  - first:
+      213: -7325802091853868840
+    second: spaceshooters_37
+  - first:
+      213: 735176499816634957
+    second: spaceshooters_38
+  - first:
+      213: 7322140102547982567
+    second: spaceshooters_39
+  - first:
+      213: -2116993947423110241
+    second: spaceshooters_40
+  - first:
+      213: 4841579802311837860
+    second: spaceshooters_41
+  - first:
+      213: 1409014908369708279
+    second: spaceshooters_42
+  - first:
+      213: -7974774768203054285
+    second: spaceshooters_43
+  - first:
+      213: -1773195342151179510
+    second: spaceshooters_44
+  - first:
+      213: 261333390827660395
+    second: spaceshooters_45
+  - first:
+      213: 1723301433705324739
+    second: spaceshooters_46
+  - first:
+      213: 470288816914835105
+    second: spaceshooters_47
+  - first:
+      213: 7466212863477649938
+    second: spaceshooters_48
+  - first:
+      213: -281653061700978632
+    second: spaceshooters_49
+  - first:
+      213: -2521726676477064803
+    second: spaceshooters_50
+  - first:
+      213: 1164522567945131141
+    second: spaceshooters_51
+  - first:
+      213: 3976401045797288250
+    second: spaceshooters_52
+  - first:
+      213: 74887567049970855
+    second: spaceshooters_53
+  - first:
+      213: -707470846588066887
+    second: spaceshooters_54
+  - first:
+      213: -8207326044825917475
+    second: spaceshooters_55
+  - first:
+      213: -7397220677261610200
+    second: spaceshooters_56
+  - first:
+      213: -4828653411299849292
+    second: spaceshooters_57
+  - first:
+      213: 7782775686965006566
+    second: spaceshooters_58
+  - first:
+      213: 5416257571740271513
+    second: spaceshooters_59
+  - first:
+      213: 2710405545410634285
+    second: spaceshooters_60
+  - first:
+      213: 2761872457530621669
+    second: spaceshooters_61
+  - first:
+      213: 679469021198528409
+    second: spaceshooters_62
+  - first:
+      213: -3000552918586329081
+    second: spaceshooters_63
+  - first:
+      213: -7695582513518370473
+    second: spaceshooters_64
+  - first:
+      213: 2778273285481477729
+    second: spaceshooters_65
+  - first:
+      213: 4047620910871167874
+    second: spaceshooters_66
+  - first:
+      213: -1084910923143730687
+    second: spaceshooters_67
+  - first:
+      213: -697645152928365586
+    second: spaceshooters_68
+  - first:
+      213: -6501639259142024329
+    second: spaceshooters_69
+  - first:
+      213: -4752134077244963597
+    second: spaceshooters_70
+  - first:
+      213: 847440286287948606
+    second: spaceshooters_71
+  - first:
+      213: 6327715615021146486
+    second: spaceshooters_72
+  - first:
+      213: -3699082464912055414
+    second: spaceshooters_73
+  - first:
+      213: 7838526147935025902
+    second: spaceshooters_74
+  - first:
+      213: 2974563270538472172
+    second: spaceshooters_75
+  - first:
+      213: -4789872837099085117
+    second: spaceshooters_76
+  - first:
+      213: 353287094004557530
+    second: spaceshooters_77
+  - first:
+      213: 5293227555874346051
+    second: spaceshooters_78
+  - first:
+      213: 6471243462872540780
+    second: spaceshooters_79
+  - first:
+      213: -304981970530011837
+    second: spaceshooters_80
+  - first:
+      213: 2924702291682537087
+    second: spaceshooters_81
+  - first:
+      213: 6407303083815010431
+    second: spaceshooters_82
+  - first:
+      213: 8803393636203901389
+    second: spaceshooters_83
+  - first:
+      213: 2024008269648761016
+    second: spaceshooters_84
+  - first:
+      213: 8475680222185047106
+    second: spaceshooters_85
+  - first:
+      213: -1066385243150075815
+    second: spaceshooters_86
+  - first:
+      213: 5121809897223005918
+    second: spaceshooters_87
+  - first:
+      213: -1119597463733227674
+    second: spaceshooters_88
+  - first:
+      213: -8104059718404332198
+    second: spaceshooters_89
+  - first:
+      213: 903663563276970421
+    second: spaceshooters_90
+  - first:
+      213: 3410114387493153310
+    second: spaceshooters_91
+  - first:
+      213: -1400799032088503324
+    second: spaceshooters_92
+  - first:
+      213: -2566334795111949426
+    second: spaceshooters_93
+  - first:
+      213: 5319241846225531301
+    second: spaceshooters_94
+  - first:
+      213: -4887347692463841584
+    second: spaceshooters_95
+  - first:
+      213: -8202057808748503035
+    second: spaceshooters_96
+  - first:
+      213: 8839842173392813313
+    second: spaceshooters_97
+  - first:
+      213: -5234304141247912972
+    second: spaceshooters_98
+  - first:
+      213: -6837437459043449700
+    second: spaceshooters_99
+  - first:
+      213: -9154371247963415732
+    second: spaceshooters_100
+  - first:
+      213: 1092419037221796909
+    second: spaceshooters_101
+  - first:
+      213: 1357870512622553455
+    second: spaceshooters_102
+  - first:
+      213: 3596923311032531230
+    second: spaceshooters_103
+  - first:
+      213: -5072476215034350445
+    second: spaceshooters_104
+  - first:
+      213: -8719209310497056815
+    second: spaceshooters_105
+  - first:
+      213: -560965191794278936
+    second: spaceshooters_106
+  - first:
+      213: -2235777636731362081
+    second: spaceshooters_107
+  - first:
+      213: 3189582547437946959
+    second: spaceshooters_108
+  - first:
+      213: -2035434814856297247
+    second: spaceshooters_109
+  - first:
+      213: 345984747851891885
+    second: spaceshooters_110
+  - first:
+      213: -2812860639185303561
+    second: spaceshooters_111
+  - first:
+      213: 5640448137458388237
+    second: spaceshooters_112
+  - first:
+      213: -2121234728042183653
+    second: spaceshooters_113
+  - first:
+      213: 8402233927307213155
+    second: spaceshooters_114
+  - first:
+      213: 3525522599458937985
+    second: spaceshooters_115
+  - first:
+      213: 2753382781427557633
+    second: spaceshooters_116
+  - first:
+      213: 3565490813736838521
+    second: spaceshooters_117
+  - first:
+      213: -1888599578240118005
+    second: spaceshooters_118
+  - first:
+      213: 951420157807603683
+    second: spaceshooters_119
+  - first:
+      213: -8502933841601057874
+    second: spaceshooters_120
+  - first:
+      213: 8002023911669668781
+    second: spaceshooters_121
+  - first:
+      213: -2077884500782962359
+    second: spaceshooters_122
+  - first:
+      213: -655669700624097128
+    second: spaceshooters_123
+  - first:
+      213: 3219017313582361188
+    second: spaceshooters_124
+  - first:
+      213: -6020653020334867920
+    second: spaceshooters_125
+  - first:
+      213: -4003061083824255346
+    second: spaceshooters_126
+  - first:
+      213: -925261180920736399
+    second: spaceshooters_127
+  - first:
+      213: -7586896074704383702
+    second: spaceshooters_128
+  - first:
+      213: 2073099644708177109
+    second: spaceshooters_129
+  - first:
+      213: -8298370596656699989
+    second: spaceshooters_130
+  - first:
+      213: -5530486509543685855
+    second: spaceshooters_131
+  - first:
+      213: -165050846557416361
+    second: spaceshooters_132
+  - first:
+      213: -3688416799916327990
+    second: spaceshooters_133
+  - first:
+      213: -1811278925316954883
+    second: spaceshooters_134
+  - first:
+      213: -8170539939917287827
+    second: spaceshooters_135
+  - first:
+      213: 2341923715839789831
+    second: spaceshooters_136
+  - first:
+      213: -7066969565872979765
+    second: spaceshooters_137
+  - first:
+      213: 9198319804254454965
+    second: spaceshooters_138
+  - first:
+      213: 205277629246973082
+    second: spaceshooters_139
+  - first:
+      213: -4981546453070275843
+    second: spaceshooters_140
+  - first:
+      213: 332705066126864690
+    second: spaceshooters_141
+  - first:
+      213: 2493310138324067517
+    second: spaceshooters_142
+  - first:
+      213: 9116425165873550042
+    second: spaceshooters_143
+  - first:
+      213: -5527589097324212254
+    second: spaceshooters_144
+  - first:
+      213: -8802099375925584376
+    second: spaceshooters_145
+  - first:
+      213: -6153168600910856918
+    second: spaceshooters_146
+  - first:
+      213: -7386856391117570201
+    second: spaceshooters_147
+  - first:
+      213: 8169084445159154024
+    second: spaceshooters_148
+  - first:
+      213: 5583194848725696976
+    second: spaceshooters_149
+  - first:
+      213: 2528560846834654359
+    second: spaceshooters_150
+  - first:
+      213: -3191464898640342516
+    second: spaceshooters_151
+  - first:
+      213: 1061176865073146969
+    second: spaceshooters_152
+  - first:
+      213: 6407938877042219104
+    second: spaceshooters_153
+  - first:
+      213: 7451017002911531141
+    second: spaceshooters_154
+  - first:
+      213: 3214903230421266886
+    second: spaceshooters_155
+  - first:
+      213: -3004894699290629292
+    second: spaceshooters_156
+  - first:
+      213: 6067220181622067762
+    second: spaceshooters_157
+  - first:
+      213: 7571127174963118814
+    second: spaceshooters_158
+  - first:
+      213: 8165125327839918086
+    second: spaceshooters_159
+  - first:
+      213: -9062177022014320592
+    second: spaceshooters_160
+  - first:
+      213: -5375392332404353223
+    second: spaceshooters_161
+  - first:
+      213: -4870009671386242086
+    second: spaceshooters_162
+  - first:
+      213: -4333139668190908776
+    second: spaceshooters_163
+  - first:
+      213: 4047181779549890420
+    second: spaceshooters_164
+  - first:
+      213: 2450133059754975387
+    second: spaceshooters_165
+  - first:
+      213: 2838960241834892380
+    second: spaceshooters_166
+  - first:
+      213: 6474045349679380176
+    second: spaceshooters_167
+  - first:
+      213: 6143350391099554040
+    second: spaceshooters_168
+  - first:
+      213: 370985844544977094
+    second: spaceshooters_169
+  - first:
+      213: -6437767214214971876
+    second: spaceshooters_170
+  - first:
+      213: -4488458771476506739
+    second: spaceshooters_171
+  - first:
+      213: -7516130752895002985
+    second: spaceshooters_172
+  - first:
+      213: -144436704748343633
+    second: spaceshooters_173
+  - first:
+      213: -4747752022863489300
+    second: spaceshooters_174
+  - first:
+      213: 1197774551693247552
+    second: spaceshooters_175
+  - first:
+      213: -4591945093696011009
+    second: spaceshooters_176
+  - first:
+      213: -7200280202156362552
+    second: spaceshooters_177
+  - first:
+      213: -497396732353606179
+    second: spaceshooters_178
+  - first:
+      213: -493561549772915375
+    second: spaceshooters_179
+  - first:
+      213: -7370589044411697183
+    second: spaceshooters_180
+  - first:
+      213: -4345725793049078202
+    second: spaceshooters_181
+  - first:
+      213: -1782235712395475865
+    second: spaceshooters_182
+  - first:
+      213: -9073485890455479440
+    second: spaceshooters_183
+  - first:
+      213: -8614955503840967449
+    second: spaceshooters_184
+  - first:
+      213: -653182954721583957
+    second: spaceshooters_185
+  - first:
+      213: 1136797688311350320
+    second: spaceshooters_186
+  - first:
+      213: 1762873938779767648
+    second: spaceshooters_187
+  - first:
+      213: 1178972783091570950
+    second: spaceshooters_188
+  - first:
+      213: -1370407415222109874
+    second: spaceshooters_189
+  - first:
+      213: 4783511245081687000
+    second: spaceshooters_190
+  - first:
+      213: -8079056926901411478
+    second: spaceshooters_191
+  - first:
+      213: -7114584307110390939
+    second: spaceshooters_192
+  - first:
+      213: 5873680935269300772
+    second: spaceshooters_193
+  - first:
+      213: -2131239592114472336
+    second: spaceshooters_194
+  - first:
+      213: -3781172109829071079
+    second: spaceshooters_195
+  - first:
+      213: -1911946502022814015
+    second: spaceshooters_196
+  - first:
+      213: -6046418632052349233
+    second: spaceshooters_197
+  - first:
+      213: -8065101242211119369
+    second: spaceshooters_198
+  - first:
+      213: 1688509874739776549
+    second: spaceshooters_199
+  - first:
+      213: 2892994294696467667
+    second: spaceshooters_200
+  - first:
+      213: 8716193642444101944
+    second: spaceshooters_201
+  - first:
+      213: -3781826697656799902
+    second: spaceshooters_202
+  - first:
+      213: 1447789699287092366
+    second: spaceshooters_203
+  - first:
+      213: -1868018236819819229
+    second: spaceshooters_204
+  - first:
+      213: -438298677012980186
+    second: spaceshooters_205
+  - first:
+      213: -5695410342710102735
+    second: spaceshooters_206
+  - first:
+      213: -2587391863151767054
+    second: spaceshooters_207
+  - first:
+      213: -2384317261765311025
+    second: spaceshooters_208
+  - first:
+      213: -947691576031548630
+    second: spaceshooters_209
+  - first:
+      213: -6213866020940924395
+    second: spaceshooters_210
+  - first:
+      213: -3266095435781379236
+    second: spaceshooters_211
+  - first:
+      213: 2655969710497936735
+    second: spaceshooters_212
+  - first:
+      213: -7178484338619557953
+    second: spaceshooters_213
+  - first:
+      213: -7642632025945700866
+    second: spaceshooters_214
+  - first:
+      213: 6949581712918736378
+    second: spaceshooters_215
+  - first:
+      213: 2113320288434707163
+    second: spaceshooters_216
+  - first:
+      213: -2353620935662312694
+    second: spaceshooters_217
+  - first:
+      213: -8150101232020805404
+    second: spaceshooters_218
+  - first:
+      213: -142680506315562817
+    second: spaceshooters_219
+  - first:
+      213: 7815737188386267641
+    second: spaceshooters_220
+  - first:
+      213: -46895931352515727
+    second: spaceshooters_221
+  - first:
+      213: 2918142926237590443
+    second: spaceshooters_222
+  - first:
+      213: 655474314512252805
+    second: spaceshooters_223
+  - first:
+      213: -4038744194185822791
+    second: spaceshooters_224
+  - first:
+      213: 808907514083324968
+    second: spaceshooters_225
+  - first:
+      213: -6879944174361213244
+    second: spaceshooters_226
+  - first:
+      213: -1706806813025662107
+    second: spaceshooters_227
+  - first:
+      213: -7878782217063206821
+    second: spaceshooters_228
+  - first:
+      213: -1145673719021078571
+    second: spaceshooters_229
+  - first:
+      213: 4963548985793696412
+    second: spaceshooters_230
+  - first:
+      213: -6340675687317622132
+    second: spaceshooters_231
+  - first:
+      213: -4958474680647535241
+    second: spaceshooters_232
+  - first:
+      213: 3031430772765575353
+    second: spaceshooters_233
+  - first:
+      213: -2977272726342856898
+    second: spaceshooters_234
+  - first:
+      213: 7801947389481515761
+    second: spaceshooters_235
+  - first:
+      213: 3478865210385105341
+    second: spaceshooters_236
+  - first:
+      213: -6715551030810671062
+    second: spaceshooters_237
+  - first:
+      213: -1776091554464904567
+    second: spaceshooters_238
+  - first:
+      213: -2155582060323405717
+    second: spaceshooters_239
+  - first:
+      213: 6244680139738845771
+    second: spaceshooters_240
+  - first:
+      213: 3270009627239754218
+    second: spaceshooters_241
+  - first:
+      213: 7110607868515901562
+    second: spaceshooters_242
+  - first:
+      213: 1949985805420392868
+    second: spaceshooters_243
+  - first:
+      213: 1818337533491924199
+    second: spaceshooters_244
+  - first:
+      213: 7999385430455422167
+    second: spaceshooters_245
+  - first:
+      213: -6723275273293657548
+    second: spaceshooters_246
+  - first:
+      213: -5980025901485878510
+    second: spaceshooters_247
+  - first:
+      213: 5477620233489464989
+    second: spaceshooters_248
+  - first:
+      213: -5000197855078978172
+    second: spaceshooters_249
+  - first:
+      213: -7311441546288109567
+    second: spaceshooters_250
+  - first:
+      213: -8162660089938724538
+    second: spaceshooters_251
+  - first:
+      213: -5266180450501191231
+    second: spaceshooters_252
+  - first:
+      213: 3791126924071459079
+    second: spaceshooters_253
+  - first:
+      213: 2644951070745485169
+    second: spaceshooters_254
+  - first:
+      213: 5848044757130792973
+    second: spaceshooters_255
+  - first:
+      213: 1071761878136525531
+    second: spaceshooters_256
+  - first:
+      213: 9005577591282819517
+    second: spaceshooters_257
+  - first:
+      213: -6843048301883176414
+    second: spaceshooters_258
+  - first:
+      213: -6354330584072819047
+    second: spaceshooters_259
+  - first:
+      213: -6883280309096613419
+    second: spaceshooters_260
+  - first:
+      213: -7600441585961445700
+    second: spaceshooters_261
+  - first:
+      213: 7414073674413322035
+    second: spaceshooters_262
+  - first:
+      213: 2959436060033991586
+    second: spaceshooters_263
+  - first:
+      213: -6407043006229946549
+    second: spaceshooters_264
+  - first:
+      213: -524160346673118832
+    second: spaceshooters_265
+  - first:
+      213: -123186477922760033
+    second: spaceshooters_266
+  - first:
+      213: -3600527686914821224
+    second: spaceshooters_267
+  - first:
+      213: 1909614506391426889
+    second: spaceshooters_268
+  - first:
+      213: -6351098771847681193
+    second: spaceshooters_269
+  - first:
+      213: 7464039393168815192
+    second: spaceshooters_270
+  - first:
+      213: -4526256885676246862
+    second: spaceshooters_271
+  - first:
+      213: 6022564486032800966
+    second: spaceshooters_272
+  - first:
+      213: 1214458841287932821
+    second: spaceshooters_273
+  - first:
+      213: 5108470414765001023
+    second: spaceshooters_274
+  - first:
+      213: -7029361297142416059
+    second: spaceshooters_275
+  - first:
+      213: 4039278953313955507
+    second: spaceshooters_276
+  - first:
+      213: 8467733691412854711
+    second: spaceshooters_277
+  - first:
+      213: 8944996087209275956
+    second: spaceshooters_278
+  - first:
+      213: -8264080500339984308
+    second: spaceshooters_279
+  - first:
+      213: -5389152297032362297
+    second: spaceshooters_280
+  - first:
+      213: -2440845325554933148
+    second: spaceshooters_281
+  - first:
+      213: -1781910210910189570
+    second: spaceshooters_282
+  - first:
+      213: -8525846120308932187
+    second: spaceshooters_283
+  - first:
+      213: 8269280974415754203
+    second: spaceshooters_284
+  - first:
+      213: -7857960579924347039
+    second: spaceshooters_285
+  - first:
+      213: 6660013562829955408
+    second: spaceshooters_286
+  - first:
+      213: 3155390785308820290
+    second: spaceshooters_287
+  - first:
+      213: 3146182045217650228
+    second: spaceshooters_288
+  - first:
+      213: 4264760766132195291
+    second: spaceshooters_289
+  - first:
+      213: -2463200979132620314
+    second: spaceshooters_290
+  - first:
+      213: -8700374836950674428
+    second: spaceshooters_291
+  - first:
+      213: -8631674907108994532
+    second: spaceshooters_292
+  - first:
+      213: 7027984858585554840
+    second: spaceshooters_293
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spaceshooters_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4812
+        width: 415
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc75017939d597d0800000000000000
+      internalID: -2912182743292609322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_1
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 4812
+        width: 468
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7949779e98fee240800000000000000
+      internalID: 4823065610990209403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_2
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 4812
+        width: 409
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a12fd26e607cade0800000000000000
+      internalID: -1320556971318894173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_3
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 5019
+        width: 138
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c229c68541beabe90800000000000000
+      internalID: -7009031397433372116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_4
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 5019
+        width: 154
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63912478efcc81650800000000000000
+      internalID: 6203933880265873718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_5
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 5019
+        width: 137
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516aa11972877cd10800000000000000
+      internalID: 2145815858798831125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_6
+      rect:
+        serializedVersion: 2
+        x: 2390
+        y: 5007
+        width: 127
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a7bc5ff0a8521b0800000000000000
+      internalID: -5681983553705117052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_7
+      rect:
+        serializedVersion: 2
+        x: 2557
+        y: 5007
+        width: 126
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6c480e883edabf0800000000000000
+      internalID: -311342622196840762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_8
+      rect:
+        serializedVersion: 2
+        x: 2724
+        y: 5007
+        width: 126
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d72df440bcdf710800000000000000
+      internalID: 1728761051359640970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_9
+      rect:
+        serializedVersion: 2
+        x: 2924
+        y: 5032
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe5d10e8cb6dd3660800000000000000
+      internalID: 7367280670772680175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_10
+      rect:
+        serializedVersion: 2
+        x: 3203
+        y: 4776
+        width: 422
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76aaeb1fad9b6a750800000000000000
+      internalID: 6315939877443512935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_11
+      rect:
+        serializedVersion: 2
+        x: 3662
+        y: 4716
+        width: 502
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ffade364d736d700800000000000000
+      internalID: 564700188630691830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_12
+      rect:
+        serializedVersion: 2
+        x: 4212
+        y: 4929
+        width: 182
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1174585a2bd15d1b0800000000000000
+      internalID: -5632563105838577903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_13
+      rect:
+        serializedVersion: 2
+        x: 4483
+        y: 4931
+        width: 190
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab00380bd74e48130800000000000000
+      internalID: 3568228033267695802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_14
+      rect:
+        serializedVersion: 2
+        x: 4787
+        y: 4776
+        width: 422
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9520ec46ac47ff40800000000000000
+      internalID: 5762158525381879196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_15
+      rect:
+        serializedVersion: 2
+        x: 5245
+        y: 4716
+        width: 502
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8abc21bcb28871210800000000000000
+      internalID: 1303660338819025832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_16
+      rect:
+        serializedVersion: 2
+        x: 5795
+        y: 4929
+        width: 182
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c4231c65af2c7c0800000000000000
+      internalID: -4052401464164594574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_17
+      rect:
+        serializedVersion: 2
+        x: 6066
+        y: 4931
+        width: 189
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e681d9d17a628d0e0800000000000000
+      internalID: -2245001915045963666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_18
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 4865
+        width: 138
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc2da213efe71dc0800000000000000
+      internalID: -3668199612920025891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_19
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 4865
+        width: 154
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed995ff825be891a0800000000000000
+      internalID: -6802428497308050978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_20
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 4865
+        width: 137
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d229d8ae5861efb30800000000000000
+      internalID: 4322917456743862829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_21
+      rect:
+        serializedVersion: 2
+        x: 2387
+        y: 4809
+        width: 131
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9b27e11c50f499a0800000000000000
+      internalID: -6227088106518533221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_22
+      rect:
+        serializedVersion: 2
+        x: 2554
+        y: 4809
+        width: 131
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ddf04fe67053810800000000000000
+      internalID: 1744308603798412593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_23
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 4809
+        width: 131
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a17d5ef052faaccc0800000000000000
+      internalID: -3689944370961328358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_24
+      rect:
+        serializedVersion: 2
+        x: 2924
+        y: 4882
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad996c94a4396ed80800000000000000
+      internalID: -8221722122443646502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4437
+        width: 415
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ee49d494f1a19b30800000000000000
+      internalID: 4292389991702154981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_26
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 4437
+        width: 468
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a809c5006d8c9630800000000000000
+      internalID: 3935175617968408745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_27
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 4437
+        width: 409
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c012581461600a370800000000000000
+      internalID: 8331666003293708556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_28
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 4711
+        width: 138
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a498ff82e2d3c45c0800000000000000
+      internalID: -4229938681542112950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_29
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 4711
+        width: 154
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3761aedf42cfa2480800000000000000
+      internalID: -8923042475872217485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_30
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 4711
+        width: 137
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b158d1d039ca53c0800000000000000
+      internalID: -4369959276893417040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_31
+      rect:
+        serializedVersion: 2
+        x: 2924
+        y: 4732
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b9003529fc69a00800000000000000
+      internalID: 763025414250601373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_32
+      rect:
+        serializedVersion: 2
+        x: 3758
+        y: 4349
+        width: 411
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0138ea6eee6be760800000000000000
+      internalID: 7488200775708455180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_33
+      rect:
+        serializedVersion: 2
+        x: 4245
+        y: 4709
+        width: 117
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 558dccd08bd93a9e0800000000000000
+      internalID: -1611270827837433771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_34
+      rect:
+        serializedVersion: 2
+        x: 4516
+        y: 4711
+        width: 122
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38f64ba7980db6b0800000000000000
+      internalID: -5279053740701714371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_35
+      rect:
+        serializedVersion: 2
+        x: 5341
+        y: 4349
+        width: 411
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37168e2c57359d3d0800000000000000
+      internalID: -3181419896514256525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_36
+      rect:
+        serializedVersion: 2
+        x: 5829
+        y: 4709
+        width: 116
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e571dfdbce6f25ff0800000000000000
+      internalID: -48705149287458978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_37
+      rect:
+        serializedVersion: 2
+        x: 6099
+        y: 4711
+        width: 122
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d09c3cafc5855a90800000000000000
+      internalID: -7325802091853868840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_38
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 4557
+        width: 138
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4a19c6a12fd33a00800000000000000
+      internalID: 735176499816634957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_39
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 4557
+        width: 154
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8c30001a77d9560800000000000000
+      internalID: 7322140102547982567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_40
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 4557
+        width: 137
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9b813c983dee92e0800000000000000
+      internalID: -2116993947423110241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_41
+      rect:
+        serializedVersion: 2
+        x: 2418
+        y: 4587
+        width: 80
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a8c08cad2fb03340800000000000000
+      internalID: 4841579802311837860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_42
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 4587
+        width: 80
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f42b980893dd8310800000000000000
+      internalID: 1409014908369708279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_43
+      rect:
+        serializedVersion: 2
+        x: 2751
+        y: 4587
+        width: 81
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3334289b998e35190800000000000000
+      internalID: -7974774768203054285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_44
+      rect:
+        serializedVersion: 2
+        x: 2924
+        y: 4582
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03a3b92b385467e0800000000000000
+      internalID: -1773195342151179510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_45
+      rect:
+        serializedVersion: 2
+        x: 3203
+        y: 4364
+        width: 373
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b642b38955170a300800000000000000
+      internalID: 261333390827660395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_46
+      rect:
+        serializedVersion: 2
+        x: 4269
+        y: 4545
+        width: 73
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c06de406856ae710800000000000000
+      internalID: 1723301433705324739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_47
+      rect:
+        serializedVersion: 2
+        x: 4542
+        y: 4543
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a62c02ff2dc68600800000000000000
+      internalID: 470288816914835105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_48
+      rect:
+        serializedVersion: 2
+        x: 4787
+        y: 4364
+        width: 372
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2129909aa015d9760800000000000000
+      internalID: 7466212863477649938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_49
+      rect:
+        serializedVersion: 2
+        x: 5852
+        y: 4545
+        width: 74
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 838796b580e571cf0800000000000000
+      internalID: -281653061700978632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_50
+      rect:
+        serializedVersion: 2
+        x: 6125
+        y: 4543
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9945fbc2f6010dd0800000000000000
+      internalID: -2521726676477064803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_51
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 4329
+        width: 141
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5849b4b0b17392010800000000000000
+      internalID: 1164522567945131141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_52
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 4329
+        width: 141
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a393d3beea30f2730800000000000000
+      internalID: 3976401045797288250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_53
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 4329
+        width: 140
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a45b1078dd0a0100800000000000000
+      internalID: 74887567049970855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_54
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 4329
+        width: 141
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b36c2c630f8e26f0800000000000000
+      internalID: -707470846588066887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_55
+      rect:
+        serializedVersion: 2
+        x: 2387
+        y: 4381
+        width: 133
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd7e65e4278b91e80800000000000000
+      internalID: -8207326044825917475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_56
+      rect:
+        serializedVersion: 2
+        x: 2553
+        y: 4381
+        width: 134
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823b5a67cfac75990800000000000000
+      internalID: -7397220677261610200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_57
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 4381
+        width: 134
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb8ef34e4d2dfcb0800000000000000
+      internalID: -4828653411299849292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4062
+        width: 415
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e0981c9049f10c60800000000000000
+      internalID: 7782775686965006566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_59
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 4062
+        width: 468
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 993499f90996a2b40800000000000000
+      internalID: 5416257571740271513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_60
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 4062
+        width: 409
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d222373bb7b4d9520800000000000000
+      internalID: 2710405545410634285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_61
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 4162
+        width: 141
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ee3c0afd54245620800000000000000
+      internalID: 2761872457530621669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_62
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 4162
+        width: 141
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99fab6c8975fd6900800000000000000
+      internalID: 679469021198528409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_63
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 4162
+        width: 140
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70876e5a405eb56d0800000000000000
+      internalID: -3000552918586329081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_64
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 4162
+        width: 141
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 751a7061a7cc33590800000000000000
+      internalID: -7695582513518370473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_65
+      rect:
+        serializedVersion: 2
+        x: 2286
+        y: 3850
+        width: 382
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 166b41e45d86e8620800000000000000
+      internalID: 2778273285481477729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_66
+      rect:
+        serializedVersion: 2
+        x: 2736
+        y: 3850
+        width: 382
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2834be1f5c90c2830800000000000000
+      internalID: 4047620910871167874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_67
+      rect:
+        serializedVersion: 2
+        x: 3186
+        y: 3850
+        width: 382
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10aa315734f91f0f0800000000000000
+      internalID: -1084910923143730687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_68
+      rect:
+        serializedVersion: 2
+        x: 3636
+        y: 3850
+        width: 382
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee38e600e677156f0800000000000000
+      internalID: -697645152928365586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3687
+        width: 415
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7731b1d7a8985c5a0800000000000000
+      internalID: -6501639259142024329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_70
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 3687
+        width: 468
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f409c01c370d0eb0800000000000000
+      internalID: -4752134077244963597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_71
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 3687
+        width: 409
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3b6c805376b2cb00800000000000000
+      internalID: 847440286287948606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_72
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 3995
+        width: 140
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 671270183df80d750800000000000000
+      internalID: 6327715615021146486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_73
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 3995
+        width: 141
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a836a04c8183aacc0800000000000000
+      internalID: -3699082464912055414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_74
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 3995
+        width: 140
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea3742500a08cc60800000000000000
+      internalID: 7838526147935025902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_75
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 3995
+        width: 140
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceaae5ed885c74920800000000000000
+      internalID: 2974563270538472172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_76
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 3829
+        width: 141
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2aa615804f68db0800000000000000
+      internalID: -4789872837099085117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_77
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 3829
+        width: 141
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad62fdd7db027e400800000000000000
+      internalID: 353287094004557530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_78
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 3829
+        width: 140
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3441337da62557940800000000000000
+      internalID: 5293227555874346051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_79
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 3829
+        width: 141
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c662693b4a97ec950800000000000000
+      internalID: 6471243462872540780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_80
+      rect:
+        serializedVersion: 2
+        x: 4261
+        y: 3721
+        width: 928
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 345f8af738c74cbf0800000000000000
+      internalID: -304981970530011837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_81
+      rect:
+        serializedVersion: 2
+        x: 5261
+        y: 3721
+        width: 928
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7e22811d31a69820800000000000000
+      internalID: 2924702291682537087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_82
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 3663
+        width: 73
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f700f0715305be850800000000000000
+      internalID: 6407303083815010431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_83
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 3658
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc13ed7aedfeb2a70800000000000000
+      internalID: 8803393636203901389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_84
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 3658
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b01ede2cc8b61c10800000000000000
+      internalID: 2024008269648761016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_85
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 3658
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 244c429814aaf9570800000000000000
+      internalID: 8475680222185047106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_86
+      rect:
+        serializedVersion: 2
+        x: 2108
+        y: 3658
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 958325475407331f0800000000000000
+      internalID: -1066385243150075815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_87
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 3658
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6ae0b07f2541740800000000000000
+      internalID: 5121809897223005918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_88
+      rect:
+        serializedVersion: 2
+        x: 2391
+        y: 3658
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66fa0c2e9046670f0800000000000000
+      internalID: -1119597463733227674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_89
+      rect:
+        serializedVersion: 2
+        x: 2533
+        y: 3658
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5525fd8f98988f80800000000000000
+      internalID: -8104059718404332198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_90
+      rect:
+        serializedVersion: 2
+        x: 2674
+        y: 3658
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b9669519357a8c00800000000000000
+      internalID: 903663563276970421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_91
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 3658
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a6af5c7f8235f20800000000000000
+      internalID: 3410114387493153310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_92
+      rect:
+        serializedVersion: 2
+        x: 2958
+        y: 3658
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb57aab3bc5f8ce0800000000000000
+      internalID: -1400799032088503324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_93
+      rect:
+        serializedVersion: 2
+        x: 3329
+        y: 3646
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b90a2d91c826cd0800000000000000
+      internalID: -2566334795111949426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_94
+      rect:
+        serializedVersion: 2
+        x: 3537
+        y: 3646
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a17aaec64eb1d940800000000000000
+      internalID: 5319241846225531301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_95
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 3654
+        width: 102
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de1ed00b27ac2cb0800000000000000
+      internalID: -4887347692463841584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_96
+      rect:
+        serializedVersion: 2
+        x: 4261
+        y: 3512
+        width: 928
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500a35a11ef6c2e80800000000000000
+      internalID: -8202057808748503035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_97
+      rect:
+        serializedVersion: 2
+        x: 5261
+        y: 3512
+        width: 928
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d78970f9d6daa70800000000000000
+      internalID: 8839842173392813313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3304
+        width: 56
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3ef86bd140c57b0800000000000000
+      internalID: -5234304141247912972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_99
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 3304
+        width: 40
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9404c77bda8c11a0800000000000000
+      internalID: -6837437459043449700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_100
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 3387
+        width: 57
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b57171ad325f080800000000000000
+      internalID: -9154371247963415732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_101
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 3387
+        width: 41
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2cba73935d092f00800000000000000
+      internalID: 1092419037221796909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_102
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 3304
+        width: 57
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6948d3790028d210800000000000000
+      internalID: 1357870512622553455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_103
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 3304
+        width: 41
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e197a6ea1b6dae130800000000000000
+      internalID: 3596923311032531230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_104
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 3387
+        width: 57
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 394724fe1c1fa99b0800000000000000
+      internalID: -5072476215034350445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_105
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 3387
+        width: 40
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d75b8514552ff680800000000000000
+      internalID: -8719209310497056815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_106
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 3316
+        width: 57
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed3eb3512d0738f0800000000000000
+      internalID: -560965191794278936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_107
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 3316
+        width: 40
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd46dd5c51ce8f0e0800000000000000
+      internalID: -2235777636731362081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_108
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 3387
+        width: 57
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4803d18d6ca34c20800000000000000
+      internalID: 3189582547437946959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_109
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 3387
+        width: 40
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e40701f1dea0c3e0800000000000000
+      internalID: -2035434814856297247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_110
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 3349
+        width: 196
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da44a698b4f2dc400800000000000000
+      internalID: 345984747851891885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_111
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 3349
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f78eaed626b6f8d0800000000000000
+      internalID: -2812860639185303561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_112
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 3370
+        width: 154
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d883752b5e64e40800000000000000
+      internalID: 5640448137458388237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_113
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 3370
+        width: 154
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b14c2dde04cdf82e0800000000000000
+      internalID: -2121234728042183653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_114
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 3221
+        width: 415
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369b1ec6d3bba9470800000000000000
+      internalID: 8402233927307213155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_115
+      rect:
+        serializedVersion: 2
+        x: 2895
+        y: 3221
+        width: 468
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c9c5c002c2de030800000000000000
+      internalID: 3525522599458937985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_116
+      rect:
+        serializedVersion: 2
+        x: 3424
+        y: 3221
+        width: 409
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 105aaa93d0bf53620800000000000000
+      internalID: 2753382781427557633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_117
+      rect:
+        serializedVersion: 2
+        x: 4012
+        y: 3519
+        width: 125
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 975e3ba110b2b7130800000000000000
+      internalID: 3565490813736838521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_118
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3012
+        width: 56
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b039b0890b85ac5e0800000000000000
+      internalID: -1888599578240118005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_119
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 3012
+        width: 40
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3efa44ab79f143d00800000000000000
+      internalID: 951420157807603683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_120
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 3095
+        width: 57
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaba8b6b8b28ff980800000000000000
+      internalID: -8502933841601057874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_121
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 3095
+        width: 41
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab9043e956ec0f60800000000000000
+      internalID: 8002023911669668781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_122
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 3012
+        width: 57
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 949aa8e3e0fd923e0800000000000000
+      internalID: -2077884500782962359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_123
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 3012
+        width: 41
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 890605491e796e6f0800000000000000
+      internalID: -655669700624097128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_124
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 3095
+        width: 57
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46aa8ed013f3cac20800000000000000
+      internalID: 3219017313582361188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_125
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 3095
+        width: 40
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03abe0f0af7527ca0800000000000000
+      internalID: -6020653020334867920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_126
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 3025
+        width: 57
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8e077447254278c0800000000000000
+      internalID: -4003061083824255346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_127
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 3025
+        width: 40
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 175d2c2bbdfc823f0800000000000000
+      internalID: -925261180920736399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_128
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 3095
+        width: 57
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a219077973ee5b690800000000000000
+      internalID: -7586896074704383702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_129
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 3095
+        width: 40
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d4c1d2a42125cc10800000000000000
+      internalID: 2073099644708177109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_130
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 3057
+        width: 196
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba52bb3b8e346dc80800000000000000
+      internalID: -8298370596656699989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_131
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 3058
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1210f8342d3cf33b0800000000000000
+      internalID: -5530486509543685855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_132
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 3078
+        width: 154
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7545119212f95bdf0800000000000000
+      internalID: -165050846557416361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_133
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 3078
+        width: 154
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb7769667c10dcc0800000000000000
+      internalID: -3688416799916327990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_134
+      rect:
+        serializedVersion: 2
+        x: 3991
+        y: 3112
+        width: 169
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df4e45bf96b0dd6e0800000000000000
+      internalID: -1811278925316954883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_135
+      rect:
+        serializedVersion: 2
+        x: 4259
+        y: 3078
+        width: 174
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ea61ac6396c9e80800000000000000
+      internalID: -8170539939917287827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_136
+      rect:
+        serializedVersion: 2
+        x: 4528
+        y: 3067
+        width: 251
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70b81b5263f208020800000000000000
+      internalID: 2341923715839789831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_137
+      rect:
+        serializedVersion: 2
+        x: 4874
+        y: 3055
+        width: 199
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc005ab4f941ded90800000000000000
+      internalID: -7066969565872979765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_138
+      rect:
+        serializedVersion: 2
+        x: 5165
+        y: 3039
+        width: 197
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b4070f802ff6af70800000000000000
+      internalID: 9198319804254454965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_139
+      rect:
+        serializedVersion: 2
+        x: 5447
+        y: 3063
+        width: 174
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94a99b8aea49d200800000000000000
+      internalID: 205277629246973082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_140
+      rect:
+        serializedVersion: 2
+        x: 5703
+        y: 3054
+        width: 173
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa93a0f4edfddab0800000000000000
+      internalID: -4981546453070275843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_141
+      rect:
+        serializedVersion: 2
+        x: 5970
+        y: 3039
+        width: 208
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 231f671be710e9400800000000000000
+      internalID: 332705066126864690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_142
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2720
+        width: 56
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db4afa55c540a9220800000000000000
+      internalID: 2493310138324067517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_143
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 2720
+        width: 40
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad21351336c048e70800000000000000
+      internalID: 9116425165873550042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_144
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 2804
+        width: 57
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ef0bad900f0a43b0800000000000000
+      internalID: -5527589097324212254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_145
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 2804
+        width: 41
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e944cc049a8d580800000000000000
+      internalID: -8802099375925584376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_146
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 2720
+        width: 57
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2dfe9322cd8b9aa0800000000000000
+      internalID: -6153168600910856918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_147
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 2720
+        width: 41
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ffc90ef3d9c7990800000000000000
+      internalID: -7386856391117570201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_148
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 2804
+        width: 57
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86161ed650b6e5170800000000000000
+      internalID: 8169084445159154024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_149
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 2804
+        width: 40
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d10616422e7b7d40800000000000000
+      internalID: 5583194848725696976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_150
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 2733
+        width: 57
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79c5a8c71b0471320800000000000000
+      internalID: 2528560846834654359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_151
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 2733
+        width: 40
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c021a637593a5b3d0800000000000000
+      internalID: -3191464898640342516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_152
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 2804
+        width: 57
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c2c868cbe0abe00800000000000000
+      internalID: 1061176865073146969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_153
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 2804
+        width: 40
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 068548c35729de850800000000000000
+      internalID: 6407938877042219104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_154
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 2766
+        width: 196
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58000f9ac74576760800000000000000
+      internalID: 7451017002911531141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_155
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 2766
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1f38c6471ad9c20800000000000000
+      internalID: 3214903230421266886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_156
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 2786
+        width: 154
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45be35d01387c46d0800000000000000
+      internalID: -3004894699290629292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_157
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 2786
+        width: 154
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2321aa31c98133450800000000000000
+      internalID: 6067220181622067762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_158
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 2721
+        width: 415
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2cbf45d0c021960800000000000000
+      internalID: 7571127174963118814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_159
+      rect:
+        serializedVersion: 2
+        x: 2895
+        y: 2721
+        width: 468
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6087178993a505170800000000000000
+      internalID: 8165125327839918086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_160
+      rect:
+        serializedVersion: 2
+        x: 3424
+        y: 2721
+        width: 409
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 030112f030eac3280800000000000000
+      internalID: -9062177022014320592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_161
+      rect:
+        serializedVersion: 2
+        x: 3991
+        y: 2695
+        width: 169
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9371eaa5725c665b0800000000000000
+      internalID: -5375392332404353223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_162
+      rect:
+        serializedVersion: 2
+        x: 4259
+        y: 2662
+        width: 174
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad36e4c91004a6cb0800000000000000
+      internalID: -4870009671386242086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_163
+      rect:
+        serializedVersion: 2
+        x: 4528
+        y: 2651
+        width: 251
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ea3530e689dd3c0800000000000000
+      internalID: -4333139668190908776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_164
+      rect:
+        serializedVersion: 2
+        x: 4874
+        y: 2638
+        width: 199
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4772187b26a7a2830800000000000000
+      internalID: 4047181779549890420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_165
+      rect:
+        serializedVersion: 2
+        x: 5165
+        y: 2623
+        width: 197
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b90e227590f900220800000000000000
+      internalID: 2450133059754975387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_166
+      rect:
+        serializedVersion: 2
+        x: 5447
+        y: 2646
+        width: 174
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c960a6c43066720800000000000000
+      internalID: 2838960241834892380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_167
+      rect:
+        serializedVersion: 2
+        x: 5703
+        y: 2637
+        width: 173
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6b86fc1fd68d950800000000000000
+      internalID: 6474045349679380176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_168
+      rect:
+        serializedVersion: 2
+        x: 5970
+        y: 2623
+        width: 208
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f8fe30c1a0914550800000000000000
+      internalID: 6143350391099554040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_169
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2102
+        width: 556
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c83dc8f8a1062500800000000000000
+      internalID: 370985844544977094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_170
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 2081
+        width: 599
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e7f02d3d478a6a0800000000000000
+      internalID: -6437767214214971876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_171
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 1999
+        width: 599
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d871829378ac5b1c0800000000000000
+      internalID: -4488458771476506739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_172
+      rect:
+        serializedVersion: 2
+        x: 2157
+        y: 2083
+        width: 32
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 796dd4407e651b790800000000000000
+      internalID: -7516130752895002985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_173
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 2221
+        width: 415
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae62f0159bdefdf0800000000000000
+      internalID: -144436704748343633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_174
+      rect:
+        serializedVersion: 2
+        x: 2895
+        y: 2221
+        width: 468
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6549b90b89c1eb0800000000000000
+      internalID: -4747752022863489300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_175
+      rect:
+        serializedVersion: 2
+        x: 3424
+        y: 2221
+        width: 409
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 044cda2db995f9010800000000000000
+      internalID: 1197774551693247552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_176
+      rect:
+        serializedVersion: 2
+        x: 3991
+        y: 2279
+        width: 169
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4c62634422640c0800000000000000
+      internalID: -4591945093696011009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_177
+      rect:
+        serializedVersion: 2
+        x: 4259
+        y: 2245
+        width: 174
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c4313b0e47731c90800000000000000
+      internalID: -7200280202156362552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_178
+      rect:
+        serializedVersion: 2
+        x: 4528
+        y: 2234
+        width: 251
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddd8f97ae44e819f0800000000000000
+      internalID: -497396732353606179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_179
+      rect:
+        serializedVersion: 2
+        x: 4874
+        y: 2222
+        width: 199
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15d7efea2648629f0800000000000000
+      internalID: -493561549772915375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_180
+      rect:
+        serializedVersion: 2
+        x: 5165
+        y: 2206
+        width: 197
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e7747ea05866b990800000000000000
+      internalID: -7370589044411697183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_181
+      rect:
+        serializedVersion: 2
+        x: 5447
+        y: 2230
+        width: 174
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6469e067a61e0b3c0800000000000000
+      internalID: -4345725793049078202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_182
+      rect:
+        serializedVersion: 2
+        x: 5703
+        y: 2221
+        width: 173
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76407a0ff0a3447e0800000000000000
+      internalID: -1782235712395475865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_183
+      rect:
+        serializedVersion: 2
+        x: 5970
+        y: 2206
+        width: 208
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07bd1e0f7a0841280800000000000000
+      internalID: -9073485890455479440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_184
+      rect:
+        serializedVersion: 2
+        x: 3991
+        y: 1862
+        width: 169
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e443cdfc97817880800000000000000
+      internalID: -8614955503840967449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_185
+      rect:
+        serializedVersion: 2
+        x: 4259
+        y: 1828
+        width: 174
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bacda7a309d6fe6f0800000000000000
+      internalID: -653182954721583957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_186
+      rect:
+        serializedVersion: 2
+        x: 4528
+        y: 1817
+        width: 251
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03488497977b6cf00800000000000000
+      internalID: 1136797688311350320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_187
+      rect:
+        serializedVersion: 2
+        x: 4874
+        y: 1805
+        width: 199
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06303c8d18cf67810800000000000000
+      internalID: 1762873938779767648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_188
+      rect:
+        serializedVersion: 2
+        x: 5165
+        y: 1789
+        width: 197
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 609d600ff7d8c5010800000000000000
+      internalID: 1178972783091570950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_189
+      rect:
+        serializedVersion: 2
+        x: 5447
+        y: 1813
+        width: 174
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e49ff1277b55bfce0800000000000000
+      internalID: -1370407415222109874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_190
+      rect:
+        serializedVersion: 2
+        x: 5703
+        y: 1804
+        width: 173
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d33e2e1222726240800000000000000
+      internalID: 4783511245081687000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_191
+      rect:
+        serializedVersion: 2
+        x: 5970
+        y: 1789
+        width: 208
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a61e1e7978c61ef80800000000000000
+      internalID: -8079056926901411478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_192
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1502
+        width: 389
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563dd12744be34d90800000000000000
+      internalID: -7114584307110390939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_193
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1501
+        width: 435
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42af5b6c0b1838150800000000000000
+      internalID: 5873680935269300772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_194
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 1500
+        width: 430
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ab4ccf1e05c62e0800000000000000
+      internalID: -2131239592114472336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_195
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 1499
+        width: 341
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f1607eff3968bc0800000000000000
+      internalID: -3781172109829071079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_196
+      rect:
+        serializedVersion: 2
+        x: 2174
+        y: 1499
+        width: 406
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6216d49c66775e0800000000000000
+      internalID: -1911946502022814015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_197
+      rect:
+        serializedVersion: 2
+        x: 2747
+        y: 1757
+        width: 157
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc667391a4ec61ca0800000000000000
+      internalID: -6046418632052349233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_198
+      rect:
+        serializedVersion: 2
+        x: 2981
+        y: 1736
+        width: 172
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fec174a621031090800000000000000
+      internalID: -8065101242211119369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_199
+      rect:
+        serializedVersion: 2
+        x: 3233
+        y: 1762
+        width: 112
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c8a93f8cace6710800000000000000
+      internalID: 1688509874739776549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_200
+      rect:
+        serializedVersion: 2
+        x: 3428
+        y: 1672
+        width: 204
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc5d98bbfaf52820800000000000000
+      internalID: 2892994294696467667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_201
+      rect:
+        serializedVersion: 2
+        x: 3678
+        y: 1761
+        width: 185
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 839166bffe326f870800000000000000
+      internalID: 8716193642444101944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_202
+      rect:
+        serializedVersion: 2
+        x: 2762
+        y: 1427
+        width: 67
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26de31cc7a0448bc0800000000000000
+      internalID: -3781826697656799902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_203
+      rect:
+        serializedVersion: 2
+        x: 2878
+        y: 1439
+        width: 72
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c0a7f8f05971410800000000000000
+      internalID: 1447789699287092366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_204
+      rect:
+        serializedVersion: 2
+        x: 3008
+        y: 1427
+        width: 59
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32537609f477316e0800000000000000
+      internalID: -1868018236819819229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_205
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 1407
+        width: 67
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e1e1beca9dae9f0800000000000000
+      internalID: -438298677012980186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_206
+      rect:
+        serializedVersion: 2
+        x: 3245
+        y: 1418
+        width: 72
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 135bda80876d5f0b0800000000000000
+      internalID: -5695410342710102735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_207
+      rect:
+        serializedVersion: 2
+        x: 3374
+        y: 1407
+        width: 60
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f15a1e1fccb71cd0800000000000000
+      internalID: -2587391863151767054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_208
+      rect:
+        serializedVersion: 2
+        x: 3491
+        y: 1379
+        width: 42
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc585a4451439eed0800000000000000
+      internalID: -2384317261765311025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_209
+      rect:
+        serializedVersion: 2
+        x: 3595
+        y: 1364
+        width: 79
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2b620e588f19d2f0800000000000000
+      internalID: -947691576031548630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_210
+      rect:
+        serializedVersion: 2
+        x: 3733
+        y: 1364
+        width: 79
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a32f3c6c9e3c9a0800000000000000
+      internalID: -6213866020940924395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_211
+      rect:
+        serializedVersion: 2
+        x: 3991
+        y: 1360
+        width: 154
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5be9b3718f7ca2d0800000000000000
+      internalID: -3266095435781379236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_212
+      rect:
+        serializedVersion: 2
+        x: 4205
+        y: 1311
+        width: 109
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f553d683166ebd420800000000000000
+      internalID: 2655969710497936735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_213
+      rect:
+        serializedVersion: 2
+        x: 4370
+        y: 1337
+        width: 214
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb750eaf686e06c90800000000000000
+      internalID: -7178484338619557953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_214
+      rect:
+        serializedVersion: 2
+        x: 4609
+        y: 1326
+        width: 174
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef58b703aaaefe590800000000000000
+      internalID: -7642632025945700866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_215
+      rect:
+        serializedVersion: 2
+        x: 4849
+        y: 1371
+        width: 213
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd62185fbfd17060800000000000000
+      internalID: 6949581712918736378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_216
+      rect:
+        serializedVersion: 2
+        x: 5111
+        y: 1349
+        width: 172
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdad6c00b95045d10800000000000000
+      internalID: 2113320288434707163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_217
+      rect:
+        serializedVersion: 2
+        x: 5337
+        y: 1312
+        width: 181
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03ece1aa32465fd0800000000000000
+      internalID: -2353620935662312694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_218
+      rect:
+        serializedVersion: 2
+        x: 5604
+        y: 1335
+        width: 188
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e82ded4c1605ee80800000000000000
+      internalID: -8150101232020805404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_219
+      rect:
+        serializedVersion: 2
+        x: 5899
+        y: 1547
+        width: 167
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb020b0e5d8150ef0800000000000000
+      internalID: -142680506315562817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_220
+      rect:
+        serializedVersion: 2
+        x: 5903
+        y: 1358
+        width: 160
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f1e2933093177c60800000000000000
+      internalID: 7815737188386267641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_221
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1002
+        width: 389
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17b725e1664695ff0800000000000000
+      internalID: -46895931352515727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_222
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1001
+        width: 435
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3e53ac7835f7820800000000000000
+      internalID: 2918142926237590443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_223
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 1000
+        width: 430
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58f35eb8a66b81900800000000000000
+      internalID: 655474314512252805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_224
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 999
+        width: 341
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bdf1e6bd8f73f7c0800000000000000
+      internalID: -4038744194185822791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_225
+      rect:
+        serializedVersion: 2
+        x: 2174
+        y: 999
+        width: 406
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 824b4192911d93b00800000000000000
+      internalID: 808907514083324968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_226
+      rect:
+        serializedVersion: 2
+        x: 2754
+        y: 957
+        width: 62
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c68ea499378580a0800000000000000
+      internalID: -6879944174361213244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_227
+      rect:
+        serializedVersion: 2
+        x: 2904
+        y: 968
+        width: 107
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b83612f343058e0800000000000000
+      internalID: -1706806813025662107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_228
+      rect:
+        serializedVersion: 2
+        x: 3103
+        y: 1167
+        width: 87
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5078413151f8a290800000000000000
+      internalID: -7878782217063206821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_229
+      rect:
+        serializedVersion: 2
+        x: 3245
+        y: 1167
+        width: 87
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d77f3592dfb910f0800000000000000
+      internalID: -1145673719021078571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_230
+      rect:
+        serializedVersion: 2
+        x: 3434
+        y: 1211
+        width: 88
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c92db7b218112e440800000000000000
+      internalID: 4963548985793696412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_231
+      rect:
+        serializedVersion: 2
+        x: 3445
+        y: 1181
+        width: 89
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c823a758e056108a0800000000000000
+      internalID: -6340675687317622132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_232
+      rect:
+        serializedVersion: 2
+        x: 3591
+        y: 1205
+        width: 69
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7753c309c85ff2bb0800000000000000
+      internalID: -4958474680647535241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_233
+      rect:
+        serializedVersion: 2
+        x: 3991
+        y: 943
+        width: 154
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b841e30a3ec11a20800000000000000
+      internalID: 3031430772765575353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_234
+      rect:
+        serializedVersion: 2
+        x: 4205
+        y: 895
+        width: 109
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f00eaca3a9ea6d0800000000000000
+      internalID: -2977272726342856898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_235
+      rect:
+        serializedVersion: 2
+        x: 4354
+        y: 930
+        width: 214
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1faf45270d5164c60800000000000000
+      internalID: 7801947389481515761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_236
+      rect:
+        serializedVersion: 2
+        x: 4609
+        y: 909
+        width: 174
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db1087e1a79674030800000000000000
+      internalID: 3478865210385105341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_237
+      rect:
+        serializedVersion: 2
+        x: 4849
+        y: 954
+        width: 213
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2885810be19dc2a0800000000000000
+      internalID: -6715551030810671062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_238
+      rect:
+        serializedVersion: 2
+        x: 5111
+        y: 932
+        width: 172
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a4c8f242e0a57e0800000000000000
+      internalID: -1776091554464904567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_239
+      rect:
+        serializedVersion: 2
+        x: 5337
+        y: 895
+        width: 181
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6008327985d512e0800000000000000
+      internalID: -2155582060323405717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_240
+      rect:
+        serializedVersion: 2
+        x: 5604
+        y: 918
+        width: 188
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b421219508f89a650800000000000000
+      internalID: 6244680139738845771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_241
+      rect:
+        serializedVersion: 2
+        x: 5922
+        y: 1160
+        width: 121
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae9abb34e68616d20800000000000000
+      internalID: 3270009627239754218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_242
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 952
+        width: 170
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a70ecfbce24fda260800000000000000
+      internalID: 7110607868515901562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_243
+      rect:
+        serializedVersion: 2
+        x: 3320
+        y: 991
+        width: 112
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a1f22132cdbf0b10800000000000000
+      internalID: 1949985805420392868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_244
+      rect:
+        serializedVersion: 2
+        x: 5896
+        y: 1026
+        width: 173
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eccb8d4a580c3910800000000000000
+      internalID: 1818337533491924199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_245
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 500
+        width: 430
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dc0bbb9aa6830f60800000000000000
+      internalID: 7999385430455422167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_246
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 499
+        width: 341
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a0a28a2c022b2a0800000000000000
+      internalID: -6723275273293657548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_247
+      rect:
+        serializedVersion: 2
+        x: 2174
+        y: 499
+        width: 406
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2139c4a402ea20da0800000000000000
+      internalID: -5980025901485878510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_248
+      rect:
+        serializedVersion: 2
+        x: 2747
+        y: 732
+        width: 59
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9eb1a7a49a640c40800000000000000
+      internalID: 5477620233489464989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_249
+      rect:
+        serializedVersion: 2
+        x: 2864
+        y: 733
+        width: 58
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48de8510b8abb9ab0800000000000000
+      internalID: -5000197855078978172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_250
+      rect:
+        serializedVersion: 2
+        x: 2989
+        y: 727
+        width: 58
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 108e67db6aa888a90800000000000000
+      internalID: -7311441546288109567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_251
+      rect:
+        serializedVersion: 2
+        x: 3113
+        y: 732
+        width: 59
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 649b1f455e768be80800000000000000
+      internalID: -8162660089938724538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_252
+      rect:
+        serializedVersion: 2
+        x: 3234
+        y: 732
+        width: 58
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c915cc18c4cae6b0800000000000000
+      internalID: -5266180450501191231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_253
+      rect:
+        serializedVersion: 2
+        x: 3351
+        y: 733
+        width: 58
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709d2b7e9d9cc9430800000000000000
+      internalID: 3791126924071459079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_254
+      rect:
+        serializedVersion: 2
+        x: 3463
+        y: 733
+        width: 59
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17fd21c3cf0c4b420800000000000000
+      internalID: 2644951070745485169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_255
+      rect:
+        serializedVersion: 2
+        x: 3604
+        y: 737
+        width: 69
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d00dd5be8bd682150800000000000000
+      internalID: 5848044757130792973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_256
+      rect:
+        serializedVersion: 2
+        x: 3699
+        y: 737
+        width: 70
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd2122eefb9afde00800000000000000
+      internalID: 1071761878136525531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_257
+      rect:
+        serializedVersion: 2
+        x: 3795
+        y: 738
+        width: 70
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db161ad0b1d3afc70800000000000000
+      internalID: 9005577591282819517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_258
+      rect:
+        serializedVersion: 2
+        x: 5900
+        y: 851
+        width: 166
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ac96153db9801a0800000000000000
+      internalID: -6843048301883176414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_259
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 502
+        width: 389
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99e60fe1002e0d7a0800000000000000
+      internalID: -6354330584072819047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_260
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 501
+        width: 435
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d9fade270da970a0800000000000000
+      internalID: -6883280309096613419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_261
+      rect:
+        serializedVersion: 2
+        x: 3991
+        y: 526
+        width: 154
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb659ac75aec58690800000000000000
+      internalID: -7600441585961445700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_262
+      rect:
+        serializedVersion: 2
+        x: 4205
+        y: 478
+        width: 109
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f2bf5b9b414e660800000000000000
+      internalID: 7414073674413322035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_263
+      rect:
+        serializedVersion: 2
+        x: 4354
+        y: 513
+        width: 214
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3cec5ba67021920800000000000000
+      internalID: 2959436060033991586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_264
+      rect:
+        serializedVersion: 2
+        x: 4609
+        y: 492
+        width: 174
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f5301f45c9517a0800000000000000
+      internalID: -6407043006229946549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_265
+      rect:
+        serializedVersion: 2
+        x: 4849
+        y: 538
+        width: 213
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 091043b11fec9b8f0800000000000000
+      internalID: -524160346673118832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_266
+      rect:
+        serializedVersion: 2
+        x: 5111
+        y: 516
+        width: 173
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a484e0d8a5a4ef0800000000000000
+      internalID: -123186477922760033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_267
+      rect:
+        serializedVersion: 2
+        x: 5337
+        y: 479
+        width: 181
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893bb79252b580ec0800000000000000
+      internalID: -3600527686914821224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_268
+      rect:
+        serializedVersion: 2
+        x: 5604
+        y: 501
+        width: 188
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 947d467a640508a10800000000000000
+      internalID: 1909614506391426889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_269
+      rect:
+        serializedVersion: 2
+        x: 5900
+        y: 707
+        width: 182
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b699a015d5cd7a0800000000000000
+      internalID: -6351098771847681193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_270
+      rect:
+        serializedVersion: 2
+        x: 2747
+        y: 517
+        width: 59
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 854795b2848959760800000000000000
+      internalID: 7464039393168815192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_271
+      rect:
+        serializedVersion: 2
+        x: 2864
+        y: 513
+        width: 58
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b8f917f7518f21c0800000000000000
+      internalID: -4526256885676246862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_272
+      rect:
+        serializedVersion: 2
+        x: 2989
+        y: 513
+        width: 58
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc3edabd72749350800000000000000
+      internalID: 6022564486032800966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_273
+      rect:
+        serializedVersion: 2
+        x: 3113
+        y: 517
+        width: 59
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59bbc45b1ef9ad010800000000000000
+      internalID: 1214458841287932821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_274
+      rect:
+        serializedVersion: 2
+        x: 3234
+        y: 517
+        width: 58
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3909a1c6cee4e640800000000000000
+      internalID: 5108470414765001023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_275
+      rect:
+        serializedVersion: 2
+        x: 3351
+        y: 517
+        width: 58
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54d72f5b421b27e90800000000000000
+      internalID: -7029361297142416059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_276
+      rect:
+        serializedVersion: 2
+        x: 3463
+        y: 517
+        width: 59
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be6df89ec66e0830800000000000000
+      internalID: 4039278953313955507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_277
+      rect:
+        serializedVersion: 2
+        x: 3604
+        y: 477
+        width: 69
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b73549adee638570800000000000000
+      internalID: 8467733691412854711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_278
+      rect:
+        serializedVersion: 2
+        x: 3699
+        y: 477
+        width: 70
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4323e577c82032c70800000000000000
+      internalID: 8944996087209275956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_279
+      rect:
+        serializedVersion: 2
+        x: 3795
+        y: 477
+        width: 70
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c48b006e196105d80800000000000000
+      internalID: -8264080500339984308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_280
+      rect:
+        serializedVersion: 2
+        x: 5900
+        y: 507
+        width: 180
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c6d7eee982e535b0800000000000000
+      internalID: -5389152297032362297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_281
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 389
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46220aacb10602ed0800000000000000
+      internalID: -2440845325554933148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_282
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1
+        width: 435
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef78e09aa126547e0800000000000000
+      internalID: -1781910210910189570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_283
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 0
+        width: 430
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a1085d102c1ea980800000000000000
+      internalID: -8525846120308932187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_284
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 0
+        width: 341
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd372f3db3362c270800000000000000
+      internalID: 8269280974415754203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_285
+      rect:
+        serializedVersion: 2
+        x: 2174
+        y: 0
+        width: 406
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 167369e5c7ae2f290800000000000000
+      internalID: -7857960579924347039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_286
+      rect:
+        serializedVersion: 2
+        x: 3991
+        y: 110
+        width: 154
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05163c39c0f1d6c50800000000000000
+      internalID: 6660013562829955408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_287
+      rect:
+        serializedVersion: 2
+        x: 4205
+        y: 61
+        width: 109
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2438fd583333acb20800000000000000
+      internalID: 3155390785308820290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_288
+      rect:
+        serializedVersion: 2
+        x: 4354
+        y: 97
+        width: 214
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 436f8e3a6eb79ab20800000000000000
+      internalID: 3146182045217650228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_289
+      rect:
+        serializedVersion: 2
+        x: 4609
+        y: 76
+        width: 174
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf055532597f2b30800000000000000
+      internalID: 4264760766132195291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_290
+      rect:
+        serializedVersion: 2
+        x: 4849
+        y: 121
+        width: 213
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e1e76492c3f0ddd0800000000000000
+      internalID: -2463200979132620314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_291
+      rect:
+        serializedVersion: 2
+        x: 5111
+        y: 99
+        width: 173
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404deceae2f024780800000000000000
+      internalID: -8700374836950674428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_292
+      rect:
+        serializedVersion: 2
+        x: 5337
+        y: 62
+        width: 181
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c129d119761263880800000000000000
+      internalID: -8631674907108994532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceshooters_293
+      rect:
+        serializedVersion: 2
+        x: 5604
+        y: 85
+        width: 188
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89fd0d63efa688160800000000000000
+      internalID: 7027984858585554840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spaceshooters_0: -2912182743292609322
+      spaceshooters_1: 4823065610990209403
+      spaceshooters_10: 6315939877443512935
+      spaceshooters_100: -9154371247963415732
+      spaceshooters_101: 1092419037221796909
+      spaceshooters_102: 1357870512622553455
+      spaceshooters_103: 3596923311032531230
+      spaceshooters_104: -5072476215034350445
+      spaceshooters_105: -8719209310497056815
+      spaceshooters_106: -560965191794278936
+      spaceshooters_107: -2235777636731362081
+      spaceshooters_108: 3189582547437946959
+      spaceshooters_109: -2035434814856297247
+      spaceshooters_11: 564700188630691830
+      spaceshooters_110: 345984747851891885
+      spaceshooters_111: -2812860639185303561
+      spaceshooters_112: 5640448137458388237
+      spaceshooters_113: -2121234728042183653
+      spaceshooters_114: 8402233927307213155
+      spaceshooters_115: 3525522599458937985
+      spaceshooters_116: 2753382781427557633
+      spaceshooters_117: 3565490813736838521
+      spaceshooters_118: -1888599578240118005
+      spaceshooters_119: 951420157807603683
+      spaceshooters_12: -5632563105838577903
+      spaceshooters_120: -8502933841601057874
+      spaceshooters_121: 8002023911669668781
+      spaceshooters_122: -2077884500782962359
+      spaceshooters_123: -655669700624097128
+      spaceshooters_124: 3219017313582361188
+      spaceshooters_125: -6020653020334867920
+      spaceshooters_126: -4003061083824255346
+      spaceshooters_127: -925261180920736399
+      spaceshooters_128: -7586896074704383702
+      spaceshooters_129: 2073099644708177109
+      spaceshooters_13: 3568228033267695802
+      spaceshooters_130: -8298370596656699989
+      spaceshooters_131: -5530486509543685855
+      spaceshooters_132: -165050846557416361
+      spaceshooters_133: -3688416799916327990
+      spaceshooters_134: -1811278925316954883
+      spaceshooters_135: -8170539939917287827
+      spaceshooters_136: 2341923715839789831
+      spaceshooters_137: -7066969565872979765
+      spaceshooters_138: 9198319804254454965
+      spaceshooters_139: 205277629246973082
+      spaceshooters_14: 5762158525381879196
+      spaceshooters_140: -4981546453070275843
+      spaceshooters_141: 332705066126864690
+      spaceshooters_142: 2493310138324067517
+      spaceshooters_143: 9116425165873550042
+      spaceshooters_144: -5527589097324212254
+      spaceshooters_145: -8802099375925584376
+      spaceshooters_146: -6153168600910856918
+      spaceshooters_147: -7386856391117570201
+      spaceshooters_148: 8169084445159154024
+      spaceshooters_149: 5583194848725696976
+      spaceshooters_15: 1303660338819025832
+      spaceshooters_150: 2528560846834654359
+      spaceshooters_151: -3191464898640342516
+      spaceshooters_152: 1061176865073146969
+      spaceshooters_153: 6407938877042219104
+      spaceshooters_154: 7451017002911531141
+      spaceshooters_155: 3214903230421266886
+      spaceshooters_156: -3004894699290629292
+      spaceshooters_157: 6067220181622067762
+      spaceshooters_158: 7571127174963118814
+      spaceshooters_159: 8165125327839918086
+      spaceshooters_16: -4052401464164594574
+      spaceshooters_160: -9062177022014320592
+      spaceshooters_161: -5375392332404353223
+      spaceshooters_162: -4870009671386242086
+      spaceshooters_163: -4333139668190908776
+      spaceshooters_164: 4047181779549890420
+      spaceshooters_165: 2450133059754975387
+      spaceshooters_166: 2838960241834892380
+      spaceshooters_167: 6474045349679380176
+      spaceshooters_168: 6143350391099554040
+      spaceshooters_169: 370985844544977094
+      spaceshooters_17: -2245001915045963666
+      spaceshooters_170: -6437767214214971876
+      spaceshooters_171: -4488458771476506739
+      spaceshooters_172: -7516130752895002985
+      spaceshooters_173: -144436704748343633
+      spaceshooters_174: -4747752022863489300
+      spaceshooters_175: 1197774551693247552
+      spaceshooters_176: -4591945093696011009
+      spaceshooters_177: -7200280202156362552
+      spaceshooters_178: -497396732353606179
+      spaceshooters_179: -493561549772915375
+      spaceshooters_18: -3668199612920025891
+      spaceshooters_180: -7370589044411697183
+      spaceshooters_181: -4345725793049078202
+      spaceshooters_182: -1782235712395475865
+      spaceshooters_183: -9073485890455479440
+      spaceshooters_184: -8614955503840967449
+      spaceshooters_185: -653182954721583957
+      spaceshooters_186: 1136797688311350320
+      spaceshooters_187: 1762873938779767648
+      spaceshooters_188: 1178972783091570950
+      spaceshooters_189: -1370407415222109874
+      spaceshooters_19: -6802428497308050978
+      spaceshooters_190: 4783511245081687000
+      spaceshooters_191: -8079056926901411478
+      spaceshooters_192: -7114584307110390939
+      spaceshooters_193: 5873680935269300772
+      spaceshooters_194: -2131239592114472336
+      spaceshooters_195: -3781172109829071079
+      spaceshooters_196: -1911946502022814015
+      spaceshooters_197: -6046418632052349233
+      spaceshooters_198: -8065101242211119369
+      spaceshooters_199: 1688509874739776549
+      spaceshooters_2: -1320556971318894173
+      spaceshooters_20: 4322917456743862829
+      spaceshooters_200: 2892994294696467667
+      spaceshooters_201: 8716193642444101944
+      spaceshooters_202: -3781826697656799902
+      spaceshooters_203: 1447789699287092366
+      spaceshooters_204: -1868018236819819229
+      spaceshooters_205: -438298677012980186
+      spaceshooters_206: -5695410342710102735
+      spaceshooters_207: -2587391863151767054
+      spaceshooters_208: -2384317261765311025
+      spaceshooters_209: -947691576031548630
+      spaceshooters_21: -6227088106518533221
+      spaceshooters_210: -6213866020940924395
+      spaceshooters_211: -3266095435781379236
+      spaceshooters_212: 2655969710497936735
+      spaceshooters_213: -7178484338619557953
+      spaceshooters_214: -7642632025945700866
+      spaceshooters_215: 6949581712918736378
+      spaceshooters_216: 2113320288434707163
+      spaceshooters_217: -2353620935662312694
+      spaceshooters_218: -8150101232020805404
+      spaceshooters_219: -142680506315562817
+      spaceshooters_22: 1744308603798412593
+      spaceshooters_220: 7815737188386267641
+      spaceshooters_221: -46895931352515727
+      spaceshooters_222: 2918142926237590443
+      spaceshooters_223: 655474314512252805
+      spaceshooters_224: -4038744194185822791
+      spaceshooters_225: 808907514083324968
+      spaceshooters_226: -6879944174361213244
+      spaceshooters_227: -1706806813025662107
+      spaceshooters_228: -7878782217063206821
+      spaceshooters_229: -1145673719021078571
+      spaceshooters_23: -3689944370961328358
+      spaceshooters_230: 4963548985793696412
+      spaceshooters_231: -6340675687317622132
+      spaceshooters_232: -4958474680647535241
+      spaceshooters_233: 3031430772765575353
+      spaceshooters_234: -2977272726342856898
+      spaceshooters_235: 7801947389481515761
+      spaceshooters_236: 3478865210385105341
+      spaceshooters_237: -6715551030810671062
+      spaceshooters_238: -1776091554464904567
+      spaceshooters_239: -2155582060323405717
+      spaceshooters_24: -8221722122443646502
+      spaceshooters_240: 6244680139738845771
+      spaceshooters_241: 3270009627239754218
+      spaceshooters_242: 7110607868515901562
+      spaceshooters_243: 1949985805420392868
+      spaceshooters_244: 1818337533491924199
+      spaceshooters_245: 7999385430455422167
+      spaceshooters_246: -6723275273293657548
+      spaceshooters_247: -5980025901485878510
+      spaceshooters_248: 5477620233489464989
+      spaceshooters_249: -5000197855078978172
+      spaceshooters_25: 4292389991702154981
+      spaceshooters_250: -7311441546288109567
+      spaceshooters_251: -8162660089938724538
+      spaceshooters_252: -5266180450501191231
+      spaceshooters_253: 3791126924071459079
+      spaceshooters_254: 2644951070745485169
+      spaceshooters_255: 5848044757130792973
+      spaceshooters_256: 1071761878136525531
+      spaceshooters_257: 9005577591282819517
+      spaceshooters_258: -6843048301883176414
+      spaceshooters_259: -6354330584072819047
+      spaceshooters_26: 3935175617968408745
+      spaceshooters_260: -6883280309096613419
+      spaceshooters_261: -7600441585961445700
+      spaceshooters_262: 7414073674413322035
+      spaceshooters_263: 2959436060033991586
+      spaceshooters_264: -6407043006229946549
+      spaceshooters_265: -524160346673118832
+      spaceshooters_266: -123186477922760033
+      spaceshooters_267: -3600527686914821224
+      spaceshooters_268: 1909614506391426889
+      spaceshooters_269: -6351098771847681193
+      spaceshooters_27: 8331666003293708556
+      spaceshooters_270: 7464039393168815192
+      spaceshooters_271: -4526256885676246862
+      spaceshooters_272: 6022564486032800966
+      spaceshooters_273: 1214458841287932821
+      spaceshooters_274: 5108470414765001023
+      spaceshooters_275: -7029361297142416059
+      spaceshooters_276: 4039278953313955507
+      spaceshooters_277: 8467733691412854711
+      spaceshooters_278: 8944996087209275956
+      spaceshooters_279: -8264080500339984308
+      spaceshooters_28: -4229938681542112950
+      spaceshooters_280: -5389152297032362297
+      spaceshooters_281: -2440845325554933148
+      spaceshooters_282: -1781910210910189570
+      spaceshooters_283: -8525846120308932187
+      spaceshooters_284: 8269280974415754203
+      spaceshooters_285: -7857960579924347039
+      spaceshooters_286: 6660013562829955408
+      spaceshooters_287: 3155390785308820290
+      spaceshooters_288: 3146182045217650228
+      spaceshooters_289: 4264760766132195291
+      spaceshooters_29: -8923042475872217485
+      spaceshooters_290: -2463200979132620314
+      spaceshooters_291: -8700374836950674428
+      spaceshooters_292: -8631674907108994532
+      spaceshooters_293: 7027984858585554840
+      spaceshooters_3: -7009031397433372116
+      spaceshooters_30: -4369959276893417040
+      spaceshooters_31: 763025414250601373
+      spaceshooters_32: 7488200775708455180
+      spaceshooters_33: -1611270827837433771
+      spaceshooters_34: -5279053740701714371
+      spaceshooters_35: -3181419896514256525
+      spaceshooters_36: -48705149287458978
+      spaceshooters_37: -7325802091853868840
+      spaceshooters_38: 735176499816634957
+      spaceshooters_39: 7322140102547982567
+      spaceshooters_4: 6203933880265873718
+      spaceshooters_40: -2116993947423110241
+      spaceshooters_41: 4841579802311837860
+      spaceshooters_42: 1409014908369708279
+      spaceshooters_43: -7974774768203054285
+      spaceshooters_44: -1773195342151179510
+      spaceshooters_45: 261333390827660395
+      spaceshooters_46: 1723301433705324739
+      spaceshooters_47: 470288816914835105
+      spaceshooters_48: 7466212863477649938
+      spaceshooters_49: -281653061700978632
+      spaceshooters_5: 2145815858798831125
+      spaceshooters_50: -2521726676477064803
+      spaceshooters_51: 1164522567945131141
+      spaceshooters_52: 3976401045797288250
+      spaceshooters_53: 74887567049970855
+      spaceshooters_54: -707470846588066887
+      spaceshooters_55: -8207326044825917475
+      spaceshooters_56: -7397220677261610200
+      spaceshooters_57: -4828653411299849292
+      spaceshooters_58: 7782775686965006566
+      spaceshooters_59: 5416257571740271513
+      spaceshooters_6: -5681983553705117052
+      spaceshooters_60: 2710405545410634285
+      spaceshooters_61: 2761872457530621669
+      spaceshooters_62: 679469021198528409
+      spaceshooters_63: -3000552918586329081
+      spaceshooters_64: -7695582513518370473
+      spaceshooters_65: 2778273285481477729
+      spaceshooters_66: 4047620910871167874
+      spaceshooters_67: -1084910923143730687
+      spaceshooters_68: -697645152928365586
+      spaceshooters_69: -6501639259142024329
+      spaceshooters_7: -311342622196840762
+      spaceshooters_70: -4752134077244963597
+      spaceshooters_71: 847440286287948606
+      spaceshooters_72: 6327715615021146486
+      spaceshooters_73: -3699082464912055414
+      spaceshooters_74: 7838526147935025902
+      spaceshooters_75: 2974563270538472172
+      spaceshooters_76: -4789872837099085117
+      spaceshooters_77: 353287094004557530
+      spaceshooters_78: 5293227555874346051
+      spaceshooters_79: 6471243462872540780
+      spaceshooters_8: 1728761051359640970
+      spaceshooters_80: -304981970530011837
+      spaceshooters_81: 2924702291682537087
+      spaceshooters_82: 6407303083815010431
+      spaceshooters_83: 8803393636203901389
+      spaceshooters_84: 2024008269648761016
+      spaceshooters_85: 8475680222185047106
+      spaceshooters_86: -1066385243150075815
+      spaceshooters_87: 5121809897223005918
+      spaceshooters_88: -1119597463733227674
+      spaceshooters_89: -8104059718404332198
+      spaceshooters_9: 7367280670772680175
+      spaceshooters_90: 903663563276970421
+      spaceshooters_91: 3410114387493153310
+      spaceshooters_92: -1400799032088503324
+      spaceshooters_93: -2566334795111949426
+      spaceshooters_94: 5319241846225531301
+      spaceshooters_95: -4887347692463841584
+      spaceshooters_96: -8202057808748503035
+      spaceshooters_97: 8839842173392813313
+      spaceshooters_98: -5234304141247912972
+      spaceshooters_99: -6837437459043449700
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
