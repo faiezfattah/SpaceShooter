@@ -1,0 +1,10 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Script/Feature/UI/MainMenuUI.uss?fileID=7433441132597879392&amp;guid=d7e21595634bff04a97780f56f5c6bb1&amp;type=3#MainMenuUI" />
+    <engine:VisualElement name="Container" style="flex-grow: 1; height: 100%; width: 100%;">
+        <engine:Label text="OMEGON" name="GameName" style="justify-content: flex-start; align-items: auto; align-self: center; font-size: 100px; padding-top: 199px;" />
+        <engine:VisualElement name="Button" class="menu-button" style="flex-grow: 1; width: 100%; -unity-text-align: upper-center; margin-bottom: 281px; font-size: 50px;">
+            <engine:Button text="START" name="Btn_Start" style="border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0; border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0);" />
+            <engine:Button text="EXIT" name="Btn_Exit" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

@@ -1,0 +1,21 @@
+/* Container tombol */
+.menu-button {
+  /* seluruh layar */
+  width: 100%;
+  height: 100%;
+  /* flex layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertikal center */
+  align-items: center;     /* horizontal center */
+  gap: 20px;               /* jarak antar tombol */
+
+  
+}
+
+
+/* Style khusus untuk tombol di dalam menu-buttons */
+.menu-button > Button {
+  width: 300px;   /* panjang tombol */
+  flex-grow: 0;   /* jangan makin besar */
+}
