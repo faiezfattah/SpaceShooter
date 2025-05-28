@@ -2,23 +2,26 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
+using UnityEngine.ResourceManagement.AsyncOperations;
 
 public class SceneNavigation {
-    public string LevelLabel = "Levels"; 
+    private string _levelLabel = "Levels"; 
     public List<string> LevelKeys = new();
     public string CurrentLevelKey => _currentLevelKey;
     string _currentLevelKey = "";
+    bool _initStatus = false;
     public static ReactiveSubject SceneChange = new();
-    async void Start() {
-        await LoadLevelKeys();
+    public async void Init() {
+        await LoadLevelKeysAsync();
         DisplayLevelKeys();
+        _initStatus = true;
     }
 
-    async Task LoadLevelKeys() {   
-        var taskHandle = Addressables.LoadResourceLocationsAsync(LevelLabel);
+    async Task LoadLevelKeysAsync() {   
+        var taskHandle = Addressables.LoadResourceLocationsAsync(_levelLabel);
         await taskHandle.Task;
 
-        if (taskHandle.Status == UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationStatus.Succeeded) {
+        if (taskHandle.Status == AsyncOperationStatus.Succeeded) {
             
             foreach (var location in taskHandle.Result) {
                 if (location != null && !string.IsNullOrEmpty(location.PrimaryKey)) {
@@ -27,7 +30,7 @@ public class SceneNavigation {
             }
         }
         else {
-            Debug.LogError($"Failed to load resource locations for label: {LevelLabel}");
+            Debug.LogError($"Failed to load resource locations for label: {_levelLabel}");
         }
 
         Addressables.Release(taskHandle);
@@ -40,7 +43,9 @@ public class SceneNavigation {
         }
     }
 
-    public void LoadLevel(string levelKey) {
+    public async Task LoadLevel(string levelKey) {
+        if (!_initStatus) await LoadLevelKeysAsync();
+
         if (_currentLevelKey == levelKey) return;
         _currentLevelKey = levelKey;
         
