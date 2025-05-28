@@ -6,7 +6,7 @@ public class EnemyHealth : MonoBehaviour
 {
     public ReactiveProperty<int> currentHealth;
     [SerializeField] int maxHealth;
-    public static ReactiveSubject EnemyKilled = new();
+    public static ReactiveSubject<Transform> EnemyKilled = new();
     void Start() {
         currentHealth = new(maxHealth);
     }
@@ -15,7 +15,7 @@ public class EnemyHealth : MonoBehaviour
         currentHealth.Value -= amount;
         if (currentHealth.Value <= 0) {
             Destroy(gameObject);
-            EnemyKilled.Raise();
+            EnemyKilled.Raise(transform);
         }
     }
 
