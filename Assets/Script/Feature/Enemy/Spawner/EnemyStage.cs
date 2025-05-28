@@ -13,7 +13,7 @@ public class EnemyStage : MonoBehaviour {
         stage[_currentStage].transform.gameObject.SetActive(true);
         _currentStageChildCount = stage[_currentStage].transform.childCount;
 
-        _subscription = EnemyHealth.EnemyKilled.Subscribe(HandleEnemyDeath);
+        _subscription = EnemyHealth.EnemyKilled.Subscribe(_=>HandleEnemyDeath());
     }
     void HandleEnemyDeath() {
         _currentChildCount++;
