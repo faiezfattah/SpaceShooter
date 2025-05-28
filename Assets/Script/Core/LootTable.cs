@@ -2,14 +2,14 @@ using System;
 using UnityEngine;
 
 [Serializable]
-class LootTable {
+public class LootTable {
     public ItemData Item;
     public MinMax Value;
     [Range(0, 1)]
     public float Chance;
 }
 [Serializable]
-class TargetedLootTable {
+public class TargetedLootTable {
     public Transform Target;
     public LootTable lootTable;
 }

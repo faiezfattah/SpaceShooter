@@ -26,7 +26,7 @@ public class EnemyLootTable : MonoBehaviour
         DropLoot(transform, loot);
     }
     void DropLoot(Transform position, LootTable loot) {
-        bool isDrop = UnityEngine.Random.Range(0f, 1f) > loot.Chance;
+        bool isDrop = UnityEngine.Random.Range(0f, 1f) < loot.Chance;
         
         if (isDrop) {
             var count = loot.Value.GetRandom();
