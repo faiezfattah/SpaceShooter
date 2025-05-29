@@ -4,7 +4,7 @@ using System;
 /// can be set on the inspector
 /// </summary>
 [Serializable]
-class MinMax {
+public class MinMax {
     public int Min;
     public int Max;
     public MinMax(int min, int max) {
@@ -20,7 +20,7 @@ class MinMax {
 /// <inheritdoc cref="MinMax"/>
 /// </summary>
 [Serializable]
-class MinMaxFloat {
+public class MinMaxFloat {
     public float Min;
     public float Max;
     public MinMaxFloat(float min, float max) {
