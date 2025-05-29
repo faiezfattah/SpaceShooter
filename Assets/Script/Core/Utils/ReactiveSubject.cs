@@ -1,4 +1,5 @@
 using System;
+using UnityEngine;
 
 /// <summary>
 /// Replacement for using Action for event emitters
@@ -17,9 +18,15 @@ public class ReactiveSubject : IDisposable, IReactive {
         if (_isDisposed) throw new ObjectDisposedException("Trying to access disposed ReactiveSubject. Cannot resume because listener is discarded. Do no reuse this class, it may cause race conditions.");
         
         _subscriber += action;
-        return this;
+        
+        return new UnsubscribeHandle(() => {
+            if (!_isDisposed) {
+                _subscriber -= action;
+            }
+        });
     }
     public void Dispose() {
+        Debug.Log("disposed");
         if (_isDisposed) return;
         _subscriber = null;
         _isDisposed = true;
@@ -42,9 +49,15 @@ public class ReactiveSubject<T> : IDisposable, IReactive<T> {
         if (_isDisposed) throw new ObjectDisposedException("Trying to access disposed ReactiveSubject. Cannot resume because listener is discarded. Do no reuse this class, it may cause race conditions.");
         
         _subscriber += action;
-        return this;
+        
+        return new UnsubscribeHandle(() => {
+            if (!_isDisposed) {
+                _subscriber -= action;
+            }
+        });
     }
     public void Dispose() {
+        Debug.Log("disposed");
         if (_isDisposed) return;
         _subscriber = null;
         _isDisposed = true;

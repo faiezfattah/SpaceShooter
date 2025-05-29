@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.Linq.Expressions;
 using Script.Feature.Bullet;
 using UnityEngine;
 
@@ -35,6 +36,8 @@ public class BehaviorActor : MonoBehaviour {
         _subscription = _enemyState.Subscribe(newstate => HandleChangeState(newstate));
 
         health = GetComponent<EnemyHealth>();
+        Player = FindFirstObjectByType<PlayerHealth>().transform;
+        BulletPool = FindFirstObjectByType<BulletPool>();
     }
 
     virtual public void Update() {

@@ -27,7 +27,6 @@ public class ShootToDirAct : EnemyBehavior {
                 actor.Damage,
                 EntityType.Player
             );
-            Debug.Log("enemy shot");
         }
     }
 }

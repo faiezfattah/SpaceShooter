@@ -6,7 +6,7 @@ public class MainMenuManager : MonoBehaviour
 {
     Button _start;
     Button _exit;
-    SceneNavigation _sceneNavigation = new();
+    SceneListNavigation _sceneNavigation = new();
     private void OnEnable()
     {
         var root = GetComponent<UIDocument>().rootVisualElement;

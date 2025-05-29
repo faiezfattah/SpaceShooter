@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: 5895690486139145416}
   - component: {fileID: 2896320997618788864}
   - component: {fileID: 5045511197411756727}
-  - component: {fileID: 74476307257622341}
   - component: {fileID: 7107031948798127990}
+  - component: {fileID: 7274698443583013154}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -189,9 +189,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputReader: {fileID: 11400000, guid: 32761ea1ab8bad04ea16caf36d0a92b2, type: 2}
   bulletPool: {fileID: 0}
-  shootInterval: 0.5
-  bulletSpeed: 30
-  lifetime: 5
+  currentEquippedPattern: {fileID: 11400000, guid: 64dff6ab22d57f04ba3a0adce9d1a5e6, type: 2}
 --- !u!114 &5045511197411756727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -205,18 +203,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Dir: {x: 0, y: 0}
---- !u!114 &74476307257622341
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2389943958780685294}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 342d7f62fb512a94ca0059f4071912c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &7107031948798127990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -230,6 +216,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 1000
+--- !u!114 &7274698443583013154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2389943958780685294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2a2f56bc62299448a27b5c77c04e6c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentXP:
+    _value: 0
+  xpToNextLevel: 100
+  currentLevel:
+    _value: 1
+  levelXpFactor: 1.5
 --- !u!1 &6811058033907195507
 GameObject:
   m_ObjectHideFlags: 0

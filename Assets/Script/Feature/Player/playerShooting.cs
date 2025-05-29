@@ -26,6 +26,7 @@ public class PlayerShooting : MonoBehaviour {
     {
         _playerRotation = GetComponent<PlayerRotation>();
         _subscription = inputReader.ShootingEvent.Subscribe(HandleShootEvent);
+        bulletPool = FindAnyObjectByType<BulletPool>();
         
     }
     void Update() {

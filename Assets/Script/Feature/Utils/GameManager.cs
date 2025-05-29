@@ -3,7 +3,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour {
     SubscriptionBag _bag = new();
     private static GameManager _existingInstance;
-    private static SceneNavigation _sceneNav = new();
+    private static SceneListNavigation _sceneNav = new();
     void Awake() {
         DontDestroyOnLoad(this);
         if (_existingInstance == null){
@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour {
     }
 
     void Start() {
-        EnemyStage.AllEnemiesCleared.Subscribe(HandleClear).AddTo(_bag);
+        EnemyStage.OnAllEnemiesCleared.Subscribe(HandleClear).AddTo(_bag);
         PlayerHealth.PlayerDeath.Subscribe(HandleGameOver).AddTo(_bag);
     }
     void HandleClear() {

@@ -3,8 +3,9 @@ using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
+using UnityEngine.SceneManagement;
 
-public class SceneNavigation {
+public class SceneListNavigation {
     private string _levelLabel = "Levels"; 
     public List<string> LevelKeys = new();
     public string CurrentLevelKey => _currentLevelKey;
@@ -45,12 +46,13 @@ public class SceneNavigation {
 
     public async Task LoadLevel(string levelKey) {
         if (!_initStatus) await LoadLevelKeysAsync();
-
         if (_currentLevelKey == levelKey) return;
-        _currentLevelKey = levelKey;
+
         
         if (LevelKeys.Contains(levelKey)) {
             Addressables.LoadSceneAsync(levelKey);
+
+            _currentLevelKey = levelKey;
             SceneChange.Raise();
         }
         else {
