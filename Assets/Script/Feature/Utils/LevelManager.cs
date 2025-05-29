@@ -1,4 +1,5 @@
 using System;
+using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -10,17 +11,19 @@ public class LevelManager : MonoBehaviour {
     void Start() {
         _subs = EnemyStage.OnAllEnemiesCleared.Subscribe(HandleClear);
     }
-    void HandleClear() {
-        _sceneNav.Init();
+    async void HandleClear() {
+        await _sceneNav.Init();
         ui.gameObject.SetActive(true);
         ui.rootVisualElement.Q<Button>().clicked += HandleNextLevel;
     }
     async void HandleNextLevel() {
         if (string.IsNullOrEmpty(nextLevel)) {
             Debug.LogError("Next level has not been specified");
+            return;
         }
+
         await _sceneNav.LoadLevel(nextLevel);
-    }
+     }
     void OnDisable() {
         _subs.Dispose();
     }

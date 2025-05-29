@@ -12,7 +12,7 @@ public class SceneListNavigation {
     string _currentLevelKey = "";
     bool _initStatus = false;
     public static ReactiveSubject SceneChange = new();
-    public async void Init() {
+    public async Task Init() {
         await LoadLevelKeysAsync();
         DisplayLevelKeys();
         _initStatus = true;

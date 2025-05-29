@@ -9,7 +9,7 @@ public class ShootToDirAct : EnemyBehavior {
     public ShootToDirAct(BulletPattern pattern) {
         _pattern = pattern;
     }
-    public override void OnEnter(BehaviorActor actor) {
+    public override void OnEnter(BehaviorActor actor) { 
         _shootRoutine = actor.StartCoroutine(ShootRoutine(actor));
     }
     public override void OnExit(BehaviorActor actor) {

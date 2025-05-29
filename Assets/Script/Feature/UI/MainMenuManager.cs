@@ -17,9 +17,8 @@ public class MainMenuManager : MonoBehaviour
         _exit.clicked += ExitGame;
         _start.clicked += StartGame;
     }
-    void Start()
-    {
-        _sceneNavigation.Init();
+    async void Start() {
+        await _sceneNavigation.Init();
     }
     void ExitGame()
     {
