@@ -189,7 +189,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputReader: {fileID: 11400000, guid: 32761ea1ab8bad04ea16caf36d0a92b2, type: 2}
   bulletPool: {fileID: 0}
-  currentEquippedPattern: {fileID: 11400000, guid: 64dff6ab22d57f04ba3a0adce9d1a5e6, type: 2}
+  currentEquippedPattern: {fileID: 0}
 --- !u!114 &5045511197411756727
 MonoBehaviour:
   m_ObjectHideFlags: 0
