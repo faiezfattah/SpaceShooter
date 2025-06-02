@@ -4,10 +4,7 @@ using Script.Core.Pool;
 
 public class Item : MonoBehaviour, IPoolable
 {
-    [Header("Configuration")]
     [SerializeField] private ItemData itemData;
-
-    [Header("Visuals")]
     [SerializeField] private SpriteRenderer itemSpriteRenderer;
 
     private UIManager _uiManagerInstance;
@@ -16,19 +13,18 @@ public class Item : MonoBehaviour, IPoolable
     public void Setup(Action releaseAction)
     {
         _releaseAction = releaseAction;
-        ApplyData(); 
     }
 
     public void Reset()
     {
         _releaseAction = null;
-
+        itemData = null;
     }
 
     // --- Item Logic ---
     void Start()
     {
-        _uiManagerInstance = FindObjectOfType<UIManager>();
+        _uiManagerInstance = FindAnyObjectByType<UIManager>();
         if (_uiManagerInstance == null)
         {
             Debug.LogWarning("UIManager instance not found in Awake! UI prompts might not work.", this);
@@ -40,19 +36,16 @@ public class Item : MonoBehaviour, IPoolable
             if (itemSpriteRenderer == null)
                 Debug.LogError($"Item {gameObject.name} is missing a SpriteRenderer!", this);
         }
-         if (itemData != null)
-    {
-        ApplyData();
-    }
     }
 
-    private void ApplyData()
+    public void ApplyData(ItemData itemData)
     {
+        this.itemData = itemData;
         if (itemData == null)
         {
             Debug.LogError($"Item {gameObject.name} is missing its ItemData asset!", this);
             gameObject.name = "Item_NO_DATA";
-            if(itemSpriteRenderer != null) itemSpriteRenderer.sprite = null; // Clear sprite
+            if (itemSpriteRenderer != null) itemSpriteRenderer.sprite = null; // Clear sprite
             return;
         }
 
@@ -83,8 +76,8 @@ public class Item : MonoBehaviour, IPoolable
             {
                 if (_uiManagerInstance != null)
                 {
-                    Debug.Log($"Item '{itemData.itemName}' requires UI prompt. Showing prompt.");
-                    _uiManagerInstance.ShowPrompt(itemData, () => {
+                        Debug.Log($"Item '{itemData.itemName}' requires UI prompt. Showing prompt.");
+                        _uiManagerInstance.ShowPrompt(itemData, () => {
 
                         itemData.ApplyEffect(other.gameObject);
                         ReleaseToPool();
@@ -106,18 +99,6 @@ public class Item : MonoBehaviour, IPoolable
 
     private void ReleaseToPool()
     {
-        if (_releaseAction != null)
-        {
-            _releaseAction.Invoke();
-        }
-        else
-        {
-            Debug.LogWarning($"Item {gameObject.name} tried to release but has no release action. Destroying.", this);
-            Destroy(gameObject);
-        }
+        _releaseAction?.Invoke();
     }
-
-
-
-
 }
