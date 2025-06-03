@@ -1,8 +1,8 @@
 <engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <Style src="project://database/Assets/Script/Feature/UI/PauseMenuStyle.uss?fileID=7433441132597879392&amp;guid=2771cfc18b5b2d84d8f50ab917dca12e&amp;type=3#PauseMenuStyle" />
-    <engine:VisualElement name="pausecontainer" class="pause-container" style="flex-grow: 1; align-items: center; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.58); display: flex;">
+    <Style src="project://database/Assets/Script/Feature/UI/PauseTest.uss?fileID=7433441132597879392&amp;guid=20b235dfd982ef040ab4c1f7a5590728&amp;type=3#PauseTest" />
+    <engine:VisualElement name="pausecontainer" class="pause-container pausecontainer" style="flex-grow: 1; align-items: center; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.58); display: none;">
         <engine:Label text="Game Paused" name="Description" style="font-size: 70px; color: rgb(255, 255, 255); -unity-font-style: bold;" />
-        <engine:Button text="Continue" name="Continue" enabled="true" class="pause-button" style="font-size: 20px;" />
-        <engine:Button text="Quit" name="Quit" class="pause-button" />
+        <engine:Button text="Continue" name="Continue" enabled="true" class="button" style="font-size: 20px; display: flex;" />
+        <engine:Button text="Quit" name="Quit" class="button" />
     </engine:VisualElement>
 </engine:UXML>

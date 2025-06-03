@@ -1,0 +1,20 @@
+.button {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: rgb(113, 111, 255);
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    width: 200px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+    align-content: auto;
+}
+
+.pausecontainer {
+    background-color: rgba(0, 0, 0, 0.71);
+    align-items: center;
+    justify-content: center;
+}

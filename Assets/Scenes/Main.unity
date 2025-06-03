@@ -569,7 +569,7 @@ MonoBehaviour:
   m_PanelSettings: {fileID: 11400000, guid: 036b53ac8f4b6ca4893bb6681aeb2594, type: 2}
   m_ParentUI: {fileID: 0}
   sourceAsset: {fileID: 9197481963319205126, guid: aaf60bc27d2b26e408804b6d5a77a682, type: 3}
-  m_SortingOrder: 0
+  m_SortingOrder: 20
   m_WorldSpaceSizeMode: 1
   m_WorldSpaceWidth: 1920
   m_WorldSpaceHeight: 1080
@@ -1161,11 +1161,11 @@ SceneRoots:
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 619394802}
-  - {fileID: 1188247991}
   - {fileID: 1767201641}
   - {fileID: 1467883314}
   - {fileID: 1266915087}
   - {fileID: 618015309}
   - {fileID: 1486603551}
   - {fileID: 17673821}
+  - {fileID: 1188247991}
   - {fileID: 1761896546}
