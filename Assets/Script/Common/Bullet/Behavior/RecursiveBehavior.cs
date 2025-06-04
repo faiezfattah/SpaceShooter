@@ -2,34 +2,32 @@ using UnityEngine;
 
 namespace Script.Feature.Bullet {
 public class RecursiveBehavior : IBulletBehavior {
-    BulletPool _pool;
-    public RecursiveBehavior(BulletPool pool) {
+    readonly BulletPool _pool;
+    readonly int _bulletCount;
+    readonly int _damage;
+    public RecursiveBehavior(BulletPool pool, int damage, int bulletCount = 5) {
         _pool = pool;
+        _bulletCount = bulletCount;
+        _damage = damage;
     }
+
     public void OnImpact(Bullet bullet, Collision2D collision) {
         var contactPoint = collision.GetContact(0).point;
 
-        var target = GetTransform(bullet);
+        float angleStep = 360f / _bulletCount;
 
-        // bordeline monad
-        Vector2 targetDir = target switch {
-            null => Vector2.up,
-            Transform t => ((Vector2)t.position - contactPoint).normalized
-        };
+        for (int i = 0; i < _bulletCount; i++) {
+            float angle = i * angleStep * Mathf.Deg2Rad;
+            Vector2 direction = new Vector2(Mathf.Cos(angle), Mathf.Sin(angle));
 
-        _pool.BulletRequest(contactPoint, targetDir)
-             .WithDamage(bullet.Damage)
-             .WithLifetime(bullet.Lifetime / 2)
-             .WithSpeed(bullet.Speed)
-             .WithTargetType(bullet.Type);
-        Debug.Log("spawned ricoche bullet to: " + targetDir);
-    }
-    Transform GetTransform(Bullet bullet) {
-        Collider2D[] hits = Physics2D.OverlapCircleAll(bullet.transform.position, 50f, bullet.gameObject.layer);
-        if (hits.Length > 0) {
-            return hits[0].transform;
+            _pool.BulletRequest(contactPoint, direction)
+                 .WithDamage(_damage)
+                 .WithLifetime(bullet.Lifetime / 2)
+                 .WithSpeed(bullet.Speed)
+                 .WithTargetType(bullet.Type);
+
+            Debug.Log($"Spawned scatter bullet #{i + 1} in direction {direction}");
         }
-        return null;
     }
 }
 }
