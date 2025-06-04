@@ -13,66 +13,53 @@ public class PlayerShooting : MonoBehaviour {
     [SerializeField] BulletPattern currentEquippedPattern;
     [SerializeField] int damage = 5;
     [Title("Debug---")]
-    [ReadOnly] bool canFire = true;
-    [ReadOnly] float timer;
     Coroutine _shootingRoutine;
     PlayerRotation _playerRotation;
-    IDisposable _subscription;
+    SubscriptionBag _bag = new();
     public static ReactiveSubject<BulletPattern> OnBulletPatternChanged = new();
+    [ShowInInspector]ReactiveProperty<bool> _isShooting = new(false);
 
     public float CurrentShootInterval => currentEquippedPattern != null ?
     currentEquippedPattern.cooldown : 0.2f;
-    // Update is called once per frame
-    void Start()
-    {
+    void Start() {
         _playerRotation = GetComponent<PlayerRotation>();
-        _subscription = inputReader.ShootingEvent.Subscribe(HandleShootEvent);
         bulletPool = FindAnyObjectByType<BulletPool>();
-        
+        inputReader.ShootingEvent.Subscribe(() => _isShooting.Value = true).AddTo(_bag);
+        inputReader.ShootingEndEvent.Subscribe(() => _isShooting.Value = false).AddTo(_bag);
+        _isShooting.Subscribe(HandleShootEvent).AddTo(_bag);
     }
-    void Update() {
-        if(!canFire) {
-            timer += Time.deltaTime;
-            if(timer > CurrentShootInterval) {
-                canFire = true;
-                //timer = 0; gemini
-            }
-        }
-    }
-
-    void HandleShootEvent() {
-        if (canFire && _shootingRoutine == null) {
+    void HandleShootEvent(bool isShooting) {
+        if (_shootingRoutine == null && isShooting) {
             _shootingRoutine = StartCoroutine(ShootInternal());
-            canFire = false;
-            timer = 0;
             Debug.Log("shooting");
+        }
+        if (!isShooting && _shootingRoutine != null) {
+            StopCoroutine(_shootingRoutine);
+            _shootingRoutine = null;
         }
     }
     IEnumerator ShootInternal() {
-        yield return StartCoroutine(
-            currentEquippedPattern.Init(bulletPool, _playerRotation.Dir, transform, damage, EntityType.Enemy)
-        );
-        _shootingRoutine = null;
+        do {
+            yield return StartCoroutine(
+                currentEquippedPattern.Init(bulletPool, _playerRotation.Dir, transform, damage, EntityType.Enemy)
+            );
+        } while (currentEquippedPattern.isStreamable);
     }
 
-     public void SetPattern(BulletPattern newPattern) {
+    public void SetPattern(BulletPattern newPattern) {
 
         Debug.Log($"PlayerShooting: Changing pattern from '{(currentEquippedPattern != null ? currentEquippedPattern.name : "None")}' to '{newPattern.name}'.");
         currentEquippedPattern = newPattern;
 
-        canFire = true; 
-        timer = 0;
         if (_shootingRoutine != null) { 
             StopCoroutine(_shootingRoutine);
             _shootingRoutine = null;
         }
         OnBulletPatternChanged.Raise(newPattern);
     }
-    void OnValidate() {
-        _playerRotation = GetComponent<PlayerRotation>();
-    }
     void OnDisable() {
-        _subscription?.Dispose();
+        _bag?.Dispose();
+        if (_shootingRoutine != null) StopCoroutine(_shootingRoutine);
     }
 }
 

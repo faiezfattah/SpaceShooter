@@ -8,11 +8,13 @@ public class InputReader : ScriptableObject, PlayerInput.IDefaultActions {
     private PlayerInput _input;
 
     ReactiveSubject _shootingEvent = new();
+    ReactiveSubject _shootingEndEvent = new();
     ReactiveSubject _escEvent = new();
     ReactiveSubject<Vector2> _moveEvent = new(); // note: this is normalized vector 
     ReactiveSubject _debugSubject = new();
 
     public IReactive ShootingEvent => _shootingEvent;
+    public IReactive ShootingEndEvent => _shootingEndEvent;
     public IReactive EscEvent => _escEvent;
     public IReactive<Vector2> MoveEvent => _moveEvent; 
     public IReactive DebugEvent => _debugSubject;
@@ -21,6 +23,9 @@ public class InputReader : ScriptableObject, PlayerInput.IDefaultActions {
     public void OnShoot(InputAction.CallbackContext context) {
         if (context.phase == InputActionPhase.Performed) {
             _shootingEvent?.Raise();
+        }
+        if (context.phase == InputActionPhase.Canceled) {
+                _shootingEndEvent?.Raise();
         }
     }
     public void OnEsc(InputAction.CallbackContext context) {

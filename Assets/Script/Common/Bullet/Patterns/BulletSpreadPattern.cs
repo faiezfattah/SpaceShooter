@@ -17,7 +17,7 @@ public class BulletSpreadPattern : BulletPattern {
         for (int i = -Mathf.FloorToInt(bulletCount / 2); i <= Mathf.FloorToInt(bulletCount/2); i++) {
             var dir = Quaternion.AngleAxis(i * spreadAngle, Vector3.forward) * direction;
             bulletPool.BulletRequest(shooter.position, dir)
-                      .WithDamage(damage)
+                      .WithDamage(Mathf.FloorToInt(damage * damageMultiplier))
                       .WithTargetType(targetType)
                       .WithLifetime(bulletLifetime)
                       .WithSpeed(bulletSpeed);

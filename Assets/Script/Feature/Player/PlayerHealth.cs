@@ -17,7 +17,7 @@ public class PlayerHealth : MonoBehaviour
     {
         currentHealth.Value -= amount;
         AudioSystem.Instance.PlaySfx(AudioSystem.Instance.hitClip);
-        Debug.Log("player damaged"+amount+" new health: " + currentHealth.Value);
+        // Debug.Log("player damaged"+amount+" new health: " + currentHealth.Value);
 
         if (currentHealth.Value <= 0)
         {

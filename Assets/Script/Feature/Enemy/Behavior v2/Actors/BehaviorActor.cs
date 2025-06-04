@@ -78,7 +78,7 @@ public class BehaviorActor : MonoBehaviour {
         _current.OnCollisionEnter2d(this, collision);
     }
     void HandleChangeState(EnemyState newState) {
-        Debug.Log("changing state");
+        // Debug.Log("changing state");
 
         _current.OnExit(this);
         EnemyBehavior behavior = newState switch {

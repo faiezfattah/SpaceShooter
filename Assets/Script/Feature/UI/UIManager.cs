@@ -78,28 +78,20 @@ public class UIManager : MonoBehaviour
         pickupUI.style.display = DisplayStyle.Flex;
     }
 
-    private void OnEnable() {
-        Debug.Log("UIMANAGER ENABLED!");
-
-        if (PlayerHealth.CurrentPlayerHealth == null) {
-            Debug.LogError("CurrentPlayerHealth is NULL!!!");
-            return;
-        }
-    }
     void OnDisable()
     {
         _bag?.Dispose();
     }
 
     private void OnHealthChanged(int newHealth) {
-        Debug.Log("HEALTH UPDATED: " + newHealth);
+        // Debug.Log("HEALTH UPDATED: " + newHealth);
         float percent = (float)newHealth / 5;
         UpdateHealth(percent);
     }
 
     public void UpdateHealth(float percent)
     {
-        Debug.Log("HEALTH UPDATED: " + percent);
+        // Debug.Log("HEALTH UPDATED: " + percent);
         healthBar.style.width = new Length(400 * percent, LengthUnit.Pixel);
     }
 

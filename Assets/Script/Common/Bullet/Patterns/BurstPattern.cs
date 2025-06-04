@@ -15,7 +15,7 @@ public class BurstPattern : BulletPattern {
         
         for (int i = 0; i < bulletPerBurstCount; i++) {
             bulletPool.BulletRequest(shooter.position, dir)
-                    .WithDamage(damage)
+                    .WithDamage(Mathf.FloorToInt(damage * damageMultiplier))
                     .WithTargetType(type)
                     .WithLifetime(bulletLifetime)
                     .WithSpeed(bulletSpeed);
