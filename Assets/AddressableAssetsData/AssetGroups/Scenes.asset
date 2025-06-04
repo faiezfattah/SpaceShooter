@@ -15,6 +15,11 @@ MonoBehaviour:
   m_GroupName: Scenes
   m_GUID: 525ca9bb7dde99747a54db1877648da8
   m_SerializeEntries:
+  - m_GUID: 2bb59c06d0f3ef94fb86f5c3d871659e
+    m_Address: Level_4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3c310ab5f49d58946b8f16dc7968d36f
     m_Address: Level_1
     m_ReadOnly: 0
@@ -26,6 +31,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Levels
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b4b74749b389aa4384897543069f854
+    m_Address: Level_5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9e2dc7bc19c9d6a46932d23554f44b90
     m_Address: Level_2

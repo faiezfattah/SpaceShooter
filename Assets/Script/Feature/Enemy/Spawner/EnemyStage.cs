@@ -15,20 +15,20 @@ public class EnemyStage : MonoBehaviour {
         stage[_currentStage].transform.gameObject.SetActive(true);
         _currentStageChildCount = stage[_currentStage].transform.childCount;
 
-        _subscription = EnemyHealth.EnemyKilled.Subscribe(_=>HandleEnemyDeath());
+        _subscription = EnemyHealth.EnemyKilled.Subscribe(enemy => HandleEnemyDeath(enemy));
     }
-    void HandleEnemyDeath() {
-        _currentChildCount++;
-        
-        if (_currentChildCount == _currentStageChildCount + 1) {
-            OnStageCleared.Raise();
-            NextStage();
+    void HandleEnemyDeath(Transform enemy) {
+        if (enemy.parent == stage[_currentStage].transform) {
+            _currentChildCount++;
+            if (_currentChildCount >= _currentStageChildCount) {
+                OnStageCleared.Raise();
+                NextStage();
+            }
         }
     }
     void NextStage() {
         _currentStage++;
-        _currentChildCount = 0;
-        
+        _currentChildCount = 0;;
         if (_currentStage == stage.Length) {
             Debug.Log("enemies cleard");
             OnAllEnemiesCleared.Raise();
@@ -37,12 +37,8 @@ public class EnemyStage : MonoBehaviour {
 
         stage[_currentStage].transform.gameObject.SetActive(true);
         _currentStageChildCount = stage[_currentStage].transform.childCount;
-
-
     }
     void OnDisable() {
-        OnAllEnemiesCleared.Dispose();
-        OnStageCleared.Dispose();
         _subscription?.Dispose();
     }
 }
