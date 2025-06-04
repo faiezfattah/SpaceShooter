@@ -2,16 +2,13 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using System;
 using System.Collections; // IEnumerator & Coroutine
-using Script.Core.Pool;  
-
-
-
-
+using Script.Core.Pool;
+using Unity.VisualScripting;
 public class UIManager : MonoBehaviour
 {
-      [SerializeField] private UIDocument uiDocument;
+    [SerializeField] private UIDocument uiDocument;
 
-      //ui di ujung (main)
+    //ui di ujung (main)
     private VisualElement healthBar;
     private Label bulletTypeLabel;
     private VisualElement xpBar;
@@ -22,11 +19,14 @@ public class UIManager : MonoBehaviour
     private Button acceptButton;
     private Button declineButton;
    
-    private Action onAccept; 
+    private Action onAccept;
+    SubscriptionBag _bag = new();
 
     void Start()
     {
         StartCoroutine(InitUI());
+        PlayerShooting.OnBulletPatternChanged.Subscribe(x => UpdateBulletType(x.name)).AddTo(_bag);
+        SceneListNavigation.OnSceneChange.Subscribe(x => UpdateLevel(x)).AddTo(_bag);
     }
 
     private IEnumerator InitUI()
@@ -41,7 +41,7 @@ public class UIManager : MonoBehaviour
         }
 
         healthBar = root.Q<VisualElement>("HealthBar");
-        bulletTypeLabel = root.Q<Label>("BulletTypeLabel");
+        bulletTypeLabel = root.Q<Label>("BulletLabel");
         xpBar = root.Q<VisualElement>("XPBar");
         levelLabel = root.Q<Label>("LevelLabel");
 
@@ -68,40 +68,34 @@ public class UIManager : MonoBehaviour
 
         Debug.Log("UI ELEMENTS CONNECTED!");
 
-        if (PlayerHealth.CurrentPlayerHealth == null)
-        {
-            Debug.LogError("CurrentPlayerHealth is NULL!!!");
-            yield break;
-        }
-
-        PlayerHealth.CurrentPlayerHealth.Subscribe(OnHealthChanged);
+        PlayerHealth.CurrentPlayerHealth.Subscribe(OnHealthChanged).AddTo(_bag);
     }
 
     public void ShowPrompt(ItemData item, Action onAcceptAction)
     {
-          Debug.Log($"ShowPrompt called with item: {item.itemName}");
+        Debug.Log($"ShowPrompt called with item: {item.itemName}");
         onAccept = onAcceptAction;
         pickupUI.style.display = DisplayStyle.Flex;
     }
 
-    private void OnEnable()
-    {
+    private void OnEnable() {
         Debug.Log("UIMANAGER ENABLED!");
 
-        if (PlayerHealth.CurrentPlayerHealth == null)
-        {
+        if (PlayerHealth.CurrentPlayerHealth == null) {
             Debug.LogError("CurrentPlayerHealth is NULL!!!");
             return;
         }
     }
-
-    private void OnHealthChanged(int newHealth)
+    void OnDisable()
     {
+        _bag?.Dispose();
+    }
+
+    private void OnHealthChanged(int newHealth) {
         Debug.Log("HEALTH UPDATED: " + newHealth);
         float percent = (float)newHealth / 5;
         UpdateHealth(percent);
     }
-
 
     public void UpdateHealth(float percent)
     {
@@ -119,9 +113,9 @@ public class UIManager : MonoBehaviour
         xpBar.style.width = new Length(200 * percent, LengthUnit.Pixel);
     }
 
-    public void UpdateLevel(int level)
+    public void UpdateLevel(string level)
     {
-        levelLabel.text = "Level " + level.ToString();
+        levelLabel.text = level;
     }
 
 }

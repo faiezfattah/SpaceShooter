@@ -11,13 +11,14 @@ public class PlayerShooting : MonoBehaviour {
     [SerializeField] BulletPool bulletPool;
     //[SerializeField] float shootInterval; im following gemini to a tea for now -dhafin
     [SerializeField] BulletPattern currentEquippedPattern;
+    [SerializeField] int damage = 5;
     [Title("Debug---")]
     [ReadOnly] bool canFire = true;
     [ReadOnly] float timer;
     Coroutine _shootingRoutine;
     PlayerRotation _playerRotation;
     IDisposable _subscription;
-
+    public static ReactiveSubject<BulletPattern> OnBulletPatternChanged = new();
 
     public float CurrentShootInterval => currentEquippedPattern != null ?
     currentEquippedPattern.cooldown : 0.2f;
@@ -49,7 +50,7 @@ public class PlayerShooting : MonoBehaviour {
     }
     IEnumerator ShootInternal() {
         yield return StartCoroutine(
-            currentEquippedPattern.Init(bulletPool, _playerRotation.Dir, transform, 1, EntityType.Enemy)
+            currentEquippedPattern.Init(bulletPool, _playerRotation.Dir, transform, damage, EntityType.Enemy)
         );
         _shootingRoutine = null;
     }
@@ -60,12 +61,12 @@ public class PlayerShooting : MonoBehaviour {
         currentEquippedPattern = newPattern;
 
         canFire = true; 
-        timer = 0;      
-
+        timer = 0;
         if (_shootingRoutine != null) { 
             StopCoroutine(_shootingRoutine);
             _shootingRoutine = null;
         }
+        OnBulletPatternChanged.Raise(newPattern);
     }
     void OnValidate() {
         _playerRotation = GetComponent<PlayerRotation>();

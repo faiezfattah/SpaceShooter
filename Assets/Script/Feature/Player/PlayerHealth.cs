@@ -2,22 +2,22 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
-    private static ReactiveProperty<int> currentHealth;
-
-    public static int MaxHealth;
     [SerializeField] int maxHealth = 5;
+
+    static ReactiveProperty<int> currentHealth;
     public static IReactive<int> CurrentPlayerHealth => currentHealth;
+
     public static ReactiveSubject PlayerDeath = new();
     void Start()
     {
          currentHealth = new ReactiveProperty<int>(maxHealth);
-          MaxHealth = maxHealth;
     }
 
     public void TakeDamage(int amount)
     {
         currentHealth.Value -= amount;
         AudioSystem.Instance.PlaySfx(AudioSystem.Instance.hitClip);
+        Debug.Log("player damaged"+amount+" new health: " + currentHealth.Value);
 
         if (currentHealth.Value <= 0)
         {

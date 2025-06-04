@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
     SubscriptionBag _bag = new();
@@ -25,6 +26,7 @@ public class GameManager : MonoBehaviour {
 
     }
     void HandleGameOver() {
+        SceneManager.LoadScene("MENU"); 
     }
     void OnDisable() {
         _bag.Dispose();

@@ -7,8 +7,10 @@ public class EnemyStage : MonoBehaviour {
     int _currentStageChildCount;
     int _currentChildCount;
     IDisposable _subscription;
+
     public static ReactiveSubject OnAllEnemiesCleared = new();
     public static ReactiveSubject OnStageCleared = new();
+
     void Start() {
         stage[_currentStage].transform.gameObject.SetActive(true);
         _currentStageChildCount = stage[_currentStage].transform.childCount;
@@ -18,7 +20,7 @@ public class EnemyStage : MonoBehaviour {
     void HandleEnemyDeath() {
         _currentChildCount++;
         
-        if (_currentChildCount == _currentStageChildCount) {
+        if (_currentChildCount == _currentStageChildCount + 1) {
             OnStageCleared.Raise();
             NextStage();
         }
@@ -39,6 +41,8 @@ public class EnemyStage : MonoBehaviour {
 
     }
     void OnDisable() {
+        OnAllEnemiesCleared.Dispose();
+        OnStageCleared.Dispose();
         _subscription?.Dispose();
     }
 }

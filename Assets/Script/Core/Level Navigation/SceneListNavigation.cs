@@ -11,7 +11,7 @@ public class SceneListNavigation {
     public string CurrentLevelKey => _currentLevelKey;
     string _currentLevelKey = "";
     bool _initStatus = false;
-    public static ReactiveSubject SceneChange = new();
+    public static ReactiveSubject<string> OnSceneChange = new();
     public async Task Init() {
         await LoadLevelKeysAsync();
         DisplayLevelKeys();
@@ -53,7 +53,7 @@ public class SceneListNavigation {
             Addressables.LoadSceneAsync(levelKey);
 
             _currentLevelKey = levelKey;
-            SceneChange.Raise();
+            OnSceneChange.Raise(levelKey);
         }
         else {
             Debug.LogError($"Level key not found: {levelKey}");

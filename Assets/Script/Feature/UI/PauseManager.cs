@@ -42,9 +42,8 @@ public class PauseManager : MonoBehaviour
         btnContinue.clicked += ResumeGame;
         btnQuit.clicked += QuitToMainMenu;
         Debug.Log("Pause ON");
-Debug.Log("Continue null? " + (btnContinue == null));
-Debug.Log("Quit null? " + (btnQuit == null));
-
+        Debug.Log("Continue null? " + (btnContinue == null));
+        Debug.Log("Quit null? " + (btnQuit == null));
     }
 
     private void ResumeGame()

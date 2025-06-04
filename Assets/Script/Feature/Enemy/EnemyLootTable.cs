@@ -9,28 +9,35 @@ public class EnemyLootTable : MonoBehaviour
     List<LootTable> lootTable;
     [TableList, ShowInInspector, SerializeField]
     List<TargetedLootTable> targetedLootTable;
+    [SerializeField] ItemPool itemPool;
     IDisposable _subs;
     void Start() {
         _subs = EnemyHealth.EnemyKilled.Subscribe(HandleEnemyKilled);
     }
     void HandleEnemyKilled(Transform transform) {
         var target = targetedLootTable.Find(item => item.Target == transform);
+        var pos = transform.position;
         // if there is a targeted loot table we use that instead of the normal loot
-        if (target is not null) {
-            DropLoot(target.Target, target.lootTable);
+        if (target is not null)
+        {
+            DropLoot(pos, target.lootTable);
             return;
         }
+
         // normal loot
+        if (lootTable.Count == 0) return;
         var rand = UnityEngine.Random.Range(0, lootTable.Count);
         var loot = lootTable[rand];
-        DropLoot(transform, loot);
+        DropLoot(pos, loot);
     }
-    void DropLoot(Transform position, LootTable loot) {
+    void DropLoot(Vector3 position, LootTable loot) {
         bool isDrop = UnityEngine.Random.Range(0f, 1f) < loot.Chance;
-        
-        if (isDrop) {
+
+        if (isDrop)
+        {
             var count = loot.Value.GetRandom();
             // todo: call item here
+            itemPool.Spawn(position, loot.Item);
         }
     }
     void OnDisable() {
