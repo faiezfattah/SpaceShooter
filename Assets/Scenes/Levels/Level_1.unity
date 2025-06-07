@@ -203,7 +203,7 @@ PrefabInstance:
     - target: {fileID: 1102702419123767995, guid: 1131bac2546f9c542a359af69bcbaa35, type: 3}
       propertyPath: pattern
       value: 
-      objectReference: {fileID: 11400000, guid: b32dca3ef845e4c45a5dce5a3a71fdfd, type: 2}
+      objectReference: {fileID: 11400000, guid: aa04cdcffe7895541909ab52cb095677, type: 2}
     - target: {fileID: 1102702419123767995, guid: 1131bac2546f9c542a359af69bcbaa35, type: 3}
       propertyPath: BulletPool
       value: 
@@ -992,7 +992,7 @@ PrefabInstance:
     - target: {fileID: 2896320997618788864, guid: 90e6446cddcda2c44b75e1e38f70ad54, type: 3}
       propertyPath: currentEquippedPattern
       value: 
-      objectReference: {fileID: 11400000, guid: b32dca3ef845e4c45a5dce5a3a71fdfd, type: 2}
+      objectReference: {fileID: 11400000, guid: c50262346b110534b9374560cf1e1f7c, type: 2}
     - target: {fileID: 7107031948798127990, guid: 90e6446cddcda2c44b75e1e38f70ad54, type: 3}
       propertyPath: maxHealth
       value: 5
@@ -1062,7 +1062,7 @@ PrefabInstance:
     - target: {fileID: 1102702419123767995, guid: 1131bac2546f9c542a359af69bcbaa35, type: 3}
       propertyPath: pattern
       value: 
-      objectReference: {fileID: 11400000, guid: b32dca3ef845e4c45a5dce5a3a71fdfd, type: 2}
+      objectReference: {fileID: 11400000, guid: aa04cdcffe7895541909ab52cb095677, type: 2}
     - target: {fileID: 1102702419123767995, guid: 1131bac2546f9c542a359af69bcbaa35, type: 3}
       propertyPath: BulletPool
       value: 
@@ -1131,7 +1131,7 @@ PrefabInstance:
     - target: {fileID: 1102702419123767995, guid: 1131bac2546f9c542a359af69bcbaa35, type: 3}
       propertyPath: pattern
       value: 
-      objectReference: {fileID: 11400000, guid: b32dca3ef845e4c45a5dce5a3a71fdfd, type: 2}
+      objectReference: {fileID: 11400000, guid: aa04cdcffe7895541909ab52cb095677, type: 2}
     - target: {fileID: 1102702419123767995, guid: 1131bac2546f9c542a359af69bcbaa35, type: 3}
       propertyPath: BulletPool
       value: 
@@ -1586,7 +1586,7 @@ PrefabInstance:
     - target: {fileID: 1102702419123767995, guid: 1131bac2546f9c542a359af69bcbaa35, type: 3}
       propertyPath: pattern
       value: 
-      objectReference: {fileID: 11400000, guid: b32dca3ef845e4c45a5dce5a3a71fdfd, type: 2}
+      objectReference: {fileID: 11400000, guid: aa04cdcffe7895541909ab52cb095677, type: 2}
     - target: {fileID: 1102702419123767995, guid: 1131bac2546f9c542a359af69bcbaa35, type: 3}
       propertyPath: BulletPool
       value: 
@@ -1655,7 +1655,7 @@ PrefabInstance:
     - target: {fileID: 1102702419123767995, guid: 1131bac2546f9c542a359af69bcbaa35, type: 3}
       propertyPath: pattern
       value: 
-      objectReference: {fileID: 11400000, guid: b32dca3ef845e4c45a5dce5a3a71fdfd, type: 2}
+      objectReference: {fileID: 11400000, guid: aa04cdcffe7895541909ab52cb095677, type: 2}
     - target: {fileID: 1102702419123767995, guid: 1131bac2546f9c542a359af69bcbaa35, type: 3}
       propertyPath: BulletPool
       value: 

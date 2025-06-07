@@ -224,9 +224,10 @@ MonoBehaviour:
   AttackCooldown: 3
   AttackRange: 100
   Direction: {x: 0, y: 0, z: 0}
+  Damage: 0
+  health: {fileID: 0}
   _enemyState:
     _value: 0
   _awareDuration: 5
-  BulletSpeed: 10
   OrbitRange: 10
-  ShootInterval: 3
+  pattern: {fileID: 11400000, guid: c50262346b110534b9374560cf1e1f7c, type: 2}

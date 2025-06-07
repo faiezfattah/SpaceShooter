@@ -599,6 +599,10 @@ PrefabInstance:
       propertyPath: bulletPool
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2896320997618788864, guid: 90e6446cddcda2c44b75e1e38f70ad54, type: 3}
+      propertyPath: currentEquippedPattern
+      value: 
+      objectReference: {fileID: 11400000, guid: c50262346b110534b9374560cf1e1f7c, type: 2}
     - target: {fileID: 7644679444220910691, guid: 90e6446cddcda2c44b75e1e38f70ad54, type: 3}
       propertyPath: m_LocalPosition.x
       value: -27.7

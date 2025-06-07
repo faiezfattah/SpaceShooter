@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6a834a177207b5646a4d952c17d6a9dc, type: 3}
-  m_Name: Single Pattern
+  m_Name: Rapid Single Pattern
   m_EditorClassIdentifier: 
-  bulletSpeed: 50
+  bulletSpeed: 100
   bulletLifetime: 1
-  cooldown: 0.3
+  cooldown: 0.1
   isStreamable: 1
-  damageMultiplier: 1
+  damageMultiplier: 0.25
