@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 5045511197411756727}
   - component: {fileID: 7107031948798127990}
   - component: {fileID: 7274698443583013154}
+  - component: {fileID: 1323159191947284247}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -190,6 +191,7 @@ MonoBehaviour:
   inputReader: {fileID: 11400000, guid: 32761ea1ab8bad04ea16caf36d0a92b2, type: 2}
   bulletPool: {fileID: 0}
   currentEquippedPattern: {fileID: 0}
+  damage: 5
 --- !u!114 &5045511197411756727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -234,6 +236,21 @@ MonoBehaviour:
   currentLevel:
     _value: 1
   levelXpFactor: 1.5
+--- !u!114 &1323159191947284247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2389943958780685294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2c34fbb6820bfd4f8a200d9709f28ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootClip: {fileID: 8300000, guid: 915590490fb524a4f98a799769e7fd22, type: 3}
+  hitClip: {fileID: 8300000, guid: c80878e715eb04744ad85fe4a45f97d0, type: 3}
+  deathClip: {fileID: 8300000, guid: 7fe74b5039e4f1b43b53e7927cf739c1, type: 3}
 --- !u!1 &6811058033907195507
 GameObject:
   m_ObjectHideFlags: 0
