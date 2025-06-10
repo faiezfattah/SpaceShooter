@@ -1462,6 +1462,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scene Systems
       objectReference: {fileID: 0}
+    - target: {fileID: 5066702965310706564, guid: f7b6d9da9787dbf45846ef36efebb51f, type: 3}
+      propertyPath: nextLevel
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5066702965310706564, guid: f7b6d9da9787dbf45846ef36efebb51f, type: 3}
+      propertyPath: nextLevel.m_AssetGUID
+      value: 9e2dc7bc19c9d6a46932d23554f44b90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5066702965310706564, guid: f7b6d9da9787dbf45846ef36efebb51f, type: 3}
+      propertyPath: nextLevel.m_EditorAssetChanged
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8866593907141579885, guid: f7b6d9da9787dbf45846ef36efebb51f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.1312847

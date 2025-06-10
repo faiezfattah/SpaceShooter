@@ -18,7 +18,7 @@ public class SceneListNavigation {
         _initStatus = true;
     }
 
-    async Task LoadLevelKeysAsync() {   
+    async Task LoadLevelKeysAsync() {
         var taskHandle = Addressables.LoadResourceLocationsAsync(_levelLabel);
         await taskHandle.Task;
 
@@ -58,5 +58,9 @@ public class SceneListNavigation {
         else {
             Debug.LogError($"Level key not found: {levelKey}");
         }
+    }
+    public async Task LoadLevel(AssetReference scene) {
+        var sceneInstance = scene.LoadSceneAsync(LoadSceneMode.Single);
+        await sceneInstance.Task;
     }
 }

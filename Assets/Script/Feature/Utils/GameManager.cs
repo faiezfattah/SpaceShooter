@@ -1,10 +1,13 @@
+using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
     SubscriptionBag _bag = new();
     private static GameManager _existingInstance;
     private static SceneListNavigation _sceneNav = new();
+    [SerializeField] AssetReference level;
     void Awake() {
         DontDestroyOnLoad(this);
         if (_existingInstance == null){
@@ -20,13 +23,13 @@ public class GameManager : MonoBehaviour {
 
     void Start() {
         EnemyStage.OnAllEnemiesCleared.Subscribe(HandleClear).AddTo(_bag);
-        PlayerHealth.PlayerDeath.Subscribe(HandleGameOver).AddTo(_bag);
+        PlayerHealth.PlayerDeath.Subscribe(() => _ = HandleGameOver()).AddTo(_bag);
     }
     void HandleClear() {
 
     }
-    void HandleGameOver() {
-        SceneManager.LoadScene("MENU"); 
+    async Task HandleGameOver() {
+        await _sceneNav.LoadLevel("MENU"); 
     }
     void OnDisable() {
         _bag.Dispose();

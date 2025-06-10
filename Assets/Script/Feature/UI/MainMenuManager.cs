@@ -1,5 +1,7 @@
 using System.Threading.Tasks;
+using TriInspector;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 using UnityEngine.UIElements;
 
 public class MainMenuManager : MonoBehaviour
@@ -7,6 +9,7 @@ public class MainMenuManager : MonoBehaviour
     Button _start;
     Button _exit;
     SceneListNavigation _sceneNavigation = new();
+    [SerializeField] AssetReference level1;
     private void OnEnable()
     {
         var root = GetComponent<UIDocument>().rootVisualElement;
@@ -16,9 +19,6 @@ public class MainMenuManager : MonoBehaviour
 
         _exit.clicked += ExitGame;
         _start.clicked += StartGame;
-    }
-    async void Start() {
-        await _sceneNavigation.Init();
     }
     void ExitGame()
     {
@@ -32,7 +32,7 @@ public class MainMenuManager : MonoBehaviour
     }
     async Task StartGameInternal()
     {    
-        await _sceneNavigation.LoadLevel(_sceneNavigation.LevelKeys[0]);
+        await _sceneNavigation.LoadLevel(level1);
     }
     void OnDisable()
     {

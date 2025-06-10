@@ -285,6 +285,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scene Systems
       objectReference: {fileID: 0}
+    - target: {fileID: 5066702965310706564, guid: f7b6d9da9787dbf45846ef36efebb51f, type: 3}
+      propertyPath: gotoMainMenu
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5066702965310706564, guid: f7b6d9da9787dbf45846ef36efebb51f, type: 3}
+      propertyPath: nextLevel.m_AssetGUID
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8866593907141579885, guid: f7b6d9da9787dbf45846ef36efebb51f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.1312847
