@@ -1474,6 +1474,14 @@ PrefabInstance:
       propertyPath: nextLevel.m_EditorAssetChanged
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5994671419714171084, guid: f7b6d9da9787dbf45846ef36efebb51f, type: 3}
+      propertyPath: hitClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d462391e65bd32e4bb739acafa1eebbc, type: 3}
+    - target: {fileID: 5994671419714171084, guid: f7b6d9da9787dbf45846ef36efebb51f, type: 3}
+      propertyPath: shootClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 915590490fb524a4f98a799769e7fd22, type: 3}
     - target: {fileID: 8866593907141579885, guid: f7b6d9da9787dbf45846ef36efebb51f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.1312847
