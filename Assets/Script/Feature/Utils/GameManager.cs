@@ -23,13 +23,13 @@ public class GameManager : MonoBehaviour {
 
     void Start() {
         EnemyStage.OnAllEnemiesCleared.Subscribe(HandleClear).AddTo(_bag);
-        PlayerHealth.PlayerDeath.Subscribe(() => _ = HandleGameOver()).AddTo(_bag);
+        PlayerHealth.PlayerDeath.Subscribe(HandleGameOver).AddTo(_bag);
     }
     void HandleClear() {
 
     }
-    async Task HandleGameOver() {
-        await _sceneNav.LoadLevel("MENU"); 
+    void HandleGameOver() {
+        SceneManager.LoadScene("MENU"); 
     }
     void OnDisable() {
         _bag.Dispose();
