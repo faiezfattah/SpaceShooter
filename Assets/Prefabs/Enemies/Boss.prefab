@@ -230,4 +230,4 @@ MonoBehaviour:
     _value: 0
   _awareDuration: 0
   rotationSpeed: 1
-  pattern: {fileID: 11400000, guid: 64dff6ab22d57f04ba3a0adce9d1a5e6, type: 2}
+  pattern: {fileID: 0}

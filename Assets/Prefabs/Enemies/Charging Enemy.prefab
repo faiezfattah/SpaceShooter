@@ -224,6 +224,8 @@ MonoBehaviour:
   AttackCooldown: 3
   AttackRange: 5
   Direction: {x: 0, y: 0, z: 0}
+  Damage: 2
+  health: {fileID: 0}
   _enemyState:
     _value: 0
   _awareDuration: 1
