@@ -151,6 +151,72 @@ Transform:
   - {fileID: 388314135}
   m_Father: {fileID: 1072115627}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &166112700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 166112702}
+  - component: {fileID: 166112701}
+  m_Layer: 0
+  m_Name: LootTable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &166112701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 166112700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbded68b3b9078740a150c0a3de37e06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lootTable:
+  - Item: {fileID: 11400000, guid: 434cae352f48c3b4fbde1c2e1a4d66bd, type: 2}
+    Value:
+      Min: 1
+      Max: 4
+    Chance: 0.2
+  targetedLootTable:
+  - Target: {fileID: 6963128046723552237, guid: 1131bac2546f9c542a359af69bcbaa35, type: 3}
+    lootTable:
+      Item: {fileID: 11400000, guid: 9fcb20053ab52084599ec660a1a5b42e, type: 2}
+      Value:
+        Min: 0
+        Max: 1
+      Chance: 0.3
+  - Target: {fileID: 3257877716463566266, guid: 9a32949f9c8548643a9d51d9d5052833, type: 3}
+    lootTable:
+      Item: {fileID: 11400000, guid: d06f7c0910e7900478676e1452b5ca12, type: 2}
+      Value:
+        Min: 0
+        Max: 1
+      Chance: 0.22
+  itemPool: {fileID: 0}
+--- !u!4 &166112702
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 166112700}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.7041237, y: -0.6819339, z: 0.009781476}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &169346953
 GameObject:
   m_ObjectHideFlags: 0
@@ -368,10 +434,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 319983146}
     m_Modifications:
-    - target: {fileID: 1102702419123767995, guid: 554a1e8163f54c54cb1f55d8770a4318, type: 3}
-      propertyPath: pattern
-      value: 
-      objectReference: {fileID: 11400000, guid: aa04cdcffe7895541909ab52cb095677, type: 2}
     - target: {fileID: 6963128046723552237, guid: 554a1e8163f54c54cb1f55d8770a4318, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.7
@@ -1354,7 +1416,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: c50262346b110534b9374560cf1e1f7c, type: 2}
     - target: {fileID: 7107031948798127990, guid: 90e6446cddcda2c44b75e1e38f70ad54, type: 3}
       propertyPath: maxHealth
-      value: 1
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 7644679444220910691, guid: 90e6446cddcda2c44b75e1e38f70ad54, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1546,7 +1608,7 @@ MonoBehaviour:
     CustomLookAtTarget: 0
   Lens:
     FieldOfView: 34
-    OrthographicSize: 7
+    OrthographicSize: 12.03
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -1718,7 +1780,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 7
+  orthographic size: 12.03
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2192,3 +2254,4 @@ SceneRoots:
   - {fileID: 409149183}
   - {fileID: 1079459557}
   - {fileID: 1072115627}
+  - {fileID: 166112702}

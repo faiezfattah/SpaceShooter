@@ -15,5 +15,5 @@ MonoBehaviour:
   bulletSpeed: 50
   bulletLifetime: 1
   cooldown: 0.3
-  isStreamable: 1
+  isStreamable: 0
   damageMultiplier: 1

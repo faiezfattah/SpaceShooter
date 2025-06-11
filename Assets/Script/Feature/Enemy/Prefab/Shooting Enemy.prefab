@@ -224,10 +224,10 @@ MonoBehaviour:
   AttackCooldown: 3
   AttackRange: 100
   Direction: {x: 0, y: 0, z: 0}
-  Damage: 0
+  Damage: 1
   health: {fileID: 0}
   _enemyState:
     _value: 0
   _awareDuration: 5
   OrbitRange: 10
-  pattern: {fileID: 11400000, guid: b32dca3ef845e4c45a5dce5a3a71fdfd, type: 2}
+  pattern: {fileID: 11400000, guid: aa04cdcffe7895541909ab52cb095677, type: 2}

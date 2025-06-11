@@ -9,11 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a834a177207b5646a4d952c17d6a9dc, type: 3}
-  m_Name: Rapid Single Pattern
+  m_Script: {fileID: 11500000, guid: e3a2164ed2f1f6947b815e3c809a8500, type: 3}
+  m_Name: Enemy Spread Pattern
   m_EditorClassIdentifier: 
-  bulletSpeed: 100
+  bulletSpeed: 40
   bulletLifetime: 1
-  cooldown: 0.1
-  isStreamable: 0
-  damageMultiplier: 0.25
+  cooldown: 2
+  isStreamable: 1
+  damageMultiplier: 0.3
+  bulletCount: 3
+  spreadAngle: 15

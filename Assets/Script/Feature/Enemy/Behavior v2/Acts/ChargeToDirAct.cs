@@ -38,6 +38,7 @@ public class ChargeToDirAct : EnemyBehavior {
     public override void OnCollisionEnter2d(BehaviorActor actor, Collision2D collision) {
         if (_isCharging)  {
             StopCharge(actor);
+            collision.gameObject.GetComponent<PlayerHealth>().TakeDamage(actor.Damage);
         }
          else {
              StopCharge(actor);

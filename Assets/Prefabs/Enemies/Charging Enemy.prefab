@@ -230,4 +230,4 @@ MonoBehaviour:
     _value: 0
   _awareDuration: 1
   chargeMaxDuration: 1
-  chargeCooldown: 3
+  chargeCooldown: 1.5

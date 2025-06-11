@@ -16,4 +16,4 @@ MonoBehaviour:
   bulletLifetime: 1
   cooldown: 0.7
   isStreamable: 1
-  damageMultiplier: 0.7
+  damageMultiplier: 1
